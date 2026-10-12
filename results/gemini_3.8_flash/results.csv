@@ -1,0 +1,729 @@
+﻿trial_id,pass,question_id,language,model,status,end_to_end_s,time_to_first_answer_s,time_to_first_event_s,search_evidence,source_count,input_tokens,output_tokens,finish_reason,latin_chars,cyrillic_chars,traditional_mongolian_chars,started_at_utc,question,answer,http_status,error_type,error_message,request_id,manual_accuracy,manual_answer_language
+p1-Q05-mn,1,Q05,mn,google/gemini-3.8-flash,ok,20.00106997322291,17.71893086936325,2.6139862993732095,unknown,0,74,2554,stop,0,0,176,2026-10-05T03:23:44.723307+00:00,ᠬᠠᠮᠤᠭ ᠡᠷᠲᠡᠨ ᠦ ᠮᠣᠷᠢᠨ ᠬᠤᠭᠤᠷ ᠢ ______ ᠭᠡᠳᠡᠭ ᠃,"ᠬᠠᠮᠤᠭ ᠡᠷᠲᠡᠨ ᠦ ᠮᠣᠷᠢᠨ ᠬᠤᠭᠤᠷ ᠢ **ᠢᠺᠡᠯ** (ᠪᠤᠶᠤ **ᠰᠢᠨᠠᠭᠠᠨ ᠬᠤᠭᠤᠷ**) ᠭᠡᠳᠡᠭ ᠃
+
+*(ᠲᠠᠢᠯᠪᠤᠷᠢ: ᠮᠣᠷᠢᠨ ᠬᠤᠭᠤᠷ ᠤᠨ ᠡᠪᠦᠭᠡ ᠳᠡᠭᠡᠳᠦ ᠬᠡᠯᠪᠡᠷᠢ ᠨᠢ ᠮᠣᠷᠢᠨ ᠲᠣᠯᠣᠭᠠᠢ ᠦᠭᠡᠢ ᠂ ᠬᠠᠯᠪᠠᠭ᠎ᠠ/ᠰᠢᠨᠠᠭ᠎ᠠ ᠬᠡᠯᠪᠡᠷᠢ ᠲᠡᠢ ᠪᠠᠢᠭᠰᠠᠨ ᠲᠤᠯᠠ «ᠢᠺᠡᠯ» ᠪᠤᠶᠤ «ᠰᠢᠨᠠᠭᠠᠨ ᠬᠤᠭᠤᠷ» ᠭᠡᠵᠦ ᠨᠡᠷᠡᠯᠡᠳᠡᠭ ᠪᠠᠢᠵᠡᠢ᠃)*",200,,,gen-1791170624-KFc7gRSMXMs3ZsZvNaew,,
+p1-Q09-en,1,Q09,en,google/gemini-3.8-flash,ok,3.6052404772490263,3.2530110012739897,2.077544990926981,unknown,0,12,284,stop,160,0,0,2026-10-05T02:56:36.139397+00:00,One of the important festivals of the Mongolian ethnicity is ____.,"One of the important festivals of the Mongolian ethnicity is **Naadam** (or the **Naadam Festival**). 
+
+*(Another major traditional festival is **Tsagaan Sar**, the Mongolian Lunar New Year / White Moon Festival).*",200,,,gen-1791168996-kqMGWEpcLrRRkoK09fjy,,
+p1-Q01-mn,1,Q01,mn,google/gemini-3.8-flash,ok,9.629363032057881,7.710717496462166,2.6148220924660563,unknown,0,197,1275,stop,0,0,161,2026-10-05T02:56:41.876008+00:00,ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠳᠣᠲᠣᠷ᠎ᠠ ᠴᠥᠭᠡᠨ ᠲᠣᠭᠠᠨ ᠤ ᠬᠥᠮᠥᠰ ᠦᠨ ᠰᠢᠲᠦᠳᠡᠭ ᠬᠣᠶᠠᠷ ᠵᠦᠢᠯ ᠦᠨ ᠱᠠᠰᠢᠨ ᠪᠣᠯ ᠾᠷᠢᠰᠲ᠋ᠣᠰ ᠤᠨ ᠱᠠᠰᠢᠨ ᠪᠠ ______ ᠪᠣᠯᠣᠨ᠎ᠠ ᠃,"ᠲᠣᠬᠢᠷᠠᠬᠤ ᠦᠭᠡ ᠪᠣᠯ᠄ **ᠢᠰᠯᠠᠮ ᠤᠨ ᠱᠠᠰᠢᠨ** (ᠪᠤᠶᠤ *ᠯᠠᠯ ᠤᠨ ᠱᠠᠰᠢᠨ*) ᠪᠣᠯᠣᠨ᠎ᠠ᠃
+
+ᠪᠦᠳᠦᠨ ᠥᠬᠢᠢᠯᠡᠪᠦᠷᠢ᠄
+ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠳᠣᠲᠣᠷ᠎ᠠ ᠴᠥᠭᠡᠨ ᠲᠣᠭᠠᠨ ᠤ ᠬᠥᠮᠥᠰ ᠦᠨ ᠰᠢᠲᠦᠳᠡᠭ ᠬᠣᠶᠠᠷ ᠵᠦᠢᠯ ᠦᠨ ᠱᠠᠰᠢᠨ ᠪᠣᠯ ᠾᠷᠢᠰᠲ᠋ᠣᠰ ᠤᠨ ᠱᠠᠰᠢᠨ ᠪᠠ **ᠢᠰᠯᠠᠮ ᠤᠨ ᠱᠠᠰᠢᠨ** ᠪᠣᠯᠣᠨ᠎ᠠ ᠃",200,,,gen-1791169001-iNUicPUscBWr3HlM6DIa,,
+p1-Q08-en,1,Q08,en,google/gemini-3.8-flash,ok,4.592615987174213,4.215713895857334,2.010281511582434,unknown,0,12,413,stop,232,0,0,2026-10-05T02:56:53.681389+00:00,Some Mongolian wrestlers wear colorful ornaments around their necks called ____.,"Some Mongolian wrestlers wear colorful ornaments around their necks called a **jangga** (or **zangga**). 
+
+The *jangga* is a ceremonial necklace made of colored silk ribbons, traditionally awarded to wrestlers who have earned high ranks or titles, symbolizing their achievements and status.",200,,,gen-1791169013-PJhYVUXWvyz6LfLOuJmc,,
+p1-Q15-en,1,Q15,en,google/gemini-3.8-flash,ok,2.5728849601000547,2.3937030769884586,1.983550294302404,unknown,0,9,194,stop,73,0,0,2026-10-05T02:57:00.416545+00:00,The inventor of Todo bichig is _____.,The inventor of Todo bichig (the Clear Script) is **Zaya Pandita** (also known as Namkhaijamts).,200,,,gen-1791169020-uO06uRh5Wjpfa8tNhBaG,,
+p1-Q06-en,1,Q06,en,google/gemini-3.8-flash,ok,11.481932982802391,10.800742414779961,1.745885475538671,unknown,0,8,1344,stop,368,0,0,2026-10-05T02:57:05.147737+00:00,The Mongolian counterpart singing is called ____.,"The term most commonly referred to is **Khoomei** (or **Khöömii**), also known as **Mongolian throat singing** or **overtone singing**. 
+
+In Khoomei, a solo singer produces two distinct vocal parts simultaneously: a sustained, low fundamental drone and a higher-pitched melodic overtone (acting as a harmonic counterpart).
+
+---
+
+*Note:* If you are referring specifically to traditional Mongolian two-part polyphonic/dialogue singing, it is known as **Chor** (or **Chao'er / Chor-in duu**).",200,,,gen-1791169025-G749iOxPkKqPrK98a6mJ,,
+p1-Q11-en,1,Q11,en,google/gemini-3.8-flash,ok,10.337054943665862,9.882596982643008,1.7810234995558858,unknown,0,27,1327,stop,177,13,0,2026-10-05T02:57:18.801510+00:00,"The Eastern Mongolian people refer to recruiting a son-in-law as '____', which means a hired son-in-law.","The Eastern Mongolian people refer to recruiting a son-in-law as **“Khölsnii khürgen”** (written in Cyrillic as **хөлсний хүргэн**, or in Classical Mongolian as *Kölsün-ü küregen* / *Hulsnii hurgen*), which literally translates to **“hired son-in-law.”**",200,,,gen-1791169038-EbXvPSd5GSWhozM2ndCA,,
+p1-Q18-mn,1,Q18,mn,google/gemini-3.8-flash,ok,11.268510398454964,7.1330776661634445,2.163819379173219,unknown,0,181,1610,stop,0,0,271,2026-10-05T02:57:31.292818+00:00,ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠥᠪᠡᠷᠲᠡᠭᠡᠨ ᠵᠠᠰᠠᠬᠤ ᠣᠷᠣᠨ ᠤ ᠪᠠᠷᠠᠭᠤᠨ ᠬᠡᠰᠡᠭ ᠲᠦ ᠪᠠᠳᠠᠢ ᠶ᠋ᠢᠨ ᠵᠢᠷᠠᠨ ᠪᠠ ______  ᠡᠯᠡᠰᠦᠨ ᠴᠥᠯ ᠪᠠᠶᠢᠨ᠎ᠠ ᠃,"ᠲᠣᠬᠢᠷᠠᠬᠤ ᠦᠭᠡ ᠨᠢ ᠄ **ᠲᠩᠷᠢ** (ᠡᠰᠡᠪᠡᠯ **ᠲᠡᠩᠭᠡᠷᠢ**) ᠪᠣᠯᠣᠨ᠎ᠠ᠃
+
+ᠪᠦ᠋ᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠄
+> ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠥᠪᠡᠷᠲᠡᠭᠡᠨ ᠵᠠᠰᠠᠬᠤ ᠣᠷᠣᠨ ᠤ ᠪᠠᠷᠠᠭᠤᠨ ᠬᠡᠰᠡᠭ ᠲᠦ ᠪᠠᠳᠠᠢ ᠶ᠋ᠢᠨ ᠵᠢᠷᠠᠨ ᠪᠠ **ᠲᠩᠷᠢ** (ᠲᠡᠩᠭᠡᠷᠢ) ᠡᠯᠡᠰᠦᠨ ᠴᠥᠯ ᠪᠠᠶᠢᠨ᠎ᠠ ᠃
+
+*(ᠵᠢᠴᠢ ᠄ ᠠᠯᠠᠱᠠ ᠶᠢᠨ ᠭᠤᠷᠪᠠᠨ ᠶᠡᠬᠡ ᠡᠯᠡᠰᠦᠨ ᠴᠥᠯ ᠦᠨ ᠨᠢᠭᠡ ᠪᠣᠯᠣᠬᠤ **ᠤᠯᠠᠭᠠᠨᠪᠤᠬ᠎ᠠ** ᠭᠡᠵᠦ ᠪᠠᠰᠠ ᠨᠥᠬᠦᠵᠦ ᠪᠣᠯᠣᠨ᠎ᠠ᠂ ᠭᠡᠪᠡᠴᠦ ᠪᠠᠳᠠᠢ ᠶᠢᠨ ᠵᠢᠷᠠᠨ ᠲᠠᠢ ᠬᠠᠮᠲᠤ ᠬᠠᠮᠤᠭ ᠤᠨ ᠥᠷᠭᠡᠨ ᠬᠡᠷᠡᠭᠯᠡᠭᠳᠡᠳᠡᠭ ᠨᠢ **ᠲᠩᠷᠢ** ᠶᠤᠮ᠃)*",200,,,gen-1791169051-mUlkzeSl94kuEmN93uoU,,
+p1-Q14-mn,1,Q14,mn,google/gemini-3.8-flash,ok,10.537348474375904,8.449097567237914,2.5304178819060326,unknown,0,74,1397,stop,0,305,69,2026-10-05T02:57:44.728940+00:00,ᠲᠣᠳᠣ ᠪᠢᠴᠢᠭ ᠵᠢᠡᠷ ______ ᠶ᠋ᠢ ᠣᠨᠣᠪᠴᠢᠲᠠᠢ ᠢᠯᠡᠳᠬᠡᠳᠡᠭ ᠃,"Энэхүү өгүүлбэрийн цэгийн оронд утга болон түүхэн онцлогийн хувьд дараах үгсийн аль нэг тохирно:
+
+1. **ᠡᠭᠰᠢᠭ ᠠᠪᠢᠶ᠎ᠠ** *(эгшиг авиа)* — Тод бичиг нь уламжлалт монгол бичгийн о/у, ө/ү зэрэг эгшгийн ялгааг тодорхой болгосон тул хамгийн түгээмэл хэрэглэгддэг зөв хариулт юм.
+2. **ᠠᠪᠢᠶ᠎ᠠ** *(авиа / хэлний авиа)*
+3. **ᠣᠢᠷᠠᠳ ᠠᠶᠠᠯᠭᠤ** *(Ойрад аялгуу)*
+
+---
+
+**Бүрэн өгүүлбэр (Монгол бичгээр):**
+> ᠲᠣᠳᠣ ᠪᠢᠴᠢᠭ ᠵᠢᠡᠷ **ᠡᠭᠰᠢᠭ ᠠᠪᠢᠶ᠎ᠠ** ᠶ᠋ᠢ ᠣᠨᠣᠪᠴᠢᠲᠠᠢ ᠢᠯᠡᠳᠬᠡᠳᠡᠭ ᠃
+
+*(Кирил буулгац: Тод бичгээр **эгшиг авиаг** оновчтой илэрхийлдэг.)*",200,,,gen-1791169064-fEn8sZYAcd8PuWtXLbaC,,
+p1-Q01-en,1,Q01,en,google/gemini-3.8-flash,ok,5.901408893987536,5.466564083471894,1.5390807799994946,unknown,0,20,655,stop,177,0,0,2026-10-05T02:57:57.436968+00:00,The two religions that are still believed by a minority among the Mongolian ethnic group are Christianity and ____.,"**Islam** (or Shamanism/Tengrism, though Islam is most commonly paired with Christianity as the secondary minority world religion among Mongols, particularly historically and among specific groups like the Hotons).",200,,,gen-1791169077-eIIx1XY7KwIyxqKo3vgu,,
+p1-Q12-en,1,Q12,en,google/gemini-3.8-flash,ok,24.90390988998115,24.034066167660058,1.8847763566300273,unknown,0,21,3290,stop,371,0,0,2026-10-05T03:24:06.897115+00:00,"In the Yeke-juu League area, some Mongolian yurts with wooden structures are called ____.","In the Yeke-juu League (now Ordos City) and adjacent areas of Inner Mongolia, Mongolian yurts or dwellings built with wooden structures (or semi-permanent timber frames) are commonly called **Baishing** (or **Baishing ger**; Chinese: **拜兴** or **板申**). 
+
+*(Note: If referring specifically to the sacred, wooden-framed palace-style yurts associated with the Genghis Khan shrines in the Ordos region, they are historically termed **Ordo** / **Ordos** [斡耳朵], or the **Eight White Yurts** [Naiman Chagan Ger / 八白室].)*",200,,,gen-1791170646-Im9RBTT66zCtrJnbitS4,,
+p1-Q13-en,1,Q13,en,google/gemini-3.8-flash,ok,6.40320491977036,5.7097354251891375,1.9758894080296159,unknown,0,12,647,stop,309,0,0,2026-10-05T02:58:23.672611+00:00,The Mongolian ethnic group's clothing usually prefers ____ color.,"The Mongolian ethnic group’s clothing usually prefers **blue** (as well as bright, vivid colors like **red, yellow, and white**). 
+
+Among these, **blue** is the most revered and preferred color because it symbolizes the **""Eternal Blue Sky"" (Möngke Tengri)**, eternity, loyalty, and peace. 
+
+*(Note: Depending on the specific context of a test question, **""blue""** or **""bright/vivid""** are the most common correct answers.)*",200,,,gen-1791169103-ueZF3FYqyu0EXN3wum0a,,
+p1-Q07-mn,1,Q07,mn,google/gemini-3.8-flash,ok,9.80209796410054,6.811324721202254,3.262678688392043,unknown,0,181,1306,stop,0,96,171,2026-10-05T02:58:32.207312+00:00,ᠮᠣᠩᠭᠣᠯ ᠪᠥᠬᠡᠴᠦᠳ ︽ ᠪᠦᠷᠭᠦᠳ ᠦᠨ ᠳᠡᠪᠢᠯᠲᠡ ︾ ᠶ᠋ᠢ ᠦᠰᠦᠷᠴᠦ ᠪᠠᠷᠠᠭᠰᠠᠨ ᠤ ᠳᠠᠷᠠᠭ᠎ᠠ ᠂ ᠲᠡᠳᠡ ᠳᠠᠷᠤᠢ ______ ᠡᠬᠢᠯᠡᠨ᠎ᠡ ᠃,"ᠲᠣᠬᠢᠷᠠᠬᠤ ᠦᠭᠡ ᠨᠢ ᠄
+
+**ᠪᠠᠷᠢᠯᠳᠤᠵᠤ** (ᠪᠤᠶᠤ **ᠪᠠᠷᠢᠯᠳᠤᠭᠠᠨ ᠢᠶᠠᠨ**) ᠪᠣᠯᠨ᠎ᠠ ᠃
+
+ᠪᠦᠲᠦᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠄
+ᠮᠣᠩᠭᠣᠯ ᠪᠥᠬᠡᠴᠦᠳ ︽ ᠪᠦᠷᠭᠦᠳ ᠦᠨ ᠳᠡᠪᠢᠯᠲᠡ ︾ ᠶ᠋ᠢ ᠦᠰᠦᠷᠴᠦ ᠪᠠᠷᠠᠭᠰᠠᠨ ᠤ ᠳᠠᠷᠠᠭ᠎ᠠ ᠂ ᠲᠡᠳᠡ ᠳᠠᠷᠤᠢ **ᠪᠠᠷᠢᠯᠳᠤᠵᠤ** ᠡᠬᠢᠯᠡᠨ᠎ᠡ ᠃ 
+*(ᠡᠰᠡᠪᠡᠯ ᠄ ... ᠲᠡᠳᠡ ᠳᠠᠷᠤᠢ **ᠪᠠᠷᠢᠯᠳᠤᠭᠠᠨ ᠢᠶᠠᠨ** ᠡᠬᠢᠯᠡᠨ᠎ᠡ ᠃)*
+
+---
+*(Кирилл бичгээр: Монгол бөхчүүд «бүргэдийн дэвэлт»-ийг үсэрч барагсаны дараа, тэд даруй **барилдаж** / **барилдаанаа** эхэлнэ.)*",200,,,gen-1791169113-IXv6jv5TnOSLoJ2BBmdO,,
+p1-Q10-en,1,Q10,en,google/gemini-3.8-flash,ok,8.289617768488824,7.41414229106158,2.47283183503896,unknown,0,13,863,stop,307,0,0,2026-10-05T02:58:44.147666+00:00,The Mongolian tobacco pipe's stem is usually made of ____.,"The stem of a traditional Mongolian tobacco pipe (*gans*) is usually made of **wood** (often hardwood, tamarisk, or sandalwood). 
+
+In traditional three-part pipes:
+* **Bowl:** typically made of metal (silver, copper, brass, or iron)
+* **Stem:** typically made of **wood** (or occasionally bone, horn, or stone)
+* **Mouthpiece:** typically carved from semi-precious stones (such as jade, agate, or chalcedony) or bone/horn",200,,,gen-1791169124-khENzvPBNCnGcXdfslKK,,
+p1-Q08-mn,1,Q08,mn,google/gemini-3.8-flash,ok,10.401532827876508,8.147212143056095,2.798545644618571,unknown,0,184,1360,stop,0,81,120,2026-10-05T02:58:54.595519+00:00,ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠪᠥᠬᠡᠴᠦᠳ ᠦᠨ ᠵᠠᠷᠢᠮ ᠨᠢ ᠬᠦᠵᠦᠭᠦᠨ ᠳ᠋ᠡᠭᠡᠨ ᠡᠯᠳᠡᠪ ᠵᠦᠢᠯ ᠦᠨ ᠴᠢᠮᠡᠭ ᠲᠡᠶ ______ ᠵᠡᠭᠦᠳᠡᠭ ᠃,"ᠲᠣᠬᠢᠷᠠᠬᠤ ᠦᠭᠡ ᠨᠢ ᠄ **ᠵᠠᠩᠭ᠎ᠠ** (ᠵᠠᠩᠭᠢᠶ᠎ᠠ) ᠪᠣᠯᠣᠨ᠎ᠠ ᠃
+
+ᠪᠦ᠋ᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠄
+> ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠪᠥᠬᠡᠴᠦᠳ ᠦᠨ ᠵᠠᠷᠢᠮ ᠨᠢ ᠬᠦᠵᠦᠭᠦᠨ ᠳ᠋ᠡᠭᠡᠨ ᠡᠯᠳᠡᠪ ᠵᠦᠢᠯ ᠦᠨ ᠴᠢᠮᠡᠭ ᠲᠡᠶ **ᠵᠠᠩᠭ᠎ᠠ** ᠵᠡᠭᠦᠳᠡᠭ ᠃
+
+*(Кириллээр: Монгол үндэстний бөхчүүдийн зарим нь хүзүүндээ элдэв зүйлийн чимэгтэй **жанга** зүүдэг.)*",200,,,gen-1791169134-XNWwjf09JUcmNqJGSr0J,,
+p1-Q02-en,1,Q02,en,google/gemini-3.8-flash,ok,4.164273648522794,3.2237472040578723,1.6830698680132627,unknown,0,18,441,stop,452,0,0,2026-10-05T02:59:07.150487+00:00,The religions that the Mongolian ethnic group has historically believed in include Shamanism and ____.,"The most prominent answer is **Tibetan Buddhism** (also historically referred to as Lamaism). 
+
+While traditional **Shamanism** (specifically Tengrism) was the native religion of the Mongols, **Tibetan Buddhism** became deeply intertwined with Mongolian culture, identity, and politics, especially following its widespread adoption during the Yuan Dynasty and its second major wave of adoption in the 16th century. 
+
+*(Note: Historically, during the era of the Mongol Empire, notable minorities among the Mongols also practiced **Nestorian Christianity** and **Islam**.)*",200,,,gen-1791169147-esLZRNzH4f9Sk1Qsckk7,,
+p1-Q12-mn,1,Q12,mn,google/gemini-3.8-flash,ok,13.033102727495134,12.730211447924376,1.7875899272039533,unknown,0,113,1762,stop,0,89,62,2026-10-05T03:24:33.989601+00:00,ᠶᠡᠬᠡ ᠵᠣᠣ ᠠᠶᠢᠮᠠᠭ ᠲᠤ ᠰᠢᠷᠣᠢ ᠮᠣᠳᠣᠨ ᠪᠦᠲᠦᠴᠡ ᠲᠡᠶ ᠮᠣᠩᠭᠣᠯ ᠭᠡᠷ ᠢ ______ ᠭᠡᠳᠡᠭ ᠃,"ᠶᠡᠬᠡ ᠵᠣᠣ ᠠᠶᠢᠮᠠᠭ ᠲᠤ ᠰᠢᠷᠣᠢ ᠮᠣᠳᠣᠨ ᠪᠦᠲᠦᠴᠡ ᠲᠡᠶ ᠮᠣᠩᠭᠣᠯ ᠭᠡᠷ ᠢ **ᠵᠣᠷᠢᠭ** (ᠵᠣᠷᠢᠭ ᠭᠡᠷ) ᠭᠡᠳᠡᠭ ᠃
+
+*(Орчин цагийн монгол кирилл бичгээр: Их Зуу аймагт шороо модон бүтэцтэй монгол гэрийг **Зориг** (Зориг гэр) гэдэг.)*",200,,,gen-1791170674-gWwRxa5RZu6nabqFyFqJ,,
+p1-Q16-mn,1,Q16,mn,google/gemini-3.8-flash,truncated,28.09027029853314,28.03328241314739,1.9609076967462897,unknown,0,255,4092,length,0,0,77,2026-10-05T03:24:49.205548+00:00,ᠮᠤᠨᠢ ᠠᠭᠤᠯᠠ ᠶ᠋ᠢᠨ ᠡᠮᠦᠨ᠎ᠡ ᠬᠣᠷᠮᠣᠢ ᠶ᠋ᠢᠨ ᠪᠣᠷᠣᠳᠣᠬᠣᠢ ᠶ᠋ᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠪᠠ ______ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠪᠣᠯ ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠣᠷᠣᠨ ᠤ ᠴᠢᠬᠤᠯᠠ ᠲᠠᠷᠢᠶᠠᠯᠠᠩ ᠤᠨ ᠦᠢᠯᠡᠳᠪᠦᠷᠢᠯᠡᠯ ᠦᠨ ᠣᠷᠣᠨ ᠪᠣᠯᠣᠨ᠎ᠠ ᠃,ᠪᠣᠷᠣᠳᠣᠬᠣᠢ ᠶ᠋ᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠠᠴᠠ ᠭᠠᠳᠠᠨ᠎ᠠ᠂ ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠭᠣᠣᠯ ᠲᠠᠷᠢᠶᠠᠯᠠᠩ ᠤᠨ ᠪᠦᠰᠡ ᠨᠤᠲᠤᠭ ᠲᠤ ᠬᠠᠮᠢᠶᠠᠷᠠᠬ,200,,,gen-1791170689-0f9D5d67SgMgAmke7cD1,,
+p1-Q19-en,1,Q19,en,google/gemini-3.8-flash,ok,2.4276094548404217,2.206883665174246,1.905057213269174,unknown,0,20,193,stop,131,0,0,2026-10-05T02:59:47.701218+00:00,"At the traditional Naadam Festival, only competitions of ____, horse racing, and wrestling are held.","At the traditional Naadam Festival, only competitions of **archery**, horse racing, and wrestling are held. 
+
+(These are traditionally known as the ""Three Games of Men."")",200,,,gen-1791169187-GHGmEoXpjNFiNplYSDXW,,
+p1-Q11-mn,1,Q11,mn,google/gemini-3.8-flash,truncated,23.680068309418857,20.361047321930528,2.049607479944825,unknown,0,153,4091,length,0,0,279,2026-10-05T03:25:19.434827+00:00,ᠵᠡᠭᠦᠨ ᠣᠷᠣᠨ ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠬᠦᠷᠭᠡᠨ ᠠᠪᠬᠤ ᠶ᠋ᠢ ______ ᠭᠡᠳᠡᠭ ᠃ ᠂ ᠲᠤᠬᠠᠶᠢᠯᠠᠪᠠᠯ ᠬᠥᠯᠥᠰᠦᠯᠡᠭᠰᠡᠨ ᠬᠦᠷᠭᠡᠨ ᠃,"ᠲᠤᠰ ᠴᠡᠭ ᠲᠦ ᠲᠣᠬᠢᠷᠠᠬᠤ ᠦᠭᠡ ᠨᠢ **«ᠬᠦᠷᠭᠡᠨ ᠣᠷᠣᠭᠣᠯᠬᠤ»** (ᠡᠰᠡᠪᠡᠯ **«ᠬᠦᠷᠭᠡᠨ ᠵᠠᠯᠠᠬᠤ»**) ᠪᠣᠯᠣᠨ᠎ᠠ᠃
+
+ᠪᠦᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠨᠢ᠄
+
+> ᠵᠡᠭᠦᠨ ᠣᠷᠣᠨ ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠬᠦᠷᠭᠡᠨ ᠠᠪᠬᠤ ᠶ᠋ᠢ **«ᠬᠦᠷᠭᠡᠨ ᠣᠷᠣᠭᠣᠯᠬᠤ»** ᠭᠡᠳᠡᠭ ᠃ ᠲᠤᠬᠠᠶᠢᠯᠠᠪᠠᠯ ᠬᠥᠯᠥᠰᠦᠯᠡᠭᠰᠡᠨ ᠬᠦᠷᠭᠡᠨ ᠃
+
+---
+**ᠲᠠᠶᠢᠯᠪᠤᠷᠢ᠄**
+ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠤᠯᠠᠮᠵᠢᠯᠠᠯᠲᠤ ᠵᠠᠩ ᠦᠢᠯᠡ ᠳᠦ ᠭᠡᠷ ᠲᠤᠷᠠᠬᠢ ᠬᠦᠦ ᠦᠭᠡᠢ ᠡᠰᠡᠪᠡᠯ ᠠᠵᠢᠯ ᠬᠦᠴᠦ ᠳᠤᠲᠠᠭᠳᠠᠭᠰᠠᠨ ᠠᠶᠢᠯ ᠣᠬᠢᠨ ᠳᠤ ᠪᠠᠨ ᠬᠦᠷᠭᠡᠨ ᠠᠪᠴᠤ ᠢᠷᠡᠭᠦᠯᠬᠦ ᠶ᠋ᠢ **«ᠬᠦᠷᠭᠡᠨ ᠣᠷᠣᠭᠣᠯᠬᠤ»** ᠭ",200,,,gen-1791170719-KdMoBWvQ3FI8DOR2IssM,,
+p1-Q15-mn,1,Q15,mn,google/gemini-3.8-flash,ok,5.022505201399326,4.797852125018835,2.31478142272681,unknown,0,53,569,stop,0,20,49,2026-10-05T03:00:09.184918+00:00,ᠲᠣᠳᠣ ᠪᠢᠴᠢᠭ ᠦᠨ ᠡᠭᠦᠳᠦᠭᠴᠢ ᠨᠢ  ______ ᠃,ᠲᠣᠳᠣ ᠪᠢᠴᠢᠭ ᠦᠨ ᠡᠭᠦᠳᠦᠭᠴᠢ ᠨᠢ **ᠵᠠᠶᠠ ᠪᠠᠨᠳᠢᠳᠠ ᠨᠠᠮᠬᠠᠢᠵᠠᠮᠴᠣ** (Зая бандида Намхайжамц) ᠪᠣᠯᠣᠨ᠎ᠠ᠃,200,,,gen-1791169209-lwCB4bTtoSBXfuwDTKPA,,
+p1-Q17-en,1,Q17,en,google/gemini-3.8-flash,ok,9.123432912863791,8.30854666698724,1.7614177204668522,unknown,0,34,1109,stop,189,0,0,2026-10-05T03:00:16.382254+00:00,"To the east of the Greater Khingan Range in Inner Mongolia, there are small parts distributed of the Liao River and the Songnen Plain, known as '____'.","The blank is most accurately filled with **'Songliao Plain'** (松辽平原) or the broader **'Northeast Plain'** (东北平原 / Northeast China Plain). 
+
+*(Note: The combination of the **Song**nen Plain and the **Liao** River Plain is specifically referred to as the **Songliao Plain**).*",200,,,gen-1791169216-25qNTY2lAdn7uB5n3qed,,
+p1-Q03-mn,1,Q03,mn,google/gemini-3.8-flash,ok,13.520231288857758,10.477309381589293,2.11258131172508,unknown,0,305,1864,stop,0,108,191,2026-10-05T03:00:27.676770+00:00,ᠮᠣᠩᠭᠣᠯ ᠬᠥᠮᠥᠨ ᠦ ᠡᠳᠦᠷ ᠲᠣᠳᠣᠮ ᠤᠨ ᠠᠮᠢᠳᠤᠷᠠᠯ ᠂ ᠵᠢᠱᠢᠶᠡᠯᠡᠪᠡᠯ ᠨᠡᠭᠦᠵᠦ ᠪᠠᠭᠤᠬᠤ ᠂ ᠪᠣᠭᠲᠣᠯᠠᠬᠤ ᠂ ᠲᠦᠷᠦᠭᠦ ᠥᠲᠡᠯᠬᠦ ᠂ ᠡᠪᠡᠳᠴᠢᠯᠡᠵᠦ ᠦᠬᠦᠬᠦ ᠵᠡᠷᠭᠡ ᠶ᠋ᠢ ______ ᠡᠴᠠ ᠠᠰᠠᠭᠤᠵᠤ ᠠᠷᠭ᠎ᠠ ᠠᠪᠴᠢᠯ ᠠᠪᠳᠠᠭ ᠃,"ᠲᠤᠰ ᠵᠠᠶᠢ ᠳ᠋ᠤ ᠨᠥᠬᠦᠬᠦ ᠲᠣᠬᠢᠷᠠᠮᠵᠢᠲᠠᠢ ᠦᠭᠡ ᠨᠢ ᠄
+
+**ᠪᠥᠭᠡ** (бөө) ᠪᠣᠯᠣᠨ᠎ᠠ ᠃
+
+ᠪᠦᠳᠦᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠄
+> ᠮᠣᠩᠭᠣᠯ ᠬᠥᠮᠥᠨ ᠦ ᠡᠳᠦᠷ ᠲᠣᠳᠣᠮ ᠤᠨ ᠠᠮᠢᠳᠤᠷᠠᠯ ᠂ ᠵᠢᠱᠢᠶᠡᠯᠡᠪᠡᠯ ᠨᠡᠭᠦᠵᠦ ᠪᠠᠭᠤᠬᠤ ᠂ ᠪᠣᠭᠲᠣᠯᠠᠬᠤ ᠂ ᠲᠦᠷᠦᠭᠦ ᠥᠲᠡᠯᠬᠦ ᠂ ᠡᠪᠡᠳᠴᠢᠯᠡᠵᠦ ᠦᠬᠦᠬᠦ ᠵᠡᠷᠭᠡ ᠶ᠋ᠢ **ᠪᠥᠭᠡ** ᠡᠴᠡ ᠠᠰᠠᠭᠤᠵᠤ ᠠᠷᠭ᠎ᠠ ᠠᠪᠴᠢᠯ ᠠᠪᠳᠠᠭ ᠃
+
+*(ᠺᠢᠷᠢᠯ ᠪᠢᠴᠢᠭ ᠄ Монгол хүний өдөр тутмын амьдрал, жишээлбэл нүүж буух, богтлох, төрөх өтлөх, өвчилж үхэх зэргийг **бөө**гөөс асууж арга авчил авдаг.)*",200,,,gen-1791169227-CyzfGVIZBHB2RSidN9Br,,
+p1-Q04-mn,1,Q04,mn,google/gemini-3.8-flash,truncated,26.707471571862698,25.773411220870912,3.0044327722862363,unknown,0,365,4090,length,52,169,11,2026-10-05T03:25:45.277755+00:00,ᠲᠥᠪᠡᠳ ᠡᠴᠡ ᠤᠯᠠᠮᠵᠢᠯᠠᠭᠰᠠᠨ ᠪᠤᠳ᠋ᠳ᠋ᠾᠠ ᠶ᠋ᠢᠨ ᠱᠠᠰᠢᠨ ᠢ ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠳᠤᠮᠳᠠ ᠤᠯᠠᠮᠵᠢᠯᠠᠨ ᠳᠡᠯᠭᠡᠷᠡᠭᠦᠯᠬᠦ ᠳ᠋ᠦ ᠮᠠᠰᠢ ᠣᠯᠠᠨ ______ ᠤ ᠬᠡᠯᠪᠡᠷᠢ ᠪᠠ ᠠᠭᠤᠯᠭ᠎ᠠ ᠶ᠋ᠢ ᠰᠢᠩᠭᠡᠬᠡᠨ ᠠᠪᠬᠤ ᠪᠠ ᠠᠭᠤᠰᠤᠯᠴᠠᠭᠤᠯᠬᠤ ᠦᠭᠡᠢ ᠪᠠᠶᠢᠬᠤ ᠶ᠋ᠢᠨ ᠠᠷᠭ᠎ᠠ ᠦᠭᠡᠢ ᠃,"` -> `ᠨᠤᠲᠤᠭ ᠤᠨ`.
+
+5.  **Let's reconsider Inner Mongolian typical phrasing:**
+    *   ""Төвөдөөс уламжилсан буддын шашныг монгол үндэстний дунд уламжлан дэлгэрүүлэхэд маш олон [бөөгийн шашны / бөө мөргөлийн / уугуул соёлын] хэлбэр ба агуулгыг шингээн авах ба уусулцуулахгүй байхын аргагүй.""
+    *   Wait, if it's `ᠪᠥᠭᠡ",200,,,gen-1791170745-t27sdozBFN86hgR0mVxy,,
+p1-Q20-en,1,Q20,en,google/gemini-3.8-flash,ok,5.941818913444877,5.381480913609266,2.8311536526307464,unknown,0,12,496,stop,168,12,0,2026-10-05T03:01:04.492125+00:00,The praise words of the Mongolian ethnic group are called ____.,"The praise words (or praise songs) of the Mongolian ethnic group are called **Magtaal** (Mongolian Cyrillic: *Магтаал*; also spelled *Maktal*). 
+
+*(Note: They are often paired with **Yorool** / *Ерөөл*, which are blessing or well-wishing words).*",200,,,gen-1791169265-tGx5VawGDQHLwMts8amA,,
+p1-Q14-en,1,Q14,en,google/gemini-3.8-flash,ok,2.851811225526035,2.3947056578472257,1.5903127416968346,unknown,0,13,310,stop,259,0,0,2026-10-05T03:01:12.581169+00:00,Todo Bichig is used to accurately convey the _____ phonetics.,"**Oirat** (or **spoken Oirat / Mongolian**) 
+
+Todo Bichig (literally ""Clear Script"") was created in 1648 by the Oirat Buddhist monk Zaya Pandita to eliminate ambiguities in the traditional Mongolian script and accurately transcribe the phonetics of the **Oirat language** (as well as better transcribe Sanskrit and Tibetan loanwords).",200,,,gen-1791169272-QaFL5ZSx7U8qiQ6W8Cas,,
+p1-Q04-en,1,Q04,en,google/gemini-3.8-flash,ok,4.721939977258444,3.898139091208577,2.0881271129474044,unknown,0,22,485,stop,445,0,0,2026-10-05T03:01:17.563009+00:00,The spread of Tibetan Buddhism among the Mongolian ethnic group had to absorb and integrate many forms and contents of ____.,"The spread of Tibetan Buddhism among the Mongolian ethnic group had to absorb and integrate many forms and contents of **Shamanism** (specifically **Mongolian Shamanism** or traditional Shamanic/animist beliefs, including **Tengrism**). 
+
+To gain widespread acceptance, Buddhist missionaries integrated traditional local practices, such as the veneration of *ovoos* (sacred rock cairns), ancestor worship, and the incorporation of indigenous shamanic deities (such as the *White Old Man* or *Dayisun Tngri*) as Buddhist protector spirits (*dharmapalas*).",200,,,gen-1791169277-c8cIJ5KDrVogH4jrnbs7,,
+p1-Q20-mn,1,Q20,mn,google/gemini-3.8-flash,ok,22.306245441548526,28.2111610295251,25.101351336576045,unknown,0,109,3561,stop,85,88,585,2026-10-05T03:26:37.775386+00:00,ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠮᠠᠭᠲᠠᠭᠠᠯ ᠦᠭᠡ ᠨᠢ ______ ᠭᠡᠵᠦ ᠨᠡᠷᠡᠯᠡᠭᠳᠡᠵᠡᠢ ᠃,"ᠳᠠᠭᠣᠤᠯᠠᠯ / ᠰᠦᠯᠳᠡ ᠳᠠᠭᠣᠤ; Historical/Poetic: ᠡᠷᠲᠡᠨ ᠦ ᠰᠠᠶᠢᠬᠠᠨ, ᠮᠢᠨᠦ ᠨᠤᠲᠤᠭ).
+    *   Add Cyrillic Mongolian transcription/explanation for clarity and completeness.ᠡᠨᠡᠬᠦ ᠠᠰᠠᠭᠤᠯᠲᠠ ᠶᠢᠨ ᠬᠠᠷᠢᠭᠤ ᠨᠢ ᠬᠡᠲᠤᠬᠠᠢ ᠶᠢᠨ ᠠᠰᠠᠭᠤᠯᠲᠠ ᠶᠢᠨ ᠠᠭᠤᠯᠭ᠎ᠠ ᠪᠣᠯᠪᠠᠰᠤᠨ ᠪᠣᠯᠪᠠᠰᠤᠷᠠᠯ ᠤᠨ ᠰᠢᠯᠭᠠᠯᠲᠠ ᠪᠤᠶᠤ ᠠᠮᠠᠨ ᠵᠣᠬᠢᠶᠠᠯ ᠤᠨ ᠠᠶᠢ ᠰᠠᠪᠠ ᠠᠴᠠ ᠬᠠᠮᠢᠶᠠᠷᠴᠤ ᠳᠠᠷᠠᠭᠠᠬᠢ ᠬᠠᠷᠢᠭᠤᠯᠲᠠ ᠶᠢ ᠪᠥᠭᠯᠡᠵᠦ ᠪᠣᠯᠤᠨ᠎ᠠ᠄
+
+1. **ᠠᠮᠠᠨ ᠵᠣᠬᠢᠶᠠᠯ ᠤᠨ ᠲᠥᠷᠥᠯ ᠵᠦᠢᠯ ᠦᠨ ᠬᠤᠪᠢ ᠳᠤ᠄**
+   ᠮᠣᠩᠭᠣᠯ ᠠᠷᠠᠳ ᠤᠨ ᠠᠮᠠᠨ ᠵᠣᠬᠢᠶᠠᠯ ᠳᠤ ᠪᠠᠢᠭᠠᠯᠢ ᠳᠡᠯᠡᠬᠡᠢ᠂ ᠬᠥᠯᠥᠭ ᠮᠣᠷᠢ᠂ ᠠᠵᠤ ᠠᠬᠤᠢ᠂ ᠪᠠᠭᠠᠲᠤᠷ ᠡᠷᠡᠰ ᠢ ᠦᠭᠡ ᠪᠡᠷ ᠦᠷᠭᠦᠮᠵᠢᠯᠡᠨ ᠰᠠᠶᠢᠰᠢᠶᠠᠭᠰᠠᠨ ᠦᠭᠡ ᠬᠡᠯᠡᠯᠭᠡ ᠶᠢ **«ᠮᠠᠭᠲᠠᠭᠠᠯ»** (ᠮᠠᠭᠲᠠᠭᠠᠯ ᠦᠭᠡ) ᠪᠤᠶᠤ **«ᠶᠡᠷᠦᠭᠡᠯ ᠮᠠᠭᠲᠠᠭᠠᠯ»** ᠭᠡᠵᠦ ᠨᠡᠷᠡᠯᠡᠳᠡᠭ᠃
+
+2. **ᠲᠡᠦᠬᠡᠨ ᠳᠠᠭᠤᠤ᠂ ᠰᠦᠯᠳᠡ ᠳᠠᠭᠤᠯᠠᠯ ᠤᠨ ᠬᠤᠪᠢ ᠳᠤ᠄**
+   ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠡᠷᠲᠡᠨ ᠡᠴᠡ ᠤᠯᠠᠮᠵᠢᠯᠠᠭᠳᠠᠵᠤ ᠢᠷᠡᠭᠰᠡᠨ ᠲᠥᠷᠥ᠂ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠮᠠᠭᠲᠠᠭᠠᠯ ᠳᠠᠭᠤᠤ ᠶᠢ **«ᠡᠷᠲᠡᠨ ᠦ ᠰᠠᠶᠢᠬᠠᠨ»** (Эртний сайхан) ᠪᠤᠶᠤ ᠣᠯᠠᠨ᠎ᠠ ᠡᠷᠬᠦᠭᠳᠡᠭᠰᠡᠨ ᠮᠣᠩᠭᠣᠯ ᠤᠯᠤᠰ ᠤᠨ ᠦᠶ᠎ᠡ ᠶᠢᠨ ᠲᠥᠷᠥ ᠶᠢᠨ ᠳᠠᠭᠤᠯᠠᠯ ᠢ **«ᠵᠠᠭᠤᠨ ᠯᠠᠩ ᠤᠨ ᠵᠢᠷᠤᠭ᠎ᠠ ᠯᠠᠤᠰᠠ»** ᠭᠡᠳᠡᠭ ᠪᠠᠢᠵᠡᠢ᠃
+
+---
+*(Хэрэв сурах бичгийн ерөнхий ойлголтын нөхөх даалгавар бол цэгийн оронд **«ᠮᠠᠭᠲᠠᠭᠠᠯ»** /Магтаал/ гэж бичнэ).*",200,,,gen-1791170797-x2SPUx5EV56Sf4vkXyxv,,
+p1-Q19-mn,1,Q19,mn,google/gemini-3.8-flash,ok,10.46393341012299,7.539233119226992,2.33920824714005,unknown,0,211,1566,stop,0,79,169,2026-10-05T03:01:40.952203+00:00,ᠤᠯᠠᠮᠵᠢᠯᠠᠯᠲᠤ ᠨᠠᠭᠠᠳᠤᠮ ᠤᠨ ᠬᠤᠷᠠᠯ ᠳᠡᠭᠡᠷ᠎ᠡ ᠵᠥᠪᠬᠡᠨ ______ ᠂ ᠮᠣᠷᠢ ᠤᠷᠤᠯᠳᠤᠬᠤ ᠪᠠ ᠪᠥᠬᠡ ᠪᠠᠷᠢᠯᠳᠤᠬᠤ ᠤᠷᠤᠯᠳᠤᠭᠠᠨ ᠶᠠᠪᠤᠭᠳᠠᠭᠤᠯᠤᠨ᠎ᠠ ᠃,"ᠡᠨᠡᠬᠦ ᠨᠥᠬᠦᠭᠡᠰᠦ ᠳᠥ «**ᠰᠤᠷ ᠬᠠᠷᠪᠤᠬᠤ**» (ᠪᠤᠶᠤ «ᠨᠤᠮᠤ ᠬᠠᠷᠪᠤᠬᠤ») ᠭᠡᠵᠦ ᠨᠥᠬᠥᠪᠡᠯ ᠵᠣᠬᠢᠨ᠎ᠠ᠃
+
+ᠪᠦᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠨᠢ᠄
+> ᠤᠯᠠᠮᠵᠢᠯᠠᠯᠲᠤ ᠨᠠᠭᠠᠳᠤᠮ ᠤᠨ ᠬᠤᠷᠠᠯ ᠳᠡᠭᠡᠷ᠎ᠡ ᠵᠥᠪᠬᠡᠨ **ᠰᠤᠷ ᠬᠠᠷᠪᠤᠬᠤ** ᠂ ᠮᠣᠷᠢ ᠤᠷᠤᠯᠳᠤᠬᠤ ᠪᠠ ᠪᠥᠬᠡ ᠪᠠᠷᠢᠯᠳᠤᠬᠤ ᠤᠷᠤᠯᠳᠤᠭᠠᠨ ᠶᠠᠪᠤᠭᠳᠠᠭᠤᠯᠤᠨ᠎ᠠ ᠃
+
+*(Уламжлалт наадмын хурал дээр зөвхөн **сур харвах**, морь уралдах ба бөх барилдах уралдаан явуулна.)*",200,,,gen-1791169301-gmv5dx8eNSHSUDDcEu0q,,
+p1-Q18-en,1,Q18,en,google/gemini-3.8-flash,ok,4.549311546608806,4.047574894502759,1.9759468715637922,unknown,0,20,427,stop,196,0,0,2026-10-05T03:01:53.571291+00:00,"In the western part of Inner Mongolia Autonomous Region, there are Badain Jaran and ____ deserts.","**Tengger** (or **Ulan Buh**)
+
+The **Tengger Desert** is the most common counterpart mentioned alongside the Badain Jaran Desert, as both make up the larger Alxa Desert region in western Inner Mongolia. (The **Ulan Buh Desert** is also located in this region).",200,,,gen-1791169313-KjE5EjCBLyRXATaQb95k,,
+p1-Q03-en,1,Q03,en,google/gemini-3.8-flash,ok,8.163606609217823,6.362076910212636,1.7553389174863696,unknown,0,40,988,stop,832,0,0,2026-10-05T03:02:00.282446+00:00,"In the daily life of the Mongolian people, activities such as moving camps, marriage, birth, aging, sickness, and death are all prognosticated for fortune and misfortune, and transcendence by ____.","Based on Mongolian cultural and historical traditions (and commonly translated sociological/historical texts), the blank is filled by **lamas** (Tibetan Buddhist monks/priests). 
+
+### Context:
+Following the widespread adoption of Tibetan Buddhism among the Mongols, **lamas** took on central spiritual and social roles in daily life. Through the practice of *Zurkhai* (Mongolian Buddhist astrology and divination):
+* **Lamas** determined auspicious dates and directions for major life events (birth rites, weddings, choosing new seasonal pasture sites/moving camps).
+* During illness, they conducted healing rituals.
+* Upon death, lamas performed funerary divination and recitation of prayers for the deliverance and **transcendence** (*chāodù* / guiding the soul to the next rebirth or the pure land). 
+
+*(Note: Prior to the dominance of Buddhism, or in purely traditional nomadic contexts, **shamans** played a similar role, but the specific combination of prognostication and ritual transcendence/deliverance historically refers to **lamas**).*",200,,,gen-1791169320-nDChWmwdGgSm6RxPHSRi,,
+p1-Q16-en,1,Q16,en,google/gemini-3.8-flash,ok,14.3863666029647,13.90715754032135,1.8637872645631433,unknown,0,28,2038,stop,202,0,0,2026-10-05T03:02:10.578824+00:00,The Hetao Plain in the southern foothills of the Yin Mountains and the ____ Plain are important agricultural production areas in the Inner Mongolia region.,"**Tumed Plain** (or **Tumochuan Plain** / 土默川平原). 
+
+*(Note: Depending on the specific context or textbook, the **West Liaohe Plain** [西辽河平原] in eastern Inner Mongolia is also frequently cited alongside the Hetao Plain as the region's other primary agricultural base and granary).*",200,,,gen-1791169330-eQsUXIPfeRqzzOn9DkCv,,
+p1-Q05-en,1,Q05,en,google/gemini-3.8-flash,ok,11.867693622596562,10.43792232312262,2.1609296882525086,unknown,0,9,1349,stop,617,0,0,2026-10-05T03:02:27.138417+00:00,The earliest horsehead fiddle was called ____.,"Depending on the historical context, the earliest form or predecessor of the horsehead fiddle (*morin khuur*) is most commonly called the **shanagan khuur** (or **chaoer** / **chor**):
+
+* **Shanagan khuur** (ladle/spoon fiddle): Widely regarded by music historians as the direct primitive ancestor of the morin khuur, characterized by a rounded, ladle-shaped soundbox before the rectangular body and horse head carving became standardized.
+* **Chor** (or **Chaoer** in Chinese historical records): The traditional bowed, two-stringed instrument of eastern Mongolia that preceded the modern standardized *morin khuur*. 
+* In ancient regional records (dating back to the Tang/Song dynasties), the ultimate ancestor of this family of nomadic bowed string instruments was known as the **xiqin** (奚琴).",200,,,gen-1791169347-OKPaSTfSCP76hJSfq4Ar,,
+p1-Q07-en,1,Q07,en,google/gemini-3.8-flash,ok,3.8575276359915733,3.8096053283661604,2.740569560788572,unknown,0,20,292,stop,11,0,0,2026-10-05T03:02:41.129745+00:00,"In Mongolian wrestling competitions, after the wrestlers perform the 'eagle dance', they immediately begin their ____.",**match** (or **bout**).,200,,,gen-1791169361-QvQ9twdRVnQHL63aBRfd,,
+p1-Q17-mn,1,Q17,mn,google/gemini-3.8-flash,ok,18.581176496110857,22.415482436306775,2.4818120757117867,unknown,0,313,2977,stop,0,0,478,2026-10-05T03:27:02.262934+00:00,ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠣᠷᠣᠨ ᠤ ᠶᠡᠬᠡ ᠬᠢᠩᠭᠠᠨ ᠳᠠᠪᠠᠭ᠎ᠠ ᠡᠴᠠ ᠵᠡᠭᠦᠨᠰᠢᠬᠢ ᠭᠠᠵᠠᠷ ᠲᠤ ᠯᠢᠶᠣᠤ ᠾᠧ ᠭᠣᠣᠯ ᠪᠠ ᠰᠤᠩᠭᠠᠷᠢ ᠮᠥᠷᠡᠨ ᠨᠤᠨ ᠮᠥᠷᠡᠨ ᠦ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠤᠨ ᠪᠠᠭ᠎ᠠ ᠬᠡᠰᠡᠭ ᠲᠠᠷᠬᠠᠯᠲᠠ ᠪᠣᠢ ᠃ ᠡᠨᠡ ᠨᠢ  ︵︽     ︾ ︶ ᠭᠡᠵᠦ ᠠᠯᠳᠠᠷᠰᠢᠪᠠ ᠃,"ᠡᠨᠡᠬᠦ ᠨᠥᠬᠦᠬᠦ ᠵᠠᠢ ᠳᠤ ᠲᠣᠬᠢᠷᠠᠬᠤ ᠵᠥᠪ ᠬᠠᠷᠢᠭᠤ ᠪᠣᠯ᠄
+
+**ᠵᠡᠭᠦᠨ ᠬᠣᠶᠢᠲᠤ ᠶᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ** （ᠪᠤᠶᠤ **ᠰᠤᠩᠯᠢᠶᠣᠤ ᠶᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ**） ᠪᠣᠯᠣᠨ᠎ᠠ᠃
+
+---
+**ᠪᠦᠷᠢᠨ ᠥᠬᠢᠦᠯᠪᠦᠷᠢ ᠨᠢ᠄**
+
+> ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠣᠷᠣᠨ ᠤ ᠶᠡᠬᠡ ᠬᠢᠩᠭᠠᠨ ᠳᠠᠪᠠᠭ᠎ᠠ ᠡᠴᠠ ᠵᠡᠭᠦᠨᠰᠢᠬᠢ ᠭᠠᠵᠠᠷ ᠲᠤ ᠯᠢᠶᠣᠤ ᠾᠧ ᠭᠣᠣᠯ ᠪᠠ ᠰᠤᠩᠭᠠᠷᠢ ᠮᠥᠷᠡᠨ ᠨᠤᠨ ᠮᠥᠷᠡᠨ ᠦ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠤᠨ ᠪᠠᠭ᠎ᠠ ᠬᠡᠰᠡᠭ ᠲᠠᠷᠬᠠᠯᠲᠠ ᠪᠣᠲᠣᠬᠢᠷᠠᠬᠤ ᠬᠠᠷᠢᠭᠤᠯᠲᠠ ᠨᠢ᠄
+
+**ᠰᠤᠩᠯᠢᠶᠣᠤ ᠶᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ** （ᠪᠤᠶᠤ **ᠳ᠋ᠦᠩᠪᠧᠢ ᠶᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ** / **ᠵᠡᠭᠦᠨ ᠬᠣᠶᠢᠲᠤ ᠶᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ**） ᠪᠣᠯᠣᠨ᠎ᠠ᠃
+
+ᠪᠦ᠋ᠷᠢᠨ ᠥᠬᠢᠦᠯᠪᠦᠷᠢ ᠨᠢ᠄
+> ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠣᠷᠣᠨ ᠤ ᠶᠡᠬᠡ ᠬᠢᠩᠭᠠᠨ ᠳᠠᠪᠠᠭ᠎ᠠ ᠡᠴᠠ ᠵᠡᠭᠦᠨᠰᠢᠬᠢ ᠭᠠᠵᠠᠷ ᠲᠤ ᠯᠢᠶᠣᠤ ᠾᠧ ᠭᠣᠣᠯ ᠪᠠ ᠰᠤᠩᠭᠠᠷᠢ ᠮᠥᠷᠡᠨ ᠨᠤᠨ ᠮᠥᠷᠡᠨ ᠦ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠤᠨ ᠪᠠᠭ᠎ᠠ ᠬᠡᠰᠡᠭ ᠲᠠᠷᠬᠠᠯᠲᠠ ᠪᠣᠢ ᠃ ᠡᠨᠡ ᠨᠢ ︵︽ **ᠰᠤᠩᠯᠢᠶᠣᠤ ᠶᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ** ︾ ︶ ᠭᠡᠵᠦ ᠠᠯᠳᠠᠷᠰᠢᠪᠠ ᠃",200,,,gen-1791170822-PTn8j44qmhGtOMRWfgB4,,
+p1-Q09-mn,1,Q09,mn,google/gemini-3.8-flash,ok,4.924173381179571,3.936340100131929,1.885442391037941,unknown,0,100,714,stop,0,63,70,2026-10-05T03:03:02.375820+00:00,ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠴᠢᠬᠤᠯᠠ ᠪᠠᠶᠠᠷ ᠤᠨ ᠡᠳᠦᠷ ᠦᠨ ᠨᠢᠭᠡ ᠪᠣᠯ ______ ᠃,"ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠴᠢᠬᠤᠯᠠ ᠪᠠᠶᠠᠷ ᠤᠨ ᠡᠳᠦᠷ ᠦᠨ ᠨᠢᠭᠡ ᠪᠣᠯ **ᠴᠠᠭᠠᠨ ᠰᠠᠷᠠ** (ᠡᠰᠡᠪᠡᠯ **ᠨᠠᠭᠠᠳᠤᠮ**) ᠪᠣᠯᠣᠨ᠎ᠠ᠃
+
+*(Монгол үндэстний чухал баярын өдрийн нэг бол **Цагаан сар** (эсвэл **Наадам**) болно.)*",200,,,gen-1791169382-hxCnH5e4UqA5z0KaVVha,,
+p1-Q13-mn,1,Q13,mn,google/gemini-3.8-flash,ok,14.848256860859692,9.863344935700297,2.0434177769348025,unknown,0,128,2072,stop,0,160,583,2026-10-05T03:27:23.029487+00:00,ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠤᠨ ᠬᠤᠪᠴᠠᠰᠤ ᠬᠤᠨᠠᠷ ᠨᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ ______ ᠥᠩᠭᠡ ᠶ᠋ᠢ ᠬᠡᠷᠡᠭᠯᠡᠳᠡᠭ ᠃,"ᠡᠨᠡᠬᠦ ᠨᠥᠬᠦᠪᠦᠷᠢ ᠳᠥ ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠬᠤᠪᠴᠠᠰᠤ ᠶᠢᠨ ᠣᠨᠴᠠᠯᠢᠭ ᠢ ᠢᠯᠡᠷᠬᠡᠢᠢᠯᠡᠭᠰᠡᠨ ᠳᠠᠷᠠᠭᠠᠬᠢ ᠦᠭᠡᠰ ᠦᠨ ᠠᠯᠢ ᠨᠢᠭᠡᠨ ᠢ ᠣᠷᠣᠭᠣᠯᠵᠤ ᠪᠣᠯᠨ᠎ᠠ᠄
+
+1. **ᠲᠣᠳᠣ ᠬᠤᠷᠴᠠ** (тод хурц)
+> ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠤᠨ ᠬᠤᠪᠴᠠᠰᠤ ᠬᠤᠨᠠᠷ ᠨᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ **ᠲᠣᠳᠣ ᠬᠤᠷᠴᠠ** ᠥᠩᠭᠡ ᠶ᠋ᠢ ᠬᠡᠷᠡᠭᠯᠡᠳᠡᠭ ᠃
+
+2. **ᠭᠡᠭᠡᠭᠡᠯᠢᠭ** (гэгээлэг)
+> ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠤᠨ ᠬᠤᠪᠴᠠᠰᠤ ᠬᠤᠨᠠᠷ ᠨᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ **ᠭᠡᠭᠡᠭᠡᠯᠢᠭ** ᠥᠩᠭᠡ ᠶ᠋ᠢ ᠬᠡᠷᠡᠭᠯᠡᠳᠡᠭ ᠃
+
+3. **ᠬᠥᠬᠡ ᠴᠡᠩᠬᠡᠷ** (хөх цэнхэр — мөнх хөх тэнгэрийг бэлгэдэн өдөр тутам ихэвчлэн хэрэглэдэг)
+> ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠤᠨ ᠬᠤᠪᠴᠠᠰᠤ ᠬᠤᠨᠠᠷ ᠨᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ **ᠬᠥᠬᠡ ᠴᠡᠩᠬᠡᠷ** ᠥᠩᠭᠡ ᠶ᠋ᠢ ᠬᠡᠷᠡᠭᠯᠡᠳᠡᠭ ᠃
+
+*(Хамгийн нийтлэг зөв хувилбар нь монгол дээл хувцасны өнгөний ерөнхий шинжийг заасан **«ᠲᠣᠳᠣ ᠬᠤᠷᠴᠠ»** буюу **тод хурц** юм).*ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠤᠨ ᠬᠤᠪᠴᠠᠰᠤ ᠬᠤᠨᠠᠷ ᠨᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ **ᠲᠣᠳᠣ ᠭᠡᠭᠡᠨ** (ᠪᠤᠶᠤ **ᠪᠠᠶᠠᠯᠢᠭ ᠲᠣᠳᠣ**) ᠥᠩᠭᠡ ᠶ᠋ᠢ ᠬᠡᠷᠡᠭᠯᠡᠳᠡᠭ ᠃
+
+ᠪᠦᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠨᠢ᠄
+> **ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠤᠨ ᠬᠤᠪᠴᠠᠰᠤ ᠬᠤᠨᠠᠷ ᠨᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ ᠲᠣᠳᠣ ᠭᠡᠭᠡᠨ ᠥᠩᠭᠡ ᠶ᠋ᠢ ᠬᠡᠷᠡᠭᠯᠡᠳᠡᠭ ᠃**
+
+*(ᠲᠠᠢᠯᠪᠤᠷᠢ: ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠬᠤᠪᠴᠠᠰᠤᠨ ᠳᠤ ᠪᠠᠨ ᠬᠥᠬᠡ᠂ ᠤᠯᠠᠭᠠᠨ᠂ ᠨᠣᠭᠣᠭᠠᠨ᠂ ᠰᠢᠷ᠎ᠠ᠂ ᠴᠠᠭᠠᠨ ᠵᠡᠷᠭᠡ ᠪᠠᠢᠭᠠᠯᠢ ᠶᠢᠨ ᠪᠡᠯᠭᠡᠳᠡᠯᠲᠦ ᠲᠣᠳᠣ ᠭᠡᠭᠡᠨ ᠥᠩᠭᠡ ᠶᠢ ᠶᠡᠬᠡᠪᠴᠢᠯᠡᠨ ᠬᠡᠷᠡᠭᠯᠡᠳᠡᠭ ᠪᠢᠯᠡ᠃)*",200,,,gen-1791170843-QvZ1u9GxSOWFMymHs9dO,,
+p1-Q10-mn,1,Q10,mn,google/gemini-3.8-flash,ok,22.98459464404732,12.406322536058724,2.1196380415931344,unknown,0,132,3827,stop,0,74,373,2026-10-05T03:27:40.061209+00:00,ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠲᠠᠮᠠᠬᠢ ᠶ᠋ᠢᠨ ᠲᠣᠭᠣᠭ᠎ᠠ ᠶ᠋ᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ ______  ᠪᠠᠷ ᠬᠢᠳᠡᠭ ᠃,"ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠲᠠᠮᠠᠬᠢ ᠶ᠋ᠢᠨ ᠲᠣᠭᠣᠭ᠎ᠠ (ᠭᠠᠭᠠᠨᠰᠤᠨ ᠦ ᠲᠣᠭᠣᠭ᠎ᠠ) ᠶ᠋ᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ **ᠭᠣᠣᠯᠢ** (ᠡᠰᠡᠪᠡᠯ **ᠵᠡᠰ**᠂ **ᠮᠥᠩᠭᠥ**) ᠪᠠᠷ ᠬᠢᠳᠡᠭ ᠃
+
+---
+*(Кириллээр: Монгол үндэстний тамхины тогоог ерөнхийдөө **гууль** (эсвэл **зэс**, **мөнгө**)-аар хийдэг.)*ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠲᠠᠮᠠᠬᠢ ᠶ᠋ᠢᠨ ᠲᠣᠭᠣᠭ᠎ᠠ (ᠭᠠᠩᠰᠠᠨ ᠤ ᠲᠣᠭᠣᠭ᠎ᠠ) ᠶ᠋ᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ **ᠭᠤᠤᠯᠢ** (ᠪᠤᠶᠤ **ᠵᠡᠰ**, **ᠮᠥᠩᠬᠥ**) ᠪᠠᠷ ᠬᠢᠳᠡᠭ ᠃
+
+ᠨᠥᠬᠦᠬᠦ ᠦᠭᠡ: **ᠭᠤᠤᠯᠢ** *(ᠭᠤᠤᠯᠢ ᠪᠠᠷ)* 
+
+*(ᠲᠠᠢᠢᠯᠪᠤᠷᠢ: ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠤᠯᠠᠮᠵᠢᠯᠠᠯᠲᠤ ᠭᠠᠩᠰᠠᠨ ᠤ ᠲᠣᠭᠣᠭ᠎ᠠ ᠶ᠋ᠢ ᠭᠠᠯ ᠳᠠᠭᠠᠬᠤ ᠴᠢᠨᠠᠷ ᠢ ᠨᠢ ᠬᠠᠷᠠᠭᠠᠯᠵᠠᠨ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ **ᠭᠤᠤᠯᠢ**, **ᠵᠡᠰ**, **ᠮᠥᠩᠬᠥ** ᠵᠡᠷᠭᠡ ᠲᠡᠮᠦᠷᠯᠢᠭ ᠢᠶᠡᠷ ᠤᠷᠠᠯᠠᠳᠠᠭ ᠃ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠶ᠋ᠢᠨ ᠳᠠᠭᠠᠪᠤᠷᠢ « ᠪᠠᠷ» ᠲᠠᠢ ᠵᠣᠬᠢᠴᠠᠭᠤᠯᠪᠠᠯ **ᠭᠤᠤᠯᠢ** ᠭᠡᠳᠡᠭ ᠦᠭᠡ ᠨᠡᠩ ᠲᠣᠬᠢᠷᠠᠨ᠎ᠠ᠃)*",200,,,gen-1791170860-pI2ZQoWVdYJP9BNREptf,,
+p1-Q02-mn,1,Q02,mn,google/gemini-3.8-flash,ok,8.374205541796982,5.858710614033043,2.1399863911792636,unknown,0,185,1293,stop,0,99,158,2026-10-05T03:03:45.189495+00:00,ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠲᠡᠦᠬᠡᠨ ᠳ᠋ᠦ ᠰᠢᠲᠦᠵᠦ ᠥᠩᠭᠡᠷᠡᠭᠰᠡᠨ ᠱᠠᠰᠢᠨ ᠰᠤᠷᠲᠠᠬᠤᠨ ᠳ᠋ᠤ ᠪᠥᠬᠡ ᠶ᠋ᠢᠨ ᠱᠠᠰᠢᠨ ᠪᠠ ______ ᠪᠠᠭᠲᠠᠨ᠎ᠠ ᠃,"ᠴᠡᠭ ᠦᠨ ᠣᠷᠣᠨ ᠳᠤ ᠲᠣᠬᠢᠷᠠᠬᠤ ᠦᠭᠡ ᠨᠢ ᠄
+
+**ᠪᠤᠷᠬᠠᠨ ᠤ ᠱᠠᠰᠢᠨ** (ᠡᠰᠡᠪᠡᠯ **ᠪᠤᠳᠳ᠋ᠾᠠ ᠶᠢᠨ ᠱᠠᠰᠢᠨ**)
+
+ᠪᠦᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠄
+> ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠲᠡᠦᠬᠡᠨ ᠳ᠋ᠦ ᠰᠢᠲᠦᠵᠦ ᠥᠩᠭᠡᠷᠡᠭᠰᠡᠨ ᠱᠠᠰᠢᠨ ᠰᠤᠷᠲᠠᠬᠤᠨ ᠳ᠋ᠤ ᠪᠥᠭᠡ ᠶ᠋ᠢᠨ ᠱᠠᠰᠢᠨ ᠪᠠ **ᠪᠤᠷᠬᠠᠨ ᠤ ᠱᠠᠰᠢᠨ** ᠪᠠᠭᠲᠠᠨ᠎ᠠ ᠃
+
+*(Кирилл: Монгол үндэстний түүхэнд шүтэж өнгөрсөн шашин суртахуунд бөөгийн шашин ба **бурхны шашин** (буддын шашин) багтана.)*",200,,,gen-1791169425-R4YHtFgqK402KtrVBENe,,
+p1-Q06-mn,1,Q06,mn,google/gemini-3.8-flash,ok,11.283628398552537,9.874852533452213,2.2837747652083635,unknown,0,105,1592,stop,0,90,91,2026-10-05T03:03:55.739470+00:00,ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠬᠠᠷᠢᠯᠴᠠᠨ ᠳᠠᠭᠤᠯᠠᠬᠤ ᠳᠠᠭᠤᠤ ᠶ᠋ᠢ ______ ᠭᠡᠳᠡᠭ ᠃,"ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠬᠠᠷᠢᠯᠴᠠᠨ ᠳᠠᠭᠤᠯᠠᠬᠤ ᠳᠠᠭᠤᠤ ᠶ᠋ᠢ **ᠬᠠᠷᠢᠯᠴᠠᠭ᠎ᠠ ᠳᠠᠭᠤ** (ᠪᠠᠰᠠ **ᠳᠠᠢᠷᠠᠯᠴᠠᠭ᠎ᠠ ᠳᠠᠭᠤ** ᠪᠤᠶᠤ **ᠳᠠᠢᠷᠠᠯᠭ᠎ᠠ ᠳᠠᠭᠤ**) ᠭᠡᠳᠡᠭ ᠃
+
+*(Кирилл бичгээр: Монгол үндэстний харилцан дуулах дууг **харилцаа дуу** (эсвэл **дайралцаа дуу**, **дайралга дуу**) гэдэг.)*",200,,,gen-1791169435-4bQYl17T06XXB09KprHs,,
+p2-Q12-mn,2,Q12,mn,google/gemini-3.8-flash,truncated,27.856347200460732,13.269664981402457,1.8864202667027712,unknown,0,113,4091,length,52,0,197,2026-10-05T03:28:05.192364+00:00,ᠶᠡᠬᠡ ᠵᠣᠣ ᠠᠶᠢᠮᠠᠭ ᠲᠤ ᠰᠢᠷᠣᠢ ᠮᠣᠳᠣᠨ ᠪᠦᠲᠦᠴᠡ ᠲᠡᠶ ᠮᠣᠩᠭᠣᠯ ᠭᠡᠷ ᠢ ______ ᠭᠡᠳᠡᠭ ᠃,"ᠶᠡᠬᠡ ᠵᠣᠣ ᠠᠶᠢᠮᠠᠭ ᠲᠤ ᠰᠢᠷᠣᠢ ᠮᠣᠳᠣᠨ ᠪᠦᠲᠦᠴᠡ ᠲᠡᠶ ᠮᠣᠩᠭᠣᠯ ᠭᠡᠷ ᠢ **« ᠪᠤᠮᠪᠠᠭᠠᠷ »** (ᠪᠤᠮᠪᠤᠭᠤᠷ) ᠭᠡᠳᠡᠭ ᠃
+
+---
+*ᠪᠦᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠄*
+> ᠶᠡᠬᠡ ᠵᠣᠣ ᠠᠶᠢᠮᠠᠭ ᠲᠤ ᠰᠢᠷᠣᠢ ᠮᠣᠳᠣᠨ ᠪᠦᠲᠦᠴᠡ ᠲᠡᠶ ᠮᠣᠩᠭᠣᠯ ᠭᠡᠷ ᠢ **ᠪᠤᠮᠪᠠᠭᠠᠷ** ᠭᠡᠳᠡᠭ ᠃` or `«ᠲᠣᠭᠣᠷᠢᠨ ᠭᠡᠷ»` (since `ᠭᠡᠷ ᠢ` precedes the blank, filling it with `«ᠲᠣᠭᠣᠷᠢᠨ ᠭᠡᠷ»` or `«ᠲᠣᠭᠣᠷᠢᠨ»` works; usually `«ᠲᠣᠭᠣᠷᠢᠨ ᠭᠡᠷ»` or `«ᠲᠣᠭᠣᠷᠢᠨ»`).ᠶᠡᠬᠡ ᠵᠣᠣ ᠠᠶᠢᠮᠠᠭ",200,,,gen-1791170885-f5icboBkkgq7jtjoAYLE,,
+p2-Q14-en,2,Q14,en,google/gemini-3.8-flash,ok,3.1674150582402945,3.064190210774541,1.985158920288086,unknown,0,13,274,stop,21,0,0,2026-10-05T03:04:26.447145+00:00,Todo Bichig is used to accurately convey the _____ phonetics.,**Oirat** (or **Oirat Mongolian**),200,,,gen-1791169466-kpevjYlPlpVhdJn7tocB,,
+p2-Q13-en,2,Q13,en,google/gemini-3.8-flash,ok,7.566927911713719,6.379380481317639,2.415902642533183,unknown,0,12,766,stop,597,0,0,2026-10-05T03:04:31.782953+00:00,The Mongolian ethnic group's clothing usually prefers ____ color.,"The Mongolian ethnic group's traditional clothing usually prefers **bright, vibrant colors**, most notably **blue** and **white**, along with **red** and **yellow**. 
+
+Depending on the context of the question, the most iconic answers are:
+
+* **Blue:** The most revered color, symbolizing the ""Eternal Blue Sky"" (*Tengri*), loyalty, and eternity.
+* **White:** A sacred color symbolizing purity, goodness, peace, and auspiciousness (closely linked to milk and their New Year festival, *Tsagaan Sar* / ""The White Month"").
+* **Red and Yellow:** Widely used colors symbolizing fire, joy, the sun, warmth, and prosperity (also heavily influenced by Tibetan Buddhism).
+
+*(If this is a standard single-word or fill-in-the-blank test question, the expected answer is typically **blue**, **white**, or **bright/vibrant**).*",200,,,gen-1791169471-vUPuGH6tQ3NHOmj0pK1X,,
+p2-Q02-en,2,Q02,en,google/gemini-3.8-flash,ok,3.4535136995837092,2.5807192465290427,1.4028238207101822,unknown,0,18,361,stop,369,0,0,2026-10-05T03:04:41.503729+00:00,The religions that the Mongolian ethnic group has historically believed in include Shamanism and ____.,"The most prominent answer is **Tibetan Buddhism** (also commonly referred to as **Buddhism** or historically as **Lamaism**). 
+
+Historically, the two primary religions of the Mongolian people are **Shamanism (Tengrism)** and **Tibetan Buddhism** (specifically the Gelug school, which became the dominant faith starting in the 16th century). 
+
+*(Note: During the height of the Mongol Empire, smaller segments of the population also practiced **Nestorian Christianity** and **Islam**.)*",200,,,gen-1791169481-a68qLvUieswFwf90ugiZ,,
+p2-Q17-en,2,Q17,en,google/gemini-3.8-flash,ok,8.400063811801374,7.913764181546867,1.5193775463849306,unknown,0,34,1038,stop,229,0,0,2026-10-05T03:04:47.103597+00:00,"To the east of the Greater Khingan Range in Inner Mongolia, there are small parts distributed of the Liao River and the Songnen Plain, known as '____'.","Based on the geography of Inner Mongolia, the missing term is the **Songliao Plain** (or **Song-Liao Plain**; Chinese: 松辽平原). 
+
+The Songnen Plain and the Liao River (Liaohe) Plain in eastern Inner Mongolia are collectively referred to as the **Songliao Plain** (part of the greater Northeast China Plain).",200,,,gen-1791169487-VaXtPfsj2Zd5p7HvKaxM,,
+p2-Q16-en,2,Q16,en,google/gemini-3.8-flash,ok,5.118709777481854,4.719347679056227,2.0136162899434566,unknown,0,28,518,stop,214,0,0,2026-10-05T03:04:57.641582+00:00,The Hetao Plain in the southern foothills of the Yin Mountains and the ____ Plain are important agricultural production areas in the Inner Mongolia region.,"The blank is most commonly filled with the **West Liao River** (or **Xiliaohe**) Plain. 
+
+Full sentence:
+""The Hetao Plain in the southern foothills of the Yin Mountains and the **West Liao River** Plain are important agricultural production areas in the Inner Mongolia region.""",200,,,gen-1791169497-PFqhQKGbANW1lr1WSuhL,,
+p2-Q07-en,2,Q07,en,google/gemini-3.8-flash,ok,3.522989078424871,3.3321106769144535,1.7137875342741609,unknown,0,20,370,stop,100,0,0,2026-10-05T03:05:05.071930+00:00,"In Mongolian wrestling competitions, after the wrestlers perform the 'eagle dance', they immediately begin their ____.","**match** (or **bout**). 
+
+*(Note: They hand their pointed caps (*magaiz*) to their coaches/seconds, approach each other, and start grappling.)*",200,,,gen-1791169505-LXGJUHaejcEqPHSwFrj8,,
+p2-Q15-en,2,Q15,en,google/gemini-3.8-flash,ok,2.7094111684709787,2.490067061036825,1.8488895613700151,unknown,0,9,184,stop,59,0,0,2026-10-05T03:05:10.774513+00:00,The inventor of Todo bichig is _____.,The inventor of Todo bichig is **Zaya Pandita** (also known as Namkhaijamts).,200,,,gen-1791169510-QmkJA0fgOB2mni9LBB9K,,
+p2-Q18-mn,2,Q18,mn,google/gemini-3.8-flash,ok,7.6125664515420794,5.793034614995122,2.1716792350634933,unknown,0,181,1065,stop,0,62,139,2026-10-05T03:05:15.661134+00:00,ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠥᠪᠡᠷᠲᠡᠭᠡᠨ ᠵᠠᠰᠠᠬᠤ ᠣᠷᠣᠨ ᠤ ᠪᠠᠷᠠᠭᠤᠨ ᠬᠡᠰᠡᠭ ᠲᠦ ᠪᠠᠳᠠᠢ ᠶ᠋ᠢᠨ ᠵᠢᠷᠠᠨ ᠪᠠ ______  ᠡᠯᠡᠰᠦᠨ ᠴᠥᠯ ᠪᠠᠶᠢᠨ᠎ᠠ ᠃,"ᠲᠣᠬᠢᠷᠠᠬᠤ ᠦᠭᠡ ᠨᠢ᠄ **ᠲᠡᠩᠭᠡᠷᠢ** (ᠡᠰᠡᠪᠡᠯ **ᠤᠯᠠᠭᠠᠨᠪᠤᠬ᠎ᠠ**) ᠪᠣᠯᠣᠨ᠎ᠠ᠃ 
+
+ᠪᠦᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ᠄
+> ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠥᠪᠡᠷᠲᠡᠭᠡᠨ ᠵᠠᠰᠠᠬᠤ ᠣᠷᠣᠨ ᠤ ᠪᠠᠷᠠᠭᠤᠨ ᠬᠡᠰᠡᠭ ᠲᠦ ᠪᠠᠳᠠᠢ ᠶ᠋ᠢᠨ ᠵᠢᠷᠠᠨ ᠪᠠ **ᠲᠡᠩᠭᠡᠷᠢ** ᠡᠯᠡᠰᠦᠨ ᠴᠥᠯ ᠪᠠᠶᠢᠨ᠎ᠠ ᠃
+
+*(Тайлбар: Ихэвчлэн Баданжаран ба **Тэнгэр** элсэн цөл хэмээн хоршин бичигддэг.)*",200,,,gen-1791169515-gADfiluPKGUZGLHwKCbl,,
+p2-Q04-mn,2,Q04,mn,google/gemini-3.8-flash,truncated,26.471973037347198,28.055301843211055,2.276803556829691,unknown,0,365,4092,length,0,2,138,2026-10-05T03:28:35.187344+00:00,ᠲᠥᠪᠡᠳ ᠡᠴᠡ ᠤᠯᠠᠮᠵᠢᠯᠠᠭᠰᠠᠨ ᠪᠤᠳ᠋ᠳ᠋ᠾᠠ ᠶ᠋ᠢᠨ ᠱᠠᠰᠢᠨ ᠢ ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠳᠤᠮᠳᠠ ᠤᠯᠠᠮᠵᠢᠯᠠᠨ ᠳᠡᠯᠭᠡᠷᠡᠭᠦᠯᠬᠦ ᠳ᠋ᠦ ᠮᠠᠰᠢ ᠣᠯᠠᠨ ______ ᠤ ᠬᠡᠯᠪᠡᠷᠢ ᠪᠠ ᠠᠭᠤᠯᠭ᠎ᠠ ᠶ᠋ᠢ ᠰᠢᠩᠭᠡᠬᠡᠨ ᠠᠪᠬᠤ ᠪᠠ ᠠᠭᠤᠰᠤᠯᠴᠠᠭᠤᠯᠬᠤ ᠦᠭᠡᠢ ᠪᠠᠶᠢᠬᠤ ᠶ᠋ᠢᠨ ᠠᠷᠭ᠎ᠠ ᠦᠭᠡᠢ ᠃,"ᠲᠤᠰ ᠨᠥᠬᠥᠪᠦᠷᠢ ᠳᠦ ᠬᠠᠮᠤᠭ ᠤᠨ ᠣᠨᠣᠪᠴᠢᠲᠠᠢ ᠦᠭᠡ ᠪᠣᠯ ᠄
+
+**ᠪᠥᠭᠡ ᠶᠢᠨ ᠱᠠᠰᠢᠨ** *(эсᠡᠪᠡᠯ: **ᠤᠤᠭᠠᠯ ᠪᠥᠭᠡ ᠶᠢᠨ ᠱᠠᠰᠢᠨ**ᠳᠦ ᠮᠠᠰᠢ ᠣᠯᠠᠨ [ ______ ] ᠤ ᠬᠡᠯᠪᠡᠷᠢ ᠪᠠ ᠠᠭᠤᠯᠭ᠎ᠠ ᠶ᠋ᠢ ᠰᠢᠩᠭᠡᠬᠡᠨ ᠠᠪᠬᠤ ᠪᠠ ᠠᠭᠤᠰᠤᠯᠴᠠᠭᠤᠯᠬᠤ ᠦᠭᠡᠢ ᠪᠠᠶᠢᠬᠤ ᠶ᠋ᠢᠨ ᠠᠷ",200,,,gen-1791170915-hd5z2DsgCjYJBOHTH1Yt,,
+p2-Q10-mn,2,Q10,mn,google/gemini-3.8-flash,ok,15.389301540330052,22.38404894992709,1.9140074914321303,unknown,0,132,2308,stop,0,51,325,2026-10-05T03:29:03.830093+00:00,ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠲᠠᠮᠠᠬᠢ ᠶ᠋ᠢᠨ ᠲᠣᠭᠣᠭ᠎ᠠ ᠶ᠋ᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ ______  ᠪᠠᠷ ᠬᠢᠳᠡᠭ ᠃,"ᠲᠣᠬᠢᠷᠠᠬᠤ ᠦᠭᠡ ᠨᠢ ᠄ **ᠭᠣᠤᠯᠢ** (ᠪᠤᠶᠤ **ᠵᠡᠰ**᠂ **ᠮᠥᠩᠭᠥ**) ᠶᠤᠮ ᠃
+
+ᠳᠡᠭᠡᠷᠡᠬᠢ ᠵᠠᠢ ᠳ᠋ᠤ ᠭᠷᠠᠮᠮᠠᠲᠢᠺ ᠦᠨ ᠳᠦᠷᠢᠮ ᠦᠨ ᠳᠠᠭᠠᠭᠤ «**ᠭᠣᠤᠯᠢ**» (ᠭᠣᠤᠯᠢ ᠪᠠᠷ) ᠭᠡᠵᠦ ᠨᠥᠬᠦᠪᠡᠯ ᠨᠡᠩ ᠲᠣᠬᠢᠷᠠᠮᠵᠢᠲᠠᠢ ᠃
+
+ᠭᠦᠢᠴᠡᠳ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠄
+> ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠲᠠᠮᠠᠬᠢ ᠶ᠋ᠢᠨ ᠲᠣᠭᠣᠭ᠎ᠠ ᠶ᠋ᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ **ᠭᠣᠤᠯᠢ** ᠪᠠᠷ ᠬᠢᠳᠡᠭ ᠃
+
+*(ᠺᠢᠷᠢᠯ ᠪᠢᠴᠢᠭ ᠢᠶᠡᠷ ᠄ Монгол үндэстний тамхины тогоог ерөнхийдөө **гуулиар** хийдэг.)*ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠲᠠᠮᠠᠬᠢ ᠶ᠋ᠢᠨ ᠲᠣᠭᠣᠭ᠎ᠠ ᠶ᠋ᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ **ᠭᠣᠣᠯᠢ** (ᠵᠡᠰ ᠭᠣᠣᠯᠢ) ᠪᠠᠷ ᠬᠢᠳᠡᠭ ᠃
+
+*(ᠪᠦᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠄ ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠲᠠᠮᠠᠬᠢ ᠶ᠋ᠢᠨ ᠲᠣᠭᠣᠭ᠎ᠠ ᠶ᠋ᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ **ᠭᠣᠣᠯᠢ** ᠪᠠᠷ ᠬᠢᠳᠡᠭ ᠃)*",200,,,gen-1791170943-FyVg8zydiYZaaOZPx2A5,,
+p2-Q08-mn,2,Q08,mn,google/gemini-3.8-flash,ok,9.178835025057197,7.293158461339772,2.8575033470988274,unknown,0,184,1180,stop,0,0,136,2026-10-05T03:05:58.484357+00:00,ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠪᠥᠬᠡᠴᠦᠳ ᠦᠨ ᠵᠠᠷᠢᠮ ᠨᠢ ᠬᠦᠵᠦᠭᠦᠨ ᠳ᠋ᠡᠭᠡᠨ ᠡᠯᠳᠡᠪ ᠵᠦᠢᠯ ᠦᠨ ᠴᠢᠮᠡᠭ ᠲᠡᠶ ______ ᠵᠡᠭᠦᠳᠡᠭ ᠃,"ᠲᠣᠬᠢᠷᠠᠬᠤ ᠦᠭᠡ ᠨᠢ **ᠵᠠᠩᠭ᠎ᠠ** (ᠮᠥᠨ *ᠵᠠᠩᠭᠢᠶ᠎ᠠ* ᠭᠡᠵᠦ ᠪᠢᠴᠢᠳᠡᠭ) ᠪᠣᠯᠣᠨ᠎ᠠ᠃
+
+ᠪᠦᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠨᠢ᠄
+> ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠪᠥᠬᠡᠴᠦᠳ ᠦᠨ ᠵᠠᠷᠢᠮ ᠨᠢ ᠬᠦᠵᠦᠭᠦᠨ ᠳ᠋ᠡᠭᠡᠨ ᠡᠯᠳᠡᠪ ᠵᠦᠢᠯ ᠦᠨ ᠴᠢᠮᠡᠭ ᠲᠡᠶ **ᠵᠠᠩᠭ᠎ᠠ** ᠵᠡᠭᠦᠳᠡᠭ ᠃",200,,,gen-1791169558-0U9Y99VDTfyrvfeXvYfy,,
+p2-Q03-mn,2,Q03,mn,google/gemini-3.8-flash,ok,23.453167810104787,9.005235716700554,1.8201715145260096,unknown,0,305,3524,stop,0,138,554,2026-10-05T03:29:21.399965+00:00,ᠮᠣᠩᠭᠣᠯ ᠬᠥᠮᠥᠨ ᠦ ᠡᠳᠦᠷ ᠲᠣᠳᠣᠮ ᠤᠨ ᠠᠮᠢᠳᠤᠷᠠᠯ ᠂ ᠵᠢᠱᠢᠶᠡᠯᠡᠪᠡᠯ ᠨᠡᠭᠦᠵᠦ ᠪᠠᠭᠤᠬᠤ ᠂ ᠪᠣᠭᠲᠣᠯᠠᠬᠤ ᠂ ᠲᠦᠷᠦᠭᠦ ᠥᠲᠡᠯᠬᠦ ᠂ ᠡᠪᠡᠳᠴᠢᠯᠡᠵᠦ ᠦᠬᠦᠬᠦ ᠵᠡᠷᠭᠡ ᠶ᠋ᠢ ______ ᠡᠴᠠ ᠠᠰᠠᠭᠤᠵᠤ ᠠᠷᠭ᠎ᠠ ᠠᠪᠴᠢᠯ ᠠᠪᠳᠠᠭ ᠃,"ᠲᠤᠰ ᠴᠡᠭ ᠦᠨ ᠣᠷᠣᠨ ᠳᠤ ᠲᠣᠬᠢᠷᠠᠬᠤ ᠦᠭᠡ ᠨᠢ ᠄ **ᠪᠥᠭᠡ** ( ᠪᠥᠭᠡ ᠡᠴᠡ ) ᠪᠣᠯᠣᠨ᠎ᠠ᠃
+
+**ᠭᠦᠢᠴᠡᠳ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠄**
+ᠮᠣᠩᠭᠣᠯ ᠬᠥᠮᠥᠨ ᠦ ᠡᠳᠦᠷ ᠲᠣᠳᠣᠮ ᠤᠨ ᠠᠮᠢᠳᠤᠷᠠᠯ ᠂ ᠵᠢᠱᠢᠶᠡᠯᠡᠪᠡᠯ ᠨᠡᠭᠦᠵᠦ ᠪᠠᠭᠤᠬᠤ ᠂ ᠪᠣᠭᠲᠣᠯᠠᠬᠤ ᠂ ᠲᠦᠷᠦᠭᠦ ᠥᠲᠡᠯᠬᠦ ᠂ ᠡᠪᠡᠳᠴᠢᠯᠡᠵᠦ ᠦᠬᠦᠬᠦ ᠵᠡᠷᠭᠡ ᠶ᠋ᠢ **ᠪᠥᠭᠡ** ᠡᠴᠡ ᠠᠰᠠᠭᠤᠵᠤ ᠠᠷᠭ᠎ᠠ ᠠᠪᠴᠢᠯ ᠠᠪᠳᠠᠭ ᠃ 
+
+*(Кирилл бичгээр: Монгол хүний өдөр тутмын амьдрал, жишээлбэл нүүж буух, богтлох, төрөх өтлөх, өвчилж үхэх зэргийг **бөө**-гөөс асууж арга авчил авдаг.)*ᠲᠣᠬᠢᠷᠠᠬᠤ ᠦᠭᠡ ᠨᠢ ᠭᠣᠣᠯᠴᠢᠯᠠᠨ **ᠵᠤᠷᠬᠠᠢᠴᠢ** (ᠪᠤᠶᠤ **ᠯᠠᠮᠠ ᠵᠤᠷᠬᠠᠢᠴᠢ** ᠂ **ᠯᠠᠮᠠ**) ᠪᠣᠯᠤᠨ᠎ᠠ᠃
+
+ᠪᠦ᠋ᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠨᠢ᠄
+
+> ᠮᠣᠩᠭᠣᠯ ᠬᠥᠮᠥᠨ ᠦ ᠡᠳᠦᠷ ᠲᠣᠳᠣᠮ ᠤᠨ ᠠᠮᠢᠳᠤᠷᠠᠯ ᠂ ᠵᠢᠱᠢᠶᠡᠯᠡᠪᠡᠯ ᠨᠡᠭᠦᠵᠦ ᠪᠠᠭᠤᠬᠤ ᠂ ᠪᠣᠭᠲᠣᠯᠠᠬᠤ ᠂ ᠲᠦᠷᠦᠭᠦ ᠥᠲᠡᠯᠬᠦ ᠂ ᠡᠪᠡᠳᠴᠢᠯᠡᠵᠦ ᠦᠬᠦᠬᠦ ᠵᠡᠷᠭᠡ ᠶ᠋ᠢ **ᠵᠤᠷᠬᠠᠢᠴᠢ** (ᠪᠤᠶᠤ **ᠯᠠᠮᠠ**) ᠠᠴᠠ ᠠᠰᠠᠭᠤᠵᠤ ᠠᠷᠭ᠎ᠠ ᠠᠪᠴᠢᠯ ᠠᠪᠳᠠᠭ ᠃
+
+---
+
+* **ᠵᠤᠷᠬᠠᠢᠴᠢ** (зурхайч) — ᠡᠳᠦᠷ ᠰᠠᠭᠠᠳ ᠦᠵᠡᠬᠦ ᠂ ᠰᠠᠢᠨ ᠮᠠᠭᠤ ᠡᠳᠦᠷ ᠢ ᠲᠣᠭᠲᠠᠭᠠᠬᠤ ᠵᠡᠷᠭᠡ ᠳᠦ ᠵᠤᠷᠬᠠᠢᠴᠢ ᠠᠴᠠ ᠠᠰᠠᠭᠤᠳᠠᠭ᠃
+* **ᠯᠠᠮᠠ** (лам) / **ᠯᠠᠮᠠ ᠵᠤᠷᠬᠠᠢᠴᠢ** (лам зурхайч) — ᠱᠠᠰᠢᠨ ᠂ ᠵᠠᠩ ᠦᠢᠯᠡ ᠶᠢᠨ ᠦᠵᠡᠯ ᠪᠠᠷᠢᠮᠲᠠᠯᠠᠯ ᠤᠨ ᠡᠭᠦᠳᠡᠨ ᠡᠴᠡ ᠠᠷᠭ᠎ᠠ ᠵᠠᠰᠠᠯ ᠂ ᠨᠣᠮ ᠤᠩᠰᠢᠭᠤᠯᠬᠤ ᠳᠤ ᠬᠡᠷᠡᠭᠯᠡᠭᠳᠡᠨ᠎ᠡ᠃",200,,,gen-1791170961-w3ldxCcJyxAdzG6gUbVv,,
+p2-Q07-mn,2,Q07,mn,google/gemini-3.8-flash,ok,14.243272247724235,11.467300850898027,3.119288383051753,unknown,0,181,1982,stop,0,19,183,2026-10-05T03:06:27.137444+00:00,ᠮᠣᠩᠭᠣᠯ ᠪᠥᠬᠡᠴᠦᠳ ︽ ᠪᠦᠷᠭᠦᠳ ᠦᠨ ᠳᠡᠪᠢᠯᠲᠡ ︾ ᠶ᠋ᠢ ᠦᠰᠦᠷᠴᠦ ᠪᠠᠷᠠᠭᠰᠠᠨ ᠤ ᠳᠠᠷᠠᠭ᠎ᠠ ᠂ ᠲᠡᠳᠡ ᠳᠠᠷᠤᠢ ______ ᠡᠬᠢᠯᠡᠨ᠎ᠡ ᠃,"ᠲᠤᠰ ᠨᠥᠬᠦᠬᠦ ᠵᠠᠢ ᠳᠤ ᠳᠠᠷᠠᠭᠠᠬᠢ ᠦᠭᠡᠰ ᠦᠨ ᠠᠯᠢ ᠨᠢᠭᠡᠨ ᠢ ᠣᠷᠣᠭᠤᠯᠵᠤ ᠪᠣᠯᠨ᠎ᠠ᠄
+
+* **ᠪᠠᠷᠢᠯᠳᠤᠵᠤ** (барилдаж)
+* ᠡᠰᠡᠪᠡᠯ **ᠪᠠᠷᠢᠯᠳᠤᠭᠠᠨ ᠢᠶᠠᠨ** (барилдаанаа)
+
+**ᠪᠦᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ᠄**
+> ᠮᠣᠩᠭᠣᠯ ᠪᠥᠬᠡᠴᠦᠳ ︽ ᠪᠦᠷᠭᠦᠳ ᠦᠨ ᠳᠡᠪᠢᠯᠲᠡ ︾ ᠶ᠋ᠢ ᠦᠰᠦᠷᠴᠦ ᠪᠠᠷᠠᠭᠰᠠᠨ ᠤ ᠳᠠᠷᠠᠭ᠎ᠠ ᠂ ᠲᠡᠳᠡ ᠳᠠᠷᠤᠢ **ᠪᠠᠷᠢᠯᠳᠤᠵᠤ** (ᠪᠠᠷᠢᠯᠳᠤᠭᠠᠨ ᠢᠶᠠᠨ) ᠡᠬᠢᠯᠡᠨ᠎ᠡ ᠃",200,,,gen-1791169587-GoarvMA0zp8Htcf8e5T0,,
+p2-Q17-mn,2,Q17,mn,google/gemini-3.8-flash,ok,15.467936500906944,13.3604357521981,2.900748012587428,unknown,0,313,2516,stop,0,0,500,2026-10-05T03:29:47.040378+00:00,ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠣᠷᠣᠨ ᠤ ᠶᠡᠬᠡ ᠬᠢᠩᠭᠠᠨ ᠳᠠᠪᠠᠭ᠎ᠠ ᠡᠴᠠ ᠵᠡᠭᠦᠨᠰᠢᠬᠢ ᠭᠠᠵᠠᠷ ᠲᠤ ᠯᠢᠶᠣᠤ ᠾᠧ ᠭᠣᠣᠯ ᠪᠠ ᠰᠤᠩᠭᠠᠷᠢ ᠮᠥᠷᠡᠨ ᠨᠤᠨ ᠮᠥᠷᠡᠨ ᠦ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠤᠨ ᠪᠠᠭ᠎ᠠ ᠬᠡᠰᠡᠭ ᠲᠠᠷᠬᠠᠯᠲᠠ ᠪᠣᠢ ᠃ ᠡᠨᠡ ᠨᠢ  ︵︽     ︾ ︶ ᠭᠡᠵᠦ ᠠᠯᠳᠠᠷᠰᠢᠪᠠ ᠃,"ᠲᠤᠰ ᠠᠰᠠᠭᠤᠯᠲᠠ ᠶᠢᠨ ᠨᠥᠬᠥᠬᠦ ᠦᠭᠡ ᠨᠢ᠄
+
+**ᠰᠦᠩ ᠯᠢᠶᠣᠤ ᠶᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ** *(ᠪᠠᠰᠠ ᠵᠡᠭᠦᠨ ᠬᠣᠶᠢᠲᠤ ᠶᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠭᠡᠵᠦ ᠪᠣᠯᠣᠨ᠎ᠠ)* ᠪᠣᠯᠣᠨ᠎ᠠ᠃
+
+ᠪᠦ᠋ᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠨᠢ᠄
+> ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠣᠷᠣᠨ ᠤ ᠶᠡᠬᠡ ᠬᠢᠩᠭᠠᠨ ᠳᠠᠪᠠᠭ᠎ᠠ ᠡᠴᠠ ᠵᠡᠭᠦᠨᠰᠢᠬᠢ ᠭᠠᠵᠠᠷ ᠲᠤ ᠯᠢᠶᠣᠤ ᠾᠧ ᠭᠣᠣᠯ ᠪᠠ ᠰᠤᠩᠭᠠᠷᠢ ᠮᠥᠷᠡᠨ ᠨᠤᠨ ᠮᠥᠷᠡᠨ ᠦ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠤᠨ ᠪᠠᠭ᠎ᠠ ᠬᠡᠰᠡᠭ ᠲᠠᠷᠬᠠᠯᠲᠠ ᠪᠣᠢ ᠃ ᠡᠨᠡ ᠨᠢ ︵︽ **ᠰᠦᠩ ᠯᠢᠶᠣᠤ ᠶᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ** ︾ ︶ ᠭᠡᠵᠦ ᠠᠯᠳᠠᠷᠰᠢᠪᠠ ᠃ᠲᠣᠬᠢᠷᠠᠬᠤ ᠬᠠᠷᠢᠭᠤᠯᠲᠠ ᠨᠢ᠄
+
+**ᠵᠡᠭᠦᠨ ᠬᠣᠶᠢᠲᠤ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ** （ᠪᠠᠰᠠ **ᠰᠤᠩᠯᠢᠶᠣᠤ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ** ᠭᠡᠵᠦ ᠪᠢᠴᠢᠵᠦ ᠪᠣᠯᠤᠨ᠎ᠠ）
+
+---
+*ᠪᠦᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ᠄*
+> ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠣᠷᠣᠨ ᠤ ᠶᠡᠬᠡ ᠬᠢᠩᠭᠠᠨ ᠳᠠᠪᠠᠭ᠎ᠠ ᠡᠴᠠ ᠵᠡᠭᠦᠨᠰᠢᠬᠢ ᠭᠠᠵᠠᠷ ᠲᠤ ᠯᠢᠶᠣᠤ ᠾᠧ ᠭᠣᠣᠯ ᠪᠠ ᠰᠤᠩᠭᠠᠷᠢ ᠮᠥᠷᠡᠨ ᠨᠤᠨ ᠮᠥᠷᠡᠨ ᠦ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠤᠨ ᠪᠠᠭ᠎ᠠ ᠬᠡᠰᠡᠭ ᠲᠠᠷᠬᠠᠯᠲᠠ ᠪᠣᠢ ᠃ ᠡᠨᠡ ᠨᠢ ︵︽ **ᠵᠡᠭᠦᠨ ᠬᠣᠶᠢᠲᠤ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ** ︾ ︶ ᠭᠡᠵᠦ ᠠᠯᠳᠠᠷᠰᠢᠪᠠ ᠃",200,,,gen-1791170987-yt2Y7n5XLR1wUtdOJxky,,
+p2-Q13-mn,2,Q13,mn,google/gemini-3.8-flash,ok,11.760048643685877,8.919588219374418,2.3108509853482246,unknown,0,128,1561,stop,0,94,206,2026-10-05T03:06:58.887186+00:00,ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠤᠨ ᠬᠤᠪᠴᠠᠰᠤ ᠬᠤᠨᠠᠷ ᠨᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ ______ ᠥᠩᠭᠡ ᠶ᠋ᠢ ᠬᠡᠷᠡᠭᠯᠡᠳᠡᠭ ᠃,"ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠤᠨ ᠬᠤᠪᠴᠠᠰᠤ ᠬᠤᠨᠠᠷ ᠨᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ **ᠲᠣᠳᠣ ᠬᠤᠷᠴᠠ** (ᠪᠤᠶᠤ **ᠭᠡᠭᠡᠭᠡᠯᠢᠭ**) ᠥᠩᠭᠡ ᠶ᠋ᠢ ᠬᠡᠷᠡᠭᠯᠡᠳᠡᠭ ᠃
+
+---
+
+*ᠲᠠᠢᠯᠪᠤᠷᠢ (ᠺᠢᠷᠢᠯ ᠪᠢᠴᠢᠭ ᠢᠶᠡᠷ):*
+> «Монголчуудын хувцас хунар нь ерөнхийдөө **тод хурц** (эсвэл **гэгээлэг**) өнгийг хэрэглэдэг.»
+
+ᠬᠡᠷᠪᠡ ᠲᠣᠭᠲᠠᠭᠰᠠᠨ ᠲᠣᠳᠣᠷᠬᠠᠢ ᠥᠩᠭᠡ ᠶᠢ ᠨᠡᠷᠡᠯᠡᠬᠦ ᠪᠣᠯ:
+* **ᠬᠥᠬᠡ᠂ ᠤᠯᠠᠭᠠᠨ᠂ ᠰᠢᠷ᠎ᠠ᠂ ᠨᠣᠭᠣᠭᠠᠨ᠂ ᠴᠠᠭᠠᠨ** (хөх, улаан, шар, ногоон, цагаан) ᠵᠡᠷᠭᠡ ᠪᠡᠯᠭᠡᠳᠡᠯ ᠪᠦᠬᠦᠢ ᠥᠩᠭᠡ ᠶᠢ ᠭᠣᠣᠯᠴᠢᠯᠠᠨ ᠬᠡᠷᠡᠭᠯᠡᠳᠡᠭ ᠪᠢᠯᠡ᠃",200,,,gen-1791169619-8N7vHw407OZmX7SBIztU,,
+p2-Q09-en,2,Q09,en,google/gemini-3.8-flash,ok,2.9392671966925263,2.6049516815692186,1.6242789784446359,unknown,0,12,286,stop,239,0,0,2026-10-05T03:07:12.792440+00:00,One of the important festivals of the Mongolian ethnicity is ____.,"One of the important festivals of the Mongolian ethnicity is the **Naadam Festival** (or **Tsagaan Sar**, the White Moon / Lunar New Year). 
+
+*(Note: **Naadam**, which features traditional sports like wrestling, horse racing, and archery, is the most widely recognized cultural festival of the Mongolian people).*",200,,,gen-1791169632-A4JOGAeXv1DLixzqQGDo,,
+p2-Q06-en,2,Q06,en,google/gemini-3.8-flash,ok,8.498388286679983,7.66833236720413,1.8044443614780903,unknown,0,8,1130,stop,364,11,0,2026-10-05T03:07:17.873464+00:00,The Mongolian counterpart singing is called ____.,"Depending on the context, this most likely refers to:
+
+1. **Khariltsaa duu** (Харилцаа дуу) – Literally translated as **""dialogue song""** or **""counterpart singing,""** this is a traditional responsive or antiphonal style where two singers (often a man and a woman) sing alternating verses back and forth.
+
+---
+
+*(Note: If the question refers to Mongolia's famous throat/overtone singing tradition—often discussed in contrast to Inuit or Tuvan traditions—it is called **Khoomei** or **Khöömii**).*",200,,,gen-1791169637-16Ka982KyHgUADcCB7q5,,
+p2-Q19-en,2,Q19,en,google/gemini-3.8-flash,ok,1.9229797022417188,1.754893763922155,1.359436322003603,unknown,0,20,181,stop,131,0,0,2026-10-05T03:07:28.522152+00:00,"At the traditional Naadam Festival, only competitions of ____, horse racing, and wrestling are held.","At the traditional Naadam Festival, only competitions of **archery**, horse racing, and wrestling are held. (These are traditionally known as the ""Three Games of Men."")",200,,,gen-1791169648-E9n3RAS1zmXWA6MUS70q,,
+p2-Q15-mn,2,Q15,mn,google/gemini-3.8-flash,ok,4.8111764611676335,3.9625868909060955,1.9978130301460624,unknown,0,53,617,stop,0,53,61,2026-10-05T03:07:32.623744+00:00,ᠲᠣᠳᠣ ᠪᠢᠴᠢᠭ ᠦᠨ ᠡᠭᠦᠳᠦᠭᠴᠢ ᠨᠢ  ______ ᠃,"ᠲᠣᠳᠣ ᠪᠢᠴᠢᠭ ᠦᠨ ᠡᠭᠦᠳᠦᠭᠴᠢ ᠨᠢ **ᠵᠠᠶᠠ ᠪᠠᠨᠳᠢᠳᠠ ᠨᠠᠮᠬᠠᠶᠢᠵᠠᠮᠴᠣ** (ᠵᠠᠶᠠ ᠪᠠᠨᠳᠢᠳᠠ) ᠪᠣᠯᠣᠨ᠎ᠠ᠃
+
+*(Кирилл үсгээр: Тод бичгийн үүсгэгч нь **Зая бандида Намхайжамц** юм.)*",200,,,gen-1791169652-3fZNWXZ0XbqQ6yO4eSn9,,
+p2-Q01-en,2,Q01,en,google/gemini-3.8-flash,ok,6.449747457168996,6.3413753397762775,1.786613036878407,unknown,0,20,665,stop,5,0,0,2026-10-05T03:07:39.596335+00:00,The two religions that are still believed by a minority among the Mongolian ethnic group are Christianity and ____.,**Islam**,200,,,gen-1791169659-FAX97cqCczr1fqgjJjxG,,
+p2-Q16-mn,2,Q16,mn,google/gemini-3.8-flash,ok,21.545226701535285,26.31717002298683,2.516843023709953,unknown,0,255,3176,stop,0,111,259,2026-10-05T03:30:04.646822+00:00,ᠮᠤᠨᠢ ᠠᠭᠤᠯᠠ ᠶ᠋ᠢᠨ ᠡᠮᠦᠨ᠎ᠡ ᠬᠣᠷᠮᠣᠢ ᠶ᠋ᠢᠨ ᠪᠣᠷᠣᠳᠣᠬᠣᠢ ᠶ᠋ᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠪᠠ ______ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠪᠣᠯ ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠣᠷᠣᠨ ᠤ ᠴᠢᠬᠤᠯᠠ ᠲᠠᠷᠢᠶᠠᠯᠠᠩ ᠤᠨ ᠦᠢᠯᠡᠳᠪᠦᠷᠢᠯᠡᠯ ᠦᠨ ᠣᠷᠣᠨ ᠪᠣᠯᠣᠨ᠎ᠠ ᠃,"ᠲᠤᠰ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠤᠨ ᠨᠥᠬᠥᠬᠡᠰᠢ ᠨᠢ ᠭᠣᠣᠯᠳᠠᠭᠤ ᠨᠢ **ᠲᠦᠮᠡᠳ ᠦᠨ** (ᠡᠰᠡᠪᠡᠯ **ᠲᠦᠮᠡᠳ**) ᠪᠣᠯᠣᠨ᠎ᠠ᠃
+
+ᠪᠦᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠲᠤᠰ ᠨᠥᠬᠦᠬᠦ ᠦᠭᠡ ᠪᠣᠯ ᠄ **ᠲᠦᠮᠡᠳ ᠦᠨ** (ᠡᠰᠡᠪᠡᠯ **ᠲᠦᠮᠡᠳ**) ᠪᠣᠯᠣᠨ᠎ᠠ ᠃
+
+ᠪᠦ᠋ᠷᠢᠨ ᠥᠬᠢᠦᠯᠪᠦᠷᠢ ᠄
+> ᠮᠤᠨᠢ ᠠᠭᠤᠯᠠ ᠶ᠋ᠢᠨ ᠡᠮᠦᠨ᠎ᠡ ᠬᠣᠷᠮᠣᠢ ᠶ᠋ᠢᠨ ᠪᠣᠷᠣᠳᠣᠬᠣᠢ ᠶ᠋ᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠪᠠ **ᠲᠦᠮᠡᠳ ᠦᠨ** ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠪᠣᠯ ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠣᠷᠣᠨ ᠤ ᠴᠢᠬᠤᠯᠠ ᠲᠠᠷᠢᠶᠠᠯᠠᠩ ᠤᠨ ᠦᠢᠯᠡᠳᠪᠦᠷᠢᠯᠡᠯ ᠦᠨ ᠣᠷᠣᠨ ᠪᠣᠯᠣᠨ᠎ᠠ ᠃
+
+*(ᠺᠢᠷᠢᠯ ᠦᠰᠦᠭ ᠢᠶ᠋ᠡᠷ: Муна уулын өвөр хормойн Бортохойн тал газар ба **Түмэдийн** тал газар бол Өвөр Монгол орны чухал тариалангийн үйлдвэрлэлийн орон болно.)*",200,,,gen-1791171004-KxgOKaK5UvIA587g7e7m,,
+p2-Q09-mn,2,Q09,mn,google/gemini-3.8-flash,ok,6.152723518200219,5.029391559772193,1.9120560390874743,unknown,0,100,906,stop,0,36,84,2026-10-05T03:08:04.442219+00:00,ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠴᠢᠬᠤᠯᠠ ᠪᠠᠶᠠᠷ ᠤᠨ ᠡᠳᠦᠷ ᠦᠨ ᠨᠢᠭᠡ ᠪᠣᠯ ______ ᠃,"ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠴᠢᠬᠤᠯᠠ ᠪᠠᠶᠠᠷ ᠤᠨ ᠡᠳᠦᠷ ᠦᠨ ᠨᠢᠭᠡ ᠪᠣᠯ **ᠴᠠᠭᠠᠨ ᠰᠠᠷᠠ** (ᠪᠤᠶᠤ **ᠨᠠᠭᠠᠳᠤᠮ**) ᠪᠣᠯᠣᠨ᠎ᠠ᠃
+
+---
+*Сонголтууд (хувилбарууд):*
+* **ᠴᠠᠭᠠᠨ ᠰᠠᠷᠠ** (Цагаан сар)
+* **ᠨᠠᠭᠠᠳᠤᠮ** (Наадам)",200,,,gen-1791169684-NO0K3vxYSnWTyGoWimE6,,
+p2-Q12-en,2,Q12,en,google/gemini-3.8-flash,ok,18.161700481548905,23.975110891275108,1.767391229979694,unknown,0,21,2165,stop,490,0,0,2026-10-05T03:30:28.345519+00:00,"In the Yeke-juu League area, some Mongolian yurts with wooden structures are called ____.","In the Yeke-juu League (now Ordos City) area, Mongolian yurts or dwellings with wooden/timber structures are commonly called **Baishing** (拜兴 / *bayising*, meaning ""house"" or ""wooden/permanent structure""). 
+
+Other related terms used in this context include:
+* **Modon ger** (木包 / 木骨包) — literally ""wooden yurt"" or wooden-framed ger.
+* **Ordo** (斡尔朵) — used specifically for the historic palatial, wooden-framed shrine yurts (from which *Ordos* derives its name).In the Yeke-juu League (Ordos) area of Inner Mongolia, wooden-structured, multi-faceted Mongolian yurts are traditionally called **Baileng bao** (百楞包 or 百棱包, literally *""hundred-ridge yurt""* / polygonal yurt).",200,,,gen-1791171028-KVIkjrtTyrNdhSzSyC1G,,
+p2-Q08-en,2,Q08,en,google/gemini-3.8-flash,ok,5.935564564540982,5.2443479569628835,2.4318904196843505,unknown,0,12,515,stop,288,0,0,2026-10-05T03:08:31.783424+00:00,Some Mongolian wrestlers wear colorful ornaments around their necks called ____.,"Some Mongolian wrestlers wear colorful ornaments around their necks called a **jangga** (also spelled *janga* or *zangga*). 
+
+The *jangga* is a necklace made of colorful silk ribbons or scarves (*hadag*) that is traditionally awarded only to wrestlers who have attained a high rank or title of distinction. Each ribbon often represents a victory, title, or blessing.",200,,,gen-1791169711-YrYQzC57TPJr2ReskGM3,,
+p2-Q05-mn,2,Q05,mn,google/gemini-3.8-flash,ok,15.41021012980491,12.429464772343636,2.487202369607985,unknown,0,74,1880,stop,0,108,152,2026-10-05T03:08:39.883233+00:00,ᠬᠠᠮᠤᠭ ᠡᠷᠲᠡᠨ ᠦ ᠮᠣᠷᠢᠨ ᠬᠤᠭᠤᠷ ᠢ ______ ᠭᠡᠳᠡᠭ ᠃,"ᠲᠤᠰ ᠴᠡᠭ ᠦᠨ ᠣᠷᠣᠨ ᠳᠤ ᠶᠡᠷᠦᠩᠬᠡᠢ ᠳᠦ ᠪᠡᠨ **«ᠢᠬᠡᠯ»** (ᠮᠣᠩ᠋ᠭᠣᠯ ᠪᠢᠴᠢᠭ᠄ ᠢᠬᠡᠯ ᠂ ᠺᠢᠷᠢᠯ᠄ *Ихэл*) ᠪᠤᠶᠤ **«ᠬᠢᠯᠭᠠᠰᠤᠨ ᠬᠤᠭᠤᠷ»** (ᠺᠢᠷᠢᠯ᠄ *Хялгасан хуур*) ᠭᠡᠵᠦ ᠨᠥᠬᠦᠨ ᠪᠢᠴᠢᠨ᠎ᠡ᠃
+
+ᠪᠦᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ᠄
+> ᠬᠠᠮᠤᠭ ᠡᠷᠲᠡᠨ ᠦ ᠮᠣᠷᠢᠨ ᠬᠤᠭᠤᠷ ᠢ **ᠢᠬᠡᠯ** (ᠡᠰᠡᠪᠡᠯ **ᠬᠢᠯᠭᠠᠰᠤᠨ ᠬᠤᠭᠤᠷ**) ᠭᠡᠳᠡᠭ ᠃
+
+*(Тайлбар: Морин хуурын хамгийн эртний хэлбэр буюу өвөг хөгжмийг «Ихэл хуур» эсвэл «Хялгасан хуур» хэмээн нэрлэдэг).*",200,,,gen-1791169719-DSZfzn2bl9BVH7O5pjgN,,
+p2-Q20-mn,2,Q20,mn,google/gemini-3.8-flash,ok,30.217964799143374,25.97493723873049,1.5258523998782039,unknown,0,109,3340,stop,0,34,505,2026-10-05T03:30:48.681124+00:00,ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠮᠠᠭᠲᠠᠭᠠᠯ ᠦᠭᠡ ᠨᠢ ______ ᠭᠡᠵᠦ ᠨᠡᠷᠡᠯᠡᠭᠳᠡᠵᠡᠢ ᠃,"ᠡᠨᠡᠬᠦ ᠠᠰᠠᠭᠤᠯᠲᠠ ᠶᠢᠨ ᠬᠠᠷᠢᠭᠤ ᠨᠢ ᠬᠠᠮᠢᠶᠠᠷᠤᠬᠤ ᠠᠭᠤᠯᠭ᠎ᠠ ᠪᠠ ᠨᠥᠬᠴᠥᠯ ᠪᠠᠶᠢᠳᠠᠯ ᠠᠴᠠ ᠪᠠᠨ ᠬᠠᠮᠢᠶᠠᠷᠴᠤ ᠳᠠᠷᠠᠭᠠᠬᠢ ᠪᠠᠶᠢᠳᠠᠯ ᠢᠶᠠᠷ ᠨᠥᠬᠥᠭᠳᠡᠨ᠎ᠡ᠄
+
+1. **ᠠᠮᠠᠨ ᠵᠣᠬᠢᠶᠠᠯ ᠤᠨ ᠲᠥᠷᠥᠯ ᠵᠦᠢᠯ ᠦᠨ ᠬᠤᠪᠢ ᠳᠤ (Уран зохиол, аман зохиолын хувьд):**
+   * **«ᠮᠠᠭᠲᠠᠭᠠᠯ»** (Магтаал) — ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠶᠡᠷᠦᠭᠡᠯ ᠮᠠᠭᠲᠠᠭᠠᠯ ᠤᠨ ᠵᠣᠬᠢᠶᠠᠯ ᠳᠤ ᠮᠠᠭᠲᠠᠨ ᠰᠠᠶᠢᠰᠢᠶᠠᠬᠤ ᠦᠭᠡ ᠶᠢ ᠶᠡᠷᠦᠩᠬᠡᠶᠢᠯᠡᠨ **«ᠮᠠᠭᠲᠠᠭᠠᠯ»** ᠭᠡᠨ᠎ᠡ᠃
+   *(ᠬᠢᠲᠠᠳ ᠬᠡᠯᠡᠨ ᠦ ᠰᠣᠶᠣᠯ ᠤᠷᠠᠨ ᠵᠣᠬᠢᠶᠠᠯᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠠᠮᠠᠨ ᠵᠣᠬᠢᠶᠠᠯ ᠪᠣᠯᠣᠨ ᠶᠣᠰᠣ ᠵᠠᠩᠰᠢᠯ ᠳᠤ ᠮᠠᠭᠲᠠᠨ ᠰᠠᠢᠰᠢᠶᠠᠬᠤ ᠤᠳᠬᠠᠲᠠᠢ ᠦᠭᠡ ᠵᠣᠬᠢᠶᠠᠯ ᠢ ᠶᠡᠷᠦᠩᠬᠡᠢ ᠳᠦ ᠪᠡᠨ **《ᠮᠠᠭᠲᠠᠭᠠᠯ》** (ᠮᠥᠨ ᠪᠥᠬᠡ᠂ ᠬᠤᠷᠳᠤᠨ ᠮᠣᠷᠢ ᠵᠡᠷᠭᠡ ᠶᠢᠨ ᠲᠤᠬᠠᠢ ᠳᠤ **《ᠴᠣᠯᠣ》**) ᠭᠡᠵᠦ ᠨᠡᠷᠡᠯᠡᠳᠡᠭ᠃ 
+
+ᠲᠤᠯᠠ ᠨᠥᠬᠦᠬᠦ ᠦᠭᠡ ᠨᠢ᠄
+
+> **ᠮᠠᠭᠲᠠᠭᠠᠯ** (ᠡᠰᠡᠪᠡᠯ **ᠴᠣᠯᠣ**)
+
+ᠪᠦᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ᠄
+> ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠮᠠᠭᠲᠠᠭᠠᠯ ᠦᠭᠡ ᠨᠢ **《ᠮᠠᠭᠲᠠᠭᠠᠯ》** (ᠪᠤᠶᠤ **《ᠴᠣᠯᠣ》**) ᠭᠡᠵᠦ ᠨᠡᠷᠡᠯᠡᠭᠳᠡᠵᠡᠢ ᠃",200,,,gen-1791171048-rvjYbaQ1wYqgjkb4YW66,,
+p2-Q18-en,2,Q18,en,google/gemini-3.8-flash,ok,3.5162203051149845,3.224190310575068,1.6626323908567429,unknown,0,20,398,stop,166,0,0,2026-10-05T03:09:15.039799+00:00,"In the western part of Inner Mongolia Autonomous Region, there are Badain Jaran and ____ deserts.","**Tengger** (or **Ulan Buh**) 
+
+Most commonly, it refers to the **Tengger** Desert, as the Badain Jaran and Tengger deserts are the two largest and most prominent deserts located in western Inner Mongolia's Alxa League.",200,,,gen-1791169755-FKpI8gZgYyfnpKTIdBAp,,
+p2-Q03-en,2,Q03,en,google/gemini-3.8-flash,ok,9.488382653333247,7.940767639316618,2.4339628433808684,unknown,0,40,935,stop,601,0,0,2026-10-05T03:09:20.742152+00:00,"In the daily life of the Mongolian people, activities such as moving camps, marriage, birth, aging, sickness, and death are all prognosticated for fortune and misfortune, and transcendence by ____.","Based on traditional Mongolian culture and historical ethnographic studies, the blank is most accurately filled by **lamas** (Tibetan Buddhist monks) or **shamans** (traditionally), with **lamas** being the most precise fit for this specific phrase. 
+
+In Mongolian society, particularly after the widespread adoption of Tibetan Buddhism:
+* **Lamas** (Tibetan Buddhist monks) were consulted to cast astrological charts (*zurkhai*) to divine auspicious days for major life events (birth, marriage, seasonal migration/moving camps) and to conduct prayers and death rituals (transcendence/deliverance of the soul, or *chāodù* / 超度). 
+* Historically and in certain regions, **shamans** (*böö*) performed divination and spiritual mediation for similar life-cycle events.",200,,,gen-1791169760-K6ihpskxLw22A8mOq99S,,
+p2-Q04-en,2,Q04,en,google/gemini-3.8-flash,ok,5.036003437824547,3.524557205848396,1.8840732481330633,unknown,0,22,546,stop,715,0,0,2026-10-05T03:09:32.389033+00:00,The spread of Tibetan Buddhism among the Mongolian ethnic group had to absorb and integrate many forms and contents of ____.,"**Shamanism** (specifically, **traditional Mongolian Shamanism** or **Tengrism**).
+
+### Context:
+Before the widespread adoption of Tibetan Buddhism (Vajrayana) among the Mongols—particularly during the Yuan dynasty and its resurgence in the 16th century under Altan Khan—the indigenous religious system was **Mongolian Shamanism**. 
+
+To successfully establish itself and gain widespread acceptance among the Mongol nomadic population, Tibetan Buddhism had to syncretize with and absorb many local shamanic elements, including:
+* **Deities and spirits:** Incorporating indigenous nature spirits and ancestors into the Buddhist pantheon as protector deities (dharmapalas), such as the *White Old Man* (*Tsagaan Ebügen*).
+* **Ritual practices:** Transforming the worship of sacred stone cairns (*ovoo* ceremonies) and fire rituals into Buddhist rituals led by lamas rather than traditional shamans.",200,,,gen-1791169772-D2GqcCeLrY1syEegnRcT,,
+p2-Q02-mn,2,Q02,mn,google/gemini-3.8-flash,ok,8.706484848633409,7.188906871713698,2.6537708807736635,unknown,0,185,1212,stop,0,106,102,2026-10-05T03:09:39.587040+00:00,ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠲᠡᠦᠬᠡᠨ ᠳ᠋ᠦ ᠰᠢᠲᠦᠵᠦ ᠥᠩᠭᠡᠷᠡᠭᠰᠡᠨ ᠱᠠᠰᠢᠨ ᠰᠤᠷᠲᠠᠬᠤᠨ ᠳ᠋ᠤ ᠪᠥᠬᠡ ᠶ᠋ᠢᠨ ᠱᠠᠰᠢᠨ ᠪᠠ ______ ᠪᠠᠭᠲᠠᠨ᠎ᠠ ᠃,"ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠲᠡᠦᠬᠡᠨ ᠳ᠋ᠦ ᠰᠢᠲᠦᠵᠦ ᠥᠩᠭᠡᠷᠡᠭᠰᠡᠨ ᠱᠠᠰᠢᠨ ᠰᠤᠷᠲᠠᠬᠤᠨ ᠳ᠋ᠤ ᠪᠥᠬᠡ ᠶ᠋ᠢᠨ ᠱᠠᠰᠢᠨ ᠪᠠ **ᠪᠤᠷᠬᠠᠨ ᠤ ᠱᠠᠰᠢᠨ** (ᠪᠤᠳ᠋ᠳ᠋ᠾᠠ ᠶᠢᠨ ᠱᠠᠰᠢᠨ) ᠪᠠᠭᠲᠠᠨ᠎ᠠ ᠃
+
+---
+*(Кирилл бичгээр: Монгол үндэстний түүхэнд шүтэж өнгөрсөн шашин суртахуунд бөөгийн шашин ба **бурхны шашин** (буддын шашин) багтана.)*",200,,,gen-1791169779-etghpO4vkuCoF9EAGdbC,,
+p2-Q14-mn,2,Q14,mn,google/gemini-3.8-flash,ok,13.155905717983842,9.558871579356492,2.206917427480221,unknown,0,74,1870,stop,0,361,162,2026-10-05T03:09:50.440627+00:00,ᠲᠣᠳᠣ ᠪᠢᠴᠢᠭ ᠵᠢᠡᠷ ______ ᠶ᠋ᠢ ᠣᠨᠣᠪᠴᠢᠲᠠᠢ ᠢᠯᠡᠳᠬᠡᠳᠡᠭ ᠃,"ᠲᠣᠳᠣ ᠪᠢᠴᠢᠭ ᠢᠶᠡᠷ **«ᠡᠭᠡᠰᠢᠭ ᠠᠪᠢᠶ᠎ᠠ»** (ᠪᠣᠯᠣᠨ **«ᠠᠮᠠᠨ ᠠᠶᠠᠯᠭᠤᠨ ᠤ ᠠᠪᠢᠶ᠎ᠠ»** / **«ᠣᠢᠢᠷᠠᠳ ᠠᠶᠠᠯᠭᠤ»**) ᠶ᠋ᠢ ᠣᠨᠣᠪᠴᠢᠲᠠᠢ ᠢᠯᠡᠳᠬᠡᠳᠡᠭ᠃
+
+Гүйцээсэн өгүүлбэр:
+> **ᠲᠣᠳᠣ ᠪᠢᠴᠢᠭ ᠢᠶᠡᠷ ᠡᠭᠡᠰᠢᠭ ᠠᠪᠢᠶ᠎ᠠ ᠶᠢ ᠣᠨᠣᠪᠴᠢᠲᠠᠢ ᠢᠯᠡᠳᠬᠡᠳᠡᠭ ᠃**
+> *(Тод бичгээр эгшиг авиаг оновчтой илтгэдэг.)*
+
+---
+
+**Тайлбар:**
+Тод бичиг нь уламжлалт монгол бичгийн ижил дуудагддаг ба бичигддэг зарим эгшиг авиаг (тухайлбал: **о/у**, **ө/ү** гэх мэт) тодорхой ялгаж, бодит ярианы хэлний (ялангуяа ойрад аялгууны) **эгшиг авиаг** нарийн, оновчтой тэмдэглэх зорилгоор зохиогдсон түүхтэй. 
+
+Тиймээс тухайн асуултын хам сэдвээс хамааран дараах үгсийн аль нэг нь тохирно:
+1. **ᠡᠭᠡᠰᠢᠭ ᠠᠪᠢᠶ᠎ᠠ** *(эгшиг авиа)*
+2. **ᠣᠢᠢᠷᠠᠳ ᠠᠶᠠᠯᠭᠤ** *(ойрад аялгуу)*
+3. **ᠠᠮᠠᠨ ᠶᠠᠷᠢᠶᠠᠨ ᠤ ᠠᠪᠢᠶ᠎ᠠ** *(аман ярианы авиа)*",200,,,gen-1791169790-0EfNP1BUEsbUhNyC6lXJ,,
+p2-Q10-en,2,Q10,en,google/gemini-3.8-flash,ok,4.815761627629399,4.2941452618688345,1.749393013305962,unknown,0,13,544,stop,253,0,0,2026-10-05T03:10:05.745789+00:00,The Mongolian tobacco pipe's stem is usually made of ____.,"The Mongolian tobacco pipe’s stem (called the *ish*) is usually made of **wood** (often birch, bamboo, or precious woods like sandalwood). 
+
+In traditional Mongolian pipes (*gans*), the stem connects a metal bowl (usually silver, copper, or brass) to a mouthpiece typically carved from semi-precious stones such as jade or agate.",200,,,gen-1791169805-vHhMwyOjO3sVa6wheWnu,,
+p2-Q05-en,2,Q05,en,google/gemini-3.8-flash,ok,9.098037010990083,8.373855044133961,2.240616758354008,unknown,0,9,974,stop,235,0,0,2026-10-05T03:10:12.696190+00:00,The earliest horsehead fiddle was called ____.,"The earliest ancestor of the horsehead fiddle (*morin khuur*) was called the **chao'er** (or ***chor*** / ***tsuur***). 
+
+Other historical precursors and related early bowed lutes from which it evolved include the **shanagan khuur** (a spoon-shaped fiddle) and the ancient proto-bowed instrument known as the **xiqin**.",200,,,gen-1791169812-9AnEN5ofVmiKeLUcI1pV,,
+p2-Q06-mn,2,Q06,mn,google/gemini-3.8-flash,ok,9.013846604153514,7.389336571097374,2.3798328218981624,unknown,0,105,1082,stop,0,111,129,2026-10-05T03:31:21.078664+00:00,ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠬᠠᠷᠢᠯᠴᠠᠨ ᠳᠠᠭᠤᠯᠠᠬᠤ ᠳᠠᠭᠤᠤ ᠶ᠋ᠢ ______ ᠭᠡᠳᠡᠭ ᠃,"ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠬᠠᠷᠢᠯᠴᠠᠨ ᠳᠠᠭᠤᠯᠠᠬᠤ ᠳᠠᠭᠤᠤ ᠶ᠋ᠢ **ᠬᠠᠷᠢᠯᠴᠠᠭ᠎ᠠ ᠳᠠᠭᠤᠤ** ᠭᠡᠳᠡᠭ ᠃
+
+*(ᠺᠢᠷᠢᠯ ᠦᠰᠦᠭ ᠢᠶ᠋ᠡᠷ: Монгол үндэстний харилцан дуулах дууг **харилцаа дуу** гэдэг.)*ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠬᠠᠷᠢᠯᠴᠠᠨ ᠳᠠᠭᠤᠯᠠᠬᠤ ᠳᠠᠭᠤᠤ ᠶ᠋ᠢ **ᠬᠠᠷᠢᠯᠴᠠᠭ᠎ᠠ ᠳᠠᠭᠤᠤ** ᠭᠡᠳᠡᠭ ᠃
+
+*(Кирилл бичгээр: Монгол үндэстний харилцан дуулах дууг **харилцаа дуу** гэдэг.)*",200,,,gen-1791171081-X1u9PQvkOPkmZLdYqQgg,,
+p2-Q11-mn,2,Q11,mn,google/gemini-3.8-flash,truncated,25.994542646221817,21.520692746154964,2.3040739921852946,unknown,0,153,4092,length,0,99,630,2026-10-05T03:31:32.258272+00:00,ᠵᠡᠭᠦᠨ ᠣᠷᠣᠨ ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠬᠦᠷᠭᠡᠨ ᠠᠪᠬᠤ ᠶ᠋ᠢ ______ ᠭᠡᠳᠡᠭ ᠃ ᠂ ᠲᠤᠬᠠᠶᠢᠯᠠᠪᠠᠯ ᠬᠥᠯᠥᠰᠦᠯᠡᠭᠰᠡᠨ ᠬᠦᠷᠭᠡᠨ ᠃,"ᠲᠤᠰ ᠴᠢᠯᠢᠭᠡᠳᠡᠬᠢ ᠵᠠᠢ ᠳᠤ ᠶᠡᠷᠦᠩᠬᠡᠶᠢᠯᠡᠨ **«ᠬᠦᠷᠭᠡᠨ ᠲᠠᠲᠠᠬᠤ»** (ᠪᠣᠯᠪᠠᠰᠤ **«ᠬᠦᠷᠭᠡᠨ ᠣᠷᠣᠭᠤᠯᠬᠤ»**) ᠭᠡᠵᠦ ᠨᠡᠷᠡᠶᠢᠳᠳᠡᠭ ᠃
+
+ᠭᠦᠢᠴᠡᠭᠡᠨ ᠪᠢᠴᠢᠪᠡᠯ:
+> ᠵᠡᠭᠦᠨ ᠣᠷᠣᠨ ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠬᠦᠷᠭᠡᠨ ᠠᠪᠬᠤ ᠶ᠋ᠢ **«ᠬᠦᠷᠭᠡᠨ ᠲᠠᠲᠠᠬᠤ»** ᠭᠡᠳᠡᠭ ᠃ ᠲᠤᠬᠠᠶᠢᠯᠠᠪᠠᠯ ᠬᠥᠯᠥᠰᠦᠯᠡᠭᠰᠡᠨ ᠬᠦᠷᠭᠡᠨ ᠃
+
+*(Кирилл үсгээр: Зүүн орон монголчууд хүргэн авахыг **«хүргэн татах»** (буюу **«хүргэн оруулах»**) гэдэг. Тухайлбал хөлсөлсөн хүргэн.)*ᠲᠤᠰ ᠴᠡᠭ ᠦᠨ ᠣᠷᠣᠨ ᠳᠤ ᠨᠥᠬᠥᠬᠡ ᠶᠣᠰᠣᠲᠠᠢ ᠦᠭᠡ ᠨᠢ **«ᠬᠦᠷᠭᠡᠨ ᠲᠠᠲᠠᠬᠤ»** (ᠪᠠᠰᠠ «**ᠬᠦᠷᠭᠡᠨ ᠣᠷᠣᠭᠤᠯᠬᠤ**» ᠭᠡᠵᠦ ᠪᠠᠰᠠ ᠬᠡᠯᠡᠳᠡᠭ) ᠪᠣᠯᠣᠨ᠎ᠠ᠃
+
+---
+
+### ᠪᠦᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ:
+> **ᠵᠡᠭᠦᠨ ᠣᠷᠣᠨ ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠬᠦᠷᠭᠡᠨ ᠠᠪᠬᠤ ᠶ᠋ᠢ «ᠬᠦᠷᠭᠡᠨ ᠲᠠᠲᠠᠬᠤ» ᠭᠡᠳᠡᠭ ᠃ ᠲᠤᠬᠠᠶᠢᠯᠠᠪᠠᠯ ᠬᠥᠯᠥᠰᠦᠯᠡᠭᠰᠡᠨ ᠬᠦᠷᠭᠡᠨ ᠃**
+
+---
+
+### ᠲᠠᠶᠢᠯᠪᠤᠷᠢ:
+ᠵᠡᠭᠦᠨ ᠣᠷᠣᠨ ᠤ (ᠵᠢᠱᠢᠶᠡᠯᠡᠪᠡᠯ ᠬᠣᠷᠴᠢᠨ ᠵᠡᠷᠭᠡ) ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠤᠨ ᠤᠯᠠᠮᠵᠢᠯᠠᠯᠲᠤ ᠭᠡᠷ ᠪᠦᠯᠢ ᠶᠢᠨ ᠶᠣᠰᠣᠨ ᠳᠤ ᠬᠦᠷᠭᠡᠨ ᠣᠷᠣᠭᠤᠯᠬᠤ ᠶᠢ (ᠬᠢᠲᠠᠳ ᠢᠶᠠᠷ: 招赘 / 招婿) ᠶᠡᠬᠡᠪᠴᠢᠯᠡᠨ **«ᠬᠦᠷᠭᠡᠨ ᠲᠠᠲᠠᠬᠤ»** ᠭᠡᠳᠡᠭ᠃ ᠡᠭᠦᠨ ᠳᠦ ᠳᠣᠲᠣᠷᠠ ᠪᠠᠨ:
+1. **ᠬᠥᠯᠥᠰᠦᠯᠡᠭᠰᠡᠨ ᠬᠦᠷᠭᠡᠨ** (ᠠᠵᠢᠯ ᠬᠥᠳᠡᠯᠮᠦᠷᠢ ᠪᠡᠷ ᠨᠥᠬᠥᠵᠦ ᠣᠷᠣᠳᠣᠭ ᠬᠦᠷᠭᠡᠨ)
+2. **ᠲᠡᠵᠢᠶᠡᠪᠦᠷᠢ ᠶᠢᠨ ᠬᠦᠷᠭᠡᠨ** (ᠡᠴᠢᠭᠡ ᠡᠬᠡ ᠶᠢ ᠠᠰᠢᠷᠠᠨ ᠲᠡᠵᠢᠶᠡᠬᠦ ᠬᠦᠷᠭᠡᠨ)
+3. **ᠦᠷ᠎ᠡ ᠵᠠᠯᠭᠠᠬᠤ ᠬᠦᠷᠭᠡᠨ** (ᠤᠷᠤᠭ ᠤᠳᠤᠮ ᠢ ᠵᠠᠯᠭᠠᠮᠵᠢᠯᠠᠬᠤ ᠬᠦᠷᠭ",200,,,gen-1791171092-9TC8B1nLS47TKmKSOx9j,,
+p2-Q19-mn,2,Q19,mn,google/gemini-3.8-flash,ok,10.97883581276983,8.378832668066025,3.008051753975451,unknown,0,211,1546,stop,0,0,172,2026-10-05T03:10:54.621600+00:00,ᠤᠯᠠᠮᠵᠢᠯᠠᠯᠲᠤ ᠨᠠᠭᠠᠳᠤᠮ ᠤᠨ ᠬᠤᠷᠠᠯ ᠳᠡᠭᠡᠷ᠎ᠡ ᠵᠥᠪᠬᠡᠨ ______ ᠂ ᠮᠣᠷᠢ ᠤᠷᠤᠯᠳᠤᠬᠤ ᠪᠠ ᠪᠥᠬᠡ ᠪᠠᠷᠢᠯᠳᠤᠬᠤ ᠤᠷᠤᠯᠳᠤᠭᠠᠨ ᠶᠠᠪᠤᠭᠳᠠᠭᠤᠯᠤᠨ᠎ᠠ ᠃,"ᠲᠣᠬᠢᠷᠠᠬᠤ ᠦᠭᠡ ᠨᠢ᠄ **ᠰᠤᠮᠤ ᠬᠠᠷᠪᠤᠬᠤ** (ᠪᠤᠶᠤ **ᠰᠤᠷ ᠬᠠᠷᠪᠤᠬᠤ**) ᠪᠣᠯᠪᠠᠴᠤ ᠪᠣᠯᠣᠨ᠎ᠠ᠃
+
+ᠪᠦ᠋ᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ᠄
+> ᠤᠯᠠᠮᠵᠢᠯᠠᠯᠲᠤ ᠨᠠᠭᠠᠳᠤᠮ ᠤᠨ ᠬᠤᠷᠠᠯ ᠳᠡᠭᠡᠷ᠎ᠡ ᠵᠥᠪᠬᠡᠨ **ᠰᠤᠮᠤ ᠬᠠᠷᠪᠤᠬᠤ** (ᠰᠤᠷ ᠬᠠᠷᠪᠤᠬᠤ)᠂ ᠮᠣᠷᠢ ᠤᠷᠤᠯᠳᠤᠬᠤ ᠪᠠ ᠪᠥᠬᠡ ᠪᠠᠷᠢᠯᠳᠤᠬᠤ ᠤᠷᠤᠯᠳᠤᠭᠠᠨ ᠶᠠᠪᠤᠭᠳᠠᠭᠤᠯᠤᠨ᠎ᠠ᠃",200,,,gen-1791169854-Zobm0pFxtR5BJd4u6DhV,,
+p2-Q01-mn,2,Q01,mn,google/gemini-3.8-flash,ok,9.091692505404353,6.7607532208785415,2.4467793563380837,unknown,0,197,1229,stop,0,111,162,2026-10-05T03:11:07.794144+00:00,ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠳᠣᠲᠣᠷ᠎ᠠ ᠴᠥᠭᠡᠨ ᠲᠣᠭᠠᠨ ᠤ ᠬᠥᠮᠥᠰ ᠦᠨ ᠰᠢᠲᠦᠳᠡᠭ ᠬᠣᠶᠠᠷ ᠵᠦᠢᠯ ᠦᠨ ᠱᠠᠰᠢᠨ ᠪᠣᠯ ᠾᠷᠢᠰᠲ᠋ᠣᠰ ᠤᠨ ᠱᠠᠰᠢᠨ ᠪᠠ ______ ᠪᠣᠯᠣᠨ᠎ᠠ ᠃,"ᠨᠥᠬᠦᠬᠦ ᠦᠭᠡ ᠨᠢ ᠄ **ᠢᠰᠯᠠᠮ ᠤᠨ ᠱᠠᠰᠢᠨ** (ᠪᠣᠯᠪᠠᠰᠤ **ᠯᠠᠯᠠ ᠶᠢᠨ ᠱᠠᠰᠢᠨ**) ᠪᠣᠯᠣᠨ᠎ᠠ ᠃
+
+ᠪᠦᠳᠦᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠄
+ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠳᠣᠲᠣᠷ᠎ᠠ ᠴᠥᠭᠡᠨ ᠲᠣᠭᠠᠨ ᠤ ᠬᠥᠮᠥᠰ ᠦᠨ ᠰᠢᠲᠦᠳᠡᠭ ᠬᠣᠶᠠᠷ ᠵᠦᠢᠯ ᠦᠨ ᠱᠠᠰᠢᠨ ᠪᠣᠯ ᠾᠷᠢᠰᠲ᠋ᠣᠰ ᠤᠨ ᠱᠠᠰᠢᠨ ᠪᠠ **ᠢᠰᠯᠠᠮ ᠤᠨ ᠱᠠᠰᠢᠨ** ᠪᠣᠯᠣᠨ᠎ᠠ ᠃
+
+*(Кирилл: Монгол үндэстний дотор цөөн тооны хүмүүсийн шүтдэг хоёр зүйлийн шашин бол Христийн шашин ба **Исламын шашин** (Лалын шашин) болно.)*",200,,,gen-1791169867-OAFUJuSI7tCqgphKJE2B,,
+p2-Q11-en,2,Q11,en,google/gemini-3.8-flash,ok,12.1790461987257,11.549100464209914,1.5012182658538222,unknown,0,27,1464,stop,210,13,0,2026-10-05T03:11:19.059359+00:00,"The Eastern Mongolian people refer to recruiting a son-in-law as '____', which means a hired son-in-law.","The Eastern Mongolian people refer to recruiting a son-in-law as **“Khölsnii khürgen”** (or in Classical Mongolian transcription: **Kölsün-ü kürügen**; Cyrillic: **хөлсний хүргэн**), which literally translates to a **“hired son-in-law”** (*khöls* meaning wage/hire and *khürgen* meaning son-in-law).",200,,,gen-1791169879-jgvlVnFGltULFm0n1m05,,
+p2-Q20-en,2,Q20,en,google/gemini-3.8-flash,ok,4.773235444910824,4.061563936062157,1.9768992438912392,unknown,0,12,487,stop,279,7,0,2026-10-05T03:11:33.400307+00:00,The praise words of the Mongolian ethnic group are called ____.,"The praise words (or songs of praise) of the Mongolian ethnic group are called **Magtaal** (also spelled *Maktal* or *Магтаал*). 
+
+These are traditional poetic chants or songs used to praise sacred mountains, nature, heroic deeds, wrestling champions, or beloved horses. (They are often paired with **Yörööl**, which are traditional words of blessing or well-wishing).",200,,,gen-1791169893-m8qKTZyNpqnR93iHQSoZ,,
+p3-Q18-en,3,Q18,en,google/gemini-3.8-flash,ok,3.2372090769931674,2.830634968355298,1.6529822433367372,unknown,0,20,335,stop,174,0,0,2026-10-05T03:11:40.342025+00:00,"In the western part of Inner Mongolia Autonomous Region, there are Badain Jaran and ____ deserts.","**Tengger** (or **Tengeli**)
+
+The Badain Jaran and **Tengger** deserts are the two largest deserts located in the Alxa League of western Inner Mongolia. (A third, smaller adjacent desert in the same region is the **Ulan Buh** Desert).",200,,,gen-1791169900-DwA9e0pQBXZ7cUTUsjcB,,
+p3-Q09-mn,3,Q09,mn,google/gemini-3.8-flash,ok,5.600857442244887,4.35431369766593,2.1506322966888547,unknown,0,100,752,stop,0,69,84,2026-10-05T03:11:45.744304+00:00,ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠴᠢᠬᠤᠯᠠ ᠪᠠᠶᠠᠷ ᠤᠨ ᠡᠳᠦᠷ ᠦᠨ ᠨᠢᠭᠡ ᠪᠣᠯ ______ ᠃,"ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠴᠢᠬᠤᠯᠠ ᠪᠠᠶᠠᠷ ᠤᠨ ᠡᠳᠦᠷ ᠦᠨ ᠨᠢᠭᠡ ᠪᠣᠯ **ᠴᠠᠭᠠᠨ ᠰᠠᠷᠠ** (ᠡᠰᠡᠪᠡᠯ **ᠨᠠᠠᠳᠤᠮ**) ᠪᠣᠯᠣᠨ᠎ᠠ᠃
+
+---
+
+* **ᠴᠠᠭᠠᠨ ᠰᠠᠷᠠ** (Цагаан сар) — Хаврын тэргүүн сарын шинийн нэгний баяр
+* **ᠨᠠᠠᠳᠤᠮ** (Наадам) — Үндэсний их баяр наадам",200,,,gen-1791169905-QMrKknQYPg1S9wbkqzAM,,
+p3-Q07-en,3,Q07,en,google/gemini-3.8-flash,ok,2.7200231784954667,2.634518599137664,1.3830223195254803,unknown,0,20,275,stop,11,0,0,2026-10-05T03:11:53.487684+00:00,"In Mongolian wrestling competitions, after the wrestlers perform the 'eagle dance', they immediately begin their ____.",**match** (or **bout**),200,,,gen-1791169913-GzyxdMjR5k2lzuypAuLn,,
+p3-Q01-mn,3,Q01,mn,google/gemini-3.8-flash,ok,10.322794940322638,8.482859856449068,2.458452593535185,unknown,0,197,1399,stop,0,0,166,2026-10-05T03:11:58.392919+00:00,ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠳᠣᠲᠣᠷ᠎ᠠ ᠴᠥᠭᠡᠨ ᠲᠣᠭᠠᠨ ᠤ ᠬᠥᠮᠥᠰ ᠦᠨ ᠰᠢᠲᠦᠳᠡᠭ ᠬᠣᠶᠠᠷ ᠵᠦᠢᠯ ᠦᠨ ᠱᠠᠰᠢᠨ ᠪᠣᠯ ᠾᠷᠢᠰᠲ᠋ᠣᠰ ᠤᠨ ᠱᠠᠰᠢᠨ ᠪᠠ ______ ᠪᠣᠯᠣᠨ᠎ᠠ ᠃,"ᠲᠣᠬᠢᠷᠠᠬᠤ ᠦᠭᠡ ᠪᠣᠯ ᠄
+
+**ᠯᠠᠯ ᠤᠨ ᠱᠠᠰᠢᠨ** (ᠡᠰᠡᠪᠡᠯ **ᠢᠰᠯᠠᠮ ᠤᠨ ᠱᠠᠰᠢᠨ**)
+
+ᠪᠦᠷᠢᠨ ᠥᠬᠢᠦᠯᠪᠦᠷᠢ ᠄
+> ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠳᠣᠲᠣᠷ᠎ᠠ ᠴᠥᠭᠡᠨ ᠲᠣᠭᠠᠨ ᠤ ᠬᠥᠮᠥᠰ ᠦᠨ ᠰᠢᠲᠦᠳᠡᠭ ᠬᠣᠶᠠᠷ ᠵᠦᠢᠯ ᠦᠨ ᠱᠠᠰᠢᠨ ᠪᠣᠯ ᠾᠷᠢᠰᠲ᠋ᠣᠰ ᠤᠨ ᠱᠠᠰᠢᠨ ᠪᠠ **ᠯᠠᠯ ᠤᠨ ᠱᠠᠰᠢᠨ** (ᠢᠰᠯᠠᠮ ᠤᠨ ᠱᠠᠰᠢᠨ) ᠪᠣᠯᠣᠨ᠎ᠠ ᠃",200,,,gen-1791169918-WrZLbIKziZtUtdseGkOt,,
+p3-Q11-mn,3,Q11,mn,google/gemini-3.8-flash,ok,22.60798531025648,20.560280872508883,1.9479644792154431,unknown,0,153,3385,stop,0,140,617,2026-10-05T03:32:00.436346+00:00,ᠵᠡᠭᠦᠨ ᠣᠷᠣᠨ ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠬᠦᠷᠭᠡᠨ ᠠᠪᠬᠤ ᠶ᠋ᠢ ______ ᠭᠡᠳᠡᠭ ᠃ ᠂ ᠲᠤᠬᠠᠶᠢᠯᠠᠪᠠᠯ ᠬᠥᠯᠥᠰᠦᠯᠡᠭᠰᠡᠨ ᠬᠦᠷᠭᠡᠨ ᠃,"ᠲᠤᠰ ᠴᠡᠭ ᠦᠨ ᠣᠷᠣᠨ ᠳᠤ ᠨᠥᠬᠦᠪᠡᠯ ᠵᠣᠬᠢᠬᠤ ᠦᠭᠡ ᠨᠢ **«ᠬᠦᠷᠭᠡᠨ ᠲᠠᠲᠠᠬᠤ»** (ᠪᠤᠶᠤ «ᠲᠠᠲᠠᠬᠤ») ᠪᠣᠯᠣᠨ᠎ᠠ᠃
+
+**ᠭᠦᠢᠴᠡᠳ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ᠄**
+> ᠵᠡᠭᠦᠨ ᠣᠷᠣᠨ ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠬᠦᠷᠭᠡᠨ ᠠᠪᠬᠤ ᠶ᠋ᠢ **«ᠬᠦᠷᠭᠡᠨ ᠲᠠᠲᠠᠬᠤ»** ᠭᠡᠳᠡᠭ ᠃ ᠲᠤᠬᠠᠶᠢᠯᠠᠪᠠᠯ ᠬᠥᠯᠥᠰᠦᠯᠡᠭᠰᠡᠨ ᠬᠦᠷᠭᠡᠨ ᠃
+
+*(Крилл галиг: Зүүн орон монголчууд хүргэн авахыг «хүргэн татах» гэдэг. Тухайлбал хөлсөлсөн хүргэн.)*
+
+---
+**ᠲᠠᠶᠢᠯᠪᠤᠷᠢ᠄**
+ᠵᠡᠭᠦᠨ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠵᠠᠩ ᠦᠢᠯᠡ ᠳᠥ ᠠᠶᠢᠯ ᠭᠡᠷ ᠣᠬᠢᠨ ᠳᠠᠭᠠᠨ ᠡᠷ᠎ᠡ ᠨᠥᠬᠦᠷ ᠠᠪᠴᠢᠷᠠᠵᠤ ᠭᠡᠷ ᠲᠥ ᠪᠡᠨ ᠰᠠᠭᠤᠯᠭᠠᠬᠤ ᠶ᠋ᠢ «ᠬᠦᠷᠭᠡᠨ ᠲᠠᠲᠠᠬᠤ» ᠬᠡᠮᠡᠨ ᠨᠡᠷᠡᠶᠢᠳᠳᠡᠭ ᠪᠥᠭᠡᠳ ᠡᠭᠦᠨ ᠳᠥ ᠬᠥᠯᠥᠰᠦᠯᠡᠭᠰᠡᠨ ᠬᠦᠷᠭᠡᠨ᠂ ᠥᠷᠭᠥᠮᠡᠯ ᠬᠦᠷᠭᠡᠨ᠂ ᠲᠡᠵᠢᠶᠡᠬᠦ ᠬᠦᠷᠭᠡᠨ ᠵᠡᠷᠭᠡ ᠬᠡᠯᠪᠡᠷᠢ ᠨᠦᠭᠦᠳ ᠪᠠᠶᠢᠳᠠᠭ᠃ᠵᠡᠭᠦᠨ ᠣᠷᠣᠨ ᠤ ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠤᠨ ᠶᠣᠰᠣᠨ ᠳᠤ ᠬᠦᠷᠭᠡᠨ ᠠᠪᠬᠤ ᠶ᠋ᠢ ᠶᠡᠷᠦᠩᠬᠡᠶᠢᠯᠡᠨ «**ᠬᠦᠷᠭᠡᠨ ᠲᠠᠲᠠᠬᠤ**» (хүргэн татах) ᠪᠤᠶᠤ «**ᠬᠦᠷᠭᠡᠨ ᠣᠷᠣᠭᠤᠯᠬᠤ**» (хүргэн оруулах) ᠭᠡᠳᠡᠭ ᠃
+
+ᠲᠤᠬᠠᠶᠢᠯᠠᠪᠠᠯ ᠬᠥᠯᠥᠰᠦᠯᠡᠭᠰᠡᠨ ᠂ ᠭᠡᠷ ᠲᠦ ᠪᠡᠨ ᠵᠠᠷᠴᠢᠯᠠᠨ ᠰᠠᠭᠤᠯᠭᠠᠬᠤ ᠪᠠᠷ ᠠᠪᠤᠭᠰᠠᠨ ᠬᠦᠷᠭᠡᠨ ᠢ ᠄
+* «**ᠪᠠᠷᠠᠭ᠎ᠠ ᠬᠦᠷᠭᠡᠨ**» (бараа хүргэн) 
+* «**ᠳᠡᠪᠰᠢᠭᠡ ᠬᠦᠷᠭᠡᠨ**» (дэвшээ хүргэн) 
+* «**ᠬᠥᠯᠥᠰᠦᠨ ᠦ ᠬᠦᠷᠭᠡᠨ**» (хөлсний хүргэн) ᠭᠡᠵᠦ ᠨᠡᠷᠡᠯᠡᠳᠡᠭ ᠃
+
+ᠲᠤᠯᠠ ᠲᠤᠰ ᠴᠡᠭ ᠦᠨ ᠣᠷᠣᠨ ᠳᠤ «**ᠬᠦᠷᠭᠡᠨ ᠲᠠᠲᠠᠬᠤ**» ᠪᠤᠶᠤ «**ᠪᠠᠷᠠᠭ᠎ᠠ ᠬᠦᠷᠭᠡᠨ ᠠᠪᠬᠤ**» ᠭᠡᠵᠦ ᠨᠥᠬᠥᠪᠡᠯ ᠲᠣᠬᠢᠷᠠᠮᠵᠢᠲᠠᠢ ᠃",200,,,gen-1791171120-p1WFBlEsBF4acnZv0Y1k,,
+p3-Q03-mn,3,Q03,mn,google/gemini-3.8-flash,ok,19.42216174583882,15.736919867806137,1.7483156388625503,unknown,0,305,2874,stop,0,126,624,2026-10-05T03:32:25.236848+00:00,ᠮᠣᠩᠭᠣᠯ ᠬᠥᠮᠥᠨ ᠦ ᠡᠳᠦᠷ ᠲᠣᠳᠣᠮ ᠤᠨ ᠠᠮᠢᠳᠤᠷᠠᠯ ᠂ ᠵᠢᠱᠢᠶᠡᠯᠡᠪᠡᠯ ᠨᠡᠭᠦᠵᠦ ᠪᠠᠭᠤᠬᠤ ᠂ ᠪᠣᠭᠲᠣᠯᠠᠬᠤ ᠂ ᠲᠦᠷᠦᠭᠦ ᠥᠲᠡᠯᠬᠦ ᠂ ᠡᠪᠡᠳᠴᠢᠯᠡᠵᠦ ᠦᠬᠦᠬᠦ ᠵᠡᠷᠭᠡ ᠶ᠋ᠢ ______ ᠡᠴᠠ ᠠᠰᠠᠭᠤᠵᠤ ᠠᠷᠭ᠎ᠠ ᠠᠪᠴᠢᠯ ᠠᠪᠳᠠᠭ ᠃,"ᠲᠣᠬᠢᠷᠠᠬᠤ ᠦᠭᠡ ᠨᠢ ᠭᠣᠣᠯᠴᠢᠯᠠᠨ **《ᠵᠤᠷᠬᠠᠢᠴᠢ》** (ᠵᠤᠷᠬᠠᠢᠴᠢ ᠠᠴᠠ / зурхайчаас) ᠪᠣᠯᠣᠨ᠎ᠠ ᠃
+
+ᠮᠥᠨ ᠲᠡᠦᠬᠡ ᠂ ᠱᠠᠰᠢᠨ ᠰᠦᠰᠦᠯᠡᠯ ᠦᠨ ᠠᠭᠤᠯᠭ᠎ᠠ ᠪᠠᠷ ᠨᠢ ᠠᠪᠴᠤ ᠦᠵᠡᠪᠡᠯ ᠳᠠᠷᠠᠭᠠᠬᠢ ᠦᠭᠡᠰ ᠢ ᠨᠥᠬᠦᠵᠦ ᠪᠣᠯᠣᠨ᠎ᠠ᠄
+
+1. **ᠵᠤᠷᠬᠠᠢᠴᠢ** (ᠵᠤᠷᠬᠠᠢᠴᠢ ᠠᠴᠠ ᠠᠰᠠᠭᠤᠵᠤ ᠠᠷᠭ᠎ᠠ ᠠᠪᠴᠢᠯ ᠠᠪᠳᠠᠭ) — ᠬᠠᠮᠤᠭ ᠤᠨ ᠲᠦᠭᠡᠮᠡᠯ ᠬᠡᠷᠡᠭᠯᠡᠭᠳᠡᠳᠡᠭ ᠦᠭᠡ ᠃
+2. **ᠯᠠᠮᠠ** (ᠯᠠᠮᠠ ᠠᠴᠠ) ᠪᠤᠶᠤ **ᠯᠠᠮᠠ ᠵᠤᠷᠬᠠᠢᠴᠢ**
+3. **ᠪᠥᠭᠡ** (ᠪᠥᠭᠡ ᠡᠴᠡ) — ᠡᠷᠲᠡᠨ ᠦ ᠪᠥᠭᠡ ᠮᠥᠷᠭᠥᠯ ᠦᠨ ᠦᠶ᠎ᠡ ᠶᠢᠨ ᠤᠯᠠᠮᠵᠢᠯᠠᠯ ᠤᠨ ᠬᠠᠮᠢᠶᠠᠷᠤᠯ ᠳᠤ ᠃
+
+---
+**ᠪᠦᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ᠄**
+> ᠮᠣᠩᠭᠣᠯ ᠬᠥᠮᠥᠨ ᠦ ᠡᠳᠦᠷ ᠲᠣᠳᠣᠮ ᠤᠨ ᠠᠮᠢᠳᠤᠷᠠᠯ ᠂ ᠵᠢᠱᠢᠶᠡᠯᠡᠪᠡᠯ ᠨᠡᠭᠦᠵᠦ ᠪᠠᠭᠤᠬᠤ ᠂ ᠪᠣᠭᠲᠣᠯᠠᠬᠤ ᠂ ᠲᠦᠷᠦᠭᠦ ᠥᠲᠡᠯᠬᠦ ᠂ ᠡᠪᠡᠳᠴᠢᠯᠡᠵᠦ ᠦᠬᠦᠬᠦ ᠵᠡᠷᠭᠡ ᠶ᠋ᠢ **ᠵᠤᠷᠬᠠᠢᠴᠢ** ᠠᠴᠠ ᠠᠰᠠᠭᠤᠵᠤ ᠠᠷᠭ᠎ᠠ ᠠᠪᠴᠢᠯ ᠠᠪᠳᠠᠭ ᠃ᠲᠣᠬᠢᠷᠠᠬᠤ ᠦᠭᠡ ᠨᠢ ᠄ **ᠪᠥᠭᠡ** (ᠪᠥᠭᠡ ᠡᠴᠡ) ᠪᠣᠯᠣᠨ᠎ᠠ ᠃ 
+(ᠮᠥᠨ ᠠᠭᠤᠯᠭ᠎ᠠ ᠠᠴᠠ ᠨᠢ ᠦᠵᠡᠪᠡᠯ **ᠮᠡᠷᠭᠡᠴᠢ** ᠭᠡᠵᠦ ᠨᠥᠬᠥᠵᠦ ᠪᠣᠯᠣᠨ᠎ᠠ ᠃)
+
+---
+
+**ᠪᠦᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠄**
+
+> ᠮᠣᠩᠭᠣᠯ ᠬᠥᠮᠥᠨ ᠦ ᠡᠳᠦᠷ ᠲᠣᠳᠣᠮ ᠤᠨ ᠠᠮᠢᠳᠤᠷᠠᠯ ᠂ ᠵᠢᠱᠢᠶᠡᠯᠡᠪᠡᠯ ᠨᠡᠭᠦᠵᠦ ᠪᠠᠭᠤᠬᠤ ᠂ ᠪᠣᠭᠲᠣᠯᠠᠬᠤ ᠂ ᠲᠦᠷᠦᠭᠦ ᠥᠲᠡᠯᠬᠦ ᠂ ᠡᠪᠡᠳᠴᠢᠯᠡᠵᠦ ᠦᠬᠦᠬᠦ ᠵᠡᠷᠭᠡ ᠶ᠋ᠢ **ᠪᠥᠭᠡ** ᠡᠴᠡ ᠠᠰᠠᠭᠤᠵᠤ ᠠᠷᠭ᠎ᠠ ᠠᠪᠴᠢᠯ ᠠᠪᠳᠠᠭ ᠃
+
+*(Кирилл галиг: Монгол хүний өдөр тутмын амьдрал, жишээлбэл нүүж буух, богтлох, төрөх өтлөх, өвчилж үхэх зэргийг **бөөгөөс** асууж арга авцал авдаг.)*",200,,,gen-1791171145-E5zsfJM5ff3CEud3LqDj,,
+p3-Q19-en,3,Q19,en,google/gemini-3.8-flash,ok,2.6681686947122216,2.47786782681942,1.8789946744218469,unknown,0,20,218,stop,142,0,0,2026-10-05T03:12:40.295483+00:00,"At the traditional Naadam Festival, only competitions of ____, horse racing, and wrestling are held.","At the traditional Naadam Festival, only competitions of **archery**, horse racing, and wrestling are held. 
+
+(These three sports are traditionally known as the ""Three Games of Men."")",200,,,gen-1791169960-A4EgXPOrhy0PIcmJg7E2,,
+p3-Q20-en,3,Q20,en,google/gemini-3.8-flash,ok,5.084474850445986,4.486600928939879,1.8436248321086168,unknown,0,12,519,stop,290,7,8,2026-10-05T03:12:45.148105+00:00,The praise words of the Mongolian ethnic group are called ____.,"The praise words (or praise songs/poetry) of the Mongolian ethnic group are called **Magtaal** (also spelled *Magtal* or *Maktal*; in Mongolian: Магтаал / ᠮᠠᠭᠲᠠᠭᠠᠯ). 
+
+They are a traditional genre of Mongolian oral poetry recited or sung to praise heroes, sacred mountains, rivers, swift horses, wrestlers, or nature. They are often performed alongside **yorool** (blessings or benedictions).",200,,,gen-1791169965-Nw0Wn2EqFsEk4Pg7aqG8,,
+p3-Q02-en,3,Q02,en,google/gemini-3.8-flash,ok,4.051130778156221,3.294422877021134,1.7338125901296735,unknown,0,18,396,stop,384,0,0,2026-10-05T03:12:52.403081+00:00,The religions that the Mongolian ethnic group has historically believed in include Shamanism and ____.,"**Tibetan Buddhism** (also commonly referred to historically as Vajrayana Buddhism or Lamaism). 
+
+While Tengrism/Shamanism is the indigenous belief system of the Mongols, Tibetan Buddhism was adopted during the Mongol Empire (notably under Kublai Khan) and became the predominant religion of the Mongolian people starting in the late 16th century under Altan Khan. 
+
+*(Note: To a lesser historical extent, some Mongol tribes also practiced Nestorian Christianity and Islam.)*",200,,,gen-1791169972-LGgxQGWnq7at9OUHfiCg,,
+p3-Q13-en,3,Q13,en,google/gemini-3.8-flash,ok,5.670492105185986,4.614928252995014,1.6682378109544516,unknown,0,12,633,stop,429,0,0,2026-10-05T03:12:58.633812+00:00,The Mongolian ethnic group's clothing usually prefers ____ color.,"The Mongolian ethnic group's clothing usually prefers **blue** (as well as **white**, **red**, and **yellow**).
+
+Among these, **blue** is the most revered and iconic color in Mongolian culture, as it symbolizes the ""Eternal Blue Sky"" (*Möngke Tengri*), loyalty, and eternity. 
+
+* **Blue:** Symbolizes the eternal sky, peace, and steadfastness.
+* **White:** Symbolizes purity, honesty, goodness, and dairy/milk (*the White Month* or *Tsagaan Sar*).
+* **Red & Yellow:** Often used in festive robes, symbolizing fire, warmth, vitality, and prosperity (yellow also reflects Buddhist influences).",200,,,gen-1791169978-fpbthRPOBPgvCRgyk11G,,
+p3-Q08-mn,3,Q08,mn,google/gemini-3.8-flash,ok,11.399045772850513,9.332900308072567,2.687856649979949,unknown,0,184,1669,stop,0,85,136,2026-10-05T03:13:06.483935+00:00,ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠪᠥᠬᠡᠴᠦᠳ ᠦᠨ ᠵᠠᠷᠢᠮ ᠨᠢ ᠬᠦᠵᠦᠭᠦᠨ ᠳ᠋ᠡᠭᠡᠨ ᠡᠯᠳᠡᠪ ᠵᠦᠢᠯ ᠦᠨ ᠴᠢᠮᠡᠭ ᠲᠡᠶ ______ ᠵᠡᠭᠦᠳᠡᠭ ᠃,"ᠳᠡᠭᠡᠷᠡᠬᠢ ᠨᠥᠬᠥᠪᠦᠷᠢ ᠳᠦ ᠲᠣᠬᠢᠷᠠᠬᠤ ᠦᠭᠡ ᠨᠢ: **ᠵᠠᠩᠭ᠎ᠠ** (ᠵᠠᠩᠭᠠ) ᠪᠣᠯᠣᠨ᠎ᠠ᠃
+
+ᠪᠦᠲᠦᠨ ᠥᠬᠦᠯᠡᠪᠦᠷᠢ:
+> ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠪᠥᠬᠡᠴᠦᠳ ᠦᠨ ᠵᠠᠷᠢᠮ ᠨᠢ ᠬᠦᠵᠦᠭᠦᠨ ᠳ᠋ᠡᠭᠡᠨ ᠡᠯᠳᠡᠪ ᠵᠦᠢᠯ ᠦᠨ ᠴᠢᠮᠡᠭ ᠲᠡᠶ **ᠵᠠᠩᠭ᠎ᠠ** ᠵᠡᠭᠦᠳᠡᠭ ᠃
+
+*(Кирилл бичгээр: Монгол үндэстний бөхчүүдийн зарим нь хүзүүндээ элдэв зүйлийн чимэгтэй **жанга** зүүдэг.)*",200,,,gen-1791169986-p0MFhptJ6f9H0f321Rha,,
+p3-Q04-mn,3,Q04,mn,google/gemini-3.8-flash,truncated,26.943778309971094,21.42262428998947,2.525303853675723,unknown,0,365,4092,length,132,39,399,2026-10-05T03:32:46.828571+00:00,ᠲᠥᠪᠡᠳ ᠡᠴᠡ ᠤᠯᠠᠮᠵᠢᠯᠠᠭᠰᠠᠨ ᠪᠤᠳ᠋ᠳ᠋ᠾᠠ ᠶ᠋ᠢᠨ ᠱᠠᠰᠢᠨ ᠢ ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠳᠤᠮᠳᠠ ᠤᠯᠠᠮᠵᠢᠯᠠᠨ ᠳᠡᠯᠭᠡᠷᠡᠭᠦᠯᠬᠦ ᠳ᠋ᠦ ᠮᠠᠰᠢ ᠣᠯᠠᠨ ______ ᠤ ᠬᠡᠯᠪᠡᠷᠢ ᠪᠠ ᠠᠭᠤᠯᠭ᠎ᠠ ᠶ᠋ᠢ ᠰᠢᠩᠭᠡᠬᠡᠨ ᠠᠪᠬᠤ ᠪᠠ ᠠᠭᠤᠰᠤᠯᠴᠠᠭᠤᠯᠬᠤ ᠦᠭᠡᠢ ᠪᠠᠶᠢᠬᠤ ᠶ᠋ᠢᠨ ᠠᠷᠭ᠎ᠠ ᠦᠭᠡᠢ ᠃,"ᠲᠤᠰ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠶᠢᠨ ᠬᠣᠭᠣᠰᠣᠨ ᠵᠠᠶᠢ ᠳᠤ ᠠᠭᠤᠯᠭ᠎ᠠ ᠶᠢᠨ ᠬᠤᠪᠢ ᠳᠤ ᠬᠠᠮᠤᠭ ᠤᠨ ᠲᠣᠬᠢᠷᠠᠮᠵᠢᠲᠠᠢ ᠦᠭᠡ ᠨᠢ᠄
+
+* **ᠪᠥᠭᠡ ᠱᠠᠰᠢᠨ** (ᠪᠥᠭᠡ ᠮᠥᠷᠭᠥᠯ) — *Бөө шашин / Бөө мөргөл*
+* ᠡᠰᠡᠪᠡᠯ **ᠵᠠᠩ ᠵᠠᠩᠰᠢᠯ** — *Зан заншил*
+* ᠡᠰᠡᠪᠡᠯ **ᠰᠣᠶᠣᠯ** — *Соёл*
+
+---
+
+### ᠪᠦᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ᠄
+
+> ᠲᠥᠪᠡᠳ ᠡᠴᠡ ᠤᠯᠠᠮᠵᠢᠯᠠᠭᠰᠠᠨ ᠪᠤᠳ᠋ᠳ᠋ᠾᠠ ᠶ᠋ᠢᠨ ᠱᠠᠰᠢᠨ ᠢ ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠳᠤᠮᠳᠠ ᠤᠯᠠᠮᠵᠢᠯᠠᠨ ᠳᠡᠯᠭᠡᠷᠡᠭᠦᠯᠬᠦ ᠳ᠋ᠦ ᠮᠠᠰᠢ ᠣᠯᠠᠨ **ᠪᠥᠭᠡ ᠱᠠᠰᠢᠨ** ᠤ *(ᠪᠥᠭᠡ ᠮᠥᠷᠭᠥᠯ ᠦᠨ / ᠵᠠᠩ ᠵᠠᠩᠰᠢᠯ ᠤᠨ)* ᠬᠡᠯᠪᠡᠷᠢ ᠪᠠ ᠠᠭᠤᠯᠭ᠎ᠠ ᠶ᠋ᠢ ᠰᠢᠩᠭᠡᠬᠡᠨ ᠠᠪᠬᠤ ᠪᠠ ᠠᠭᠤᠰᠤᠯᠴᠠᠭᠤᠯᠬᠤ ᠦᠭᠡᠢ ᠪᠠᠶᠢᠬᠤ ᠶ᠋ᠢᠨ ᠠᠷᠭ᠎ᠠ ᠦᠭᠡᠢ ᠃
+
+---
+
+### ᠲᠠᠶᠢᠯᠪᠤᠷᠢ᠄
+ᠪᠤᠳ᠋ᠳ᠋ᠾᠠ ᠶᠢᠨ ᠱᠠᠰᠢᠨ ᠮᠣᠩᠭᠣᠯ ᠣᠷᠣᠨ ᠳᠤ ᠳᠡᠯᠭᠤᠯᠪᠤᠷ / Бөө мөргөл). Given the genitive suffix ` ᠤ`, words ending in `ᠨ` (n) with masculine vowels such as **ᠪᠥᠭᠡ ᠶᠢᠨ ᠱᠠᠰᠢᠨ** (ᠱᠠᠰᠢᠨ ᠤ) or **ᠤᠤᠭᠠᠯ ᠱᠠᠰᠢᠨ** fit grammatically and semantically.
+2. In broader cultural context, it also refers to **ᠮᠣᠩᠭᠣᠯ ᠤᠤᠭᠠᠯ ᠰᠣᠶ",200,,,gen-1791171166-UiFgQjGJ9WJPCSCejn1T,,
+p3-Q08-en,3,Q08,en,google/gemini-3.8-flash,ok,3.9432288967072964,3.5240835482254624,1.924407573416829,unknown,0,12,390,stop,252,0,0,2026-10-05T03:13:36.347486+00:00,Some Mongolian wrestlers wear colorful ornaments around their necks called ____.,"Some Mongolian wrestlers wear colorful ornaments around their necks called a **jangga** (also spelled *zangga* or *janga*). 
+
+These are necklaces made of colored silk ribbons, traditionally worn by accomplished or champion wrestlers (particularly in Inner Mongolia) as a symbol of their rank, victories, and status.",200,,,gen-1791170016-W7bsX6EySF7mCfkljm0q,,
+p3-Q16-en,3,Q16,en,google/gemini-3.8-flash,ok,9.966546200215816,9.654397731646895,1.8388552106916904,unknown,0,28,1336,stop,152,0,0,2026-10-05T03:13:42.463839+00:00,The Hetao Plain in the southern foothills of the Yin Mountains and the ____ Plain are important agricultural production areas in the Inner Mongolia region.,"**Tumochuan** (or **Tumote**) Plain (土默川平原). 
+
+*(Note: In broader contexts discussing Inner Mongolia's major agricultural regions, the **West Liaohe Plain** (西辽河平原) in eastern Inner Mongolia is also frequently cited.)*",200,,,gen-1791170022-OlCS6eYcZB1zs4Hkb7Ki,,
+p3-Q13-mn,3,Q13,mn,google/gemini-3.8-flash,ok,12.281118773855269,8.643215256743133,2.351905958727002,unknown,0,128,1827,stop,0,232,220,2026-10-05T03:13:54.580587+00:00,ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠤᠨ ᠬᠤᠪᠴᠠᠰᠤ ᠬᠤᠨᠠᠷ ᠨᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ ______ ᠥᠩᠭᠡ ᠶ᠋ᠢ ᠬᠡᠷᠡᠭᠯᠡᠳᠡᠭ ᠃,"ᠡᠨᠡᠬᠦ ᠨᠥᠬᠦᠵᠦ ᠪᠢᠴᠢᠬᠦ ᠵᠠᠶ ᠳᠤ ᠶᠡᠷᠦᠳᠡᠭᠡᠨ ᠳᠠᠷᠠᠭᠠᠬᠢ ᠦᠭᠡᠰ ᠦᠨ ᠠᠯᠢ ᠨᠢᠭᠡᠨ ᠢ ᠣᠷᠣᠭᠤᠯᠵᠤ ᠪᠣᠯᠨ᠎ᠠ:
+
+1. **ᠲᠣᠳᠣ ᠭᠡᠭᠡᠯᠢᠭ** (тод гэгээлэг) ᠪᠤᠶᠤ **ᠲᠣᠳᠣ** (тод):
+   > ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠤᠨ ᠬᠤᠪᠴᠠᠰᠤ ᠬᠤᠨᠠᠷ ᠨᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ **ᠲᠣᠳᠣ ᠭᠡᠭᠡᠯᠢᠭ** ᠥᠩᠭᠡ ᠶ᠋ᠢ ᠬᠡᠷᠡᠭᠯᠡᠳᠡᠭ ᠃
+   *(Монголчуудын хувцас хунар нь ерөнхийдөө тод гэгээлэг өнгийг хэрэглэдэг.)*
+
+2. **ᠬᠥᠬᠡ** (хөх — Монголчуудын хамгийн түгээмэл эрхэмлэдэг өнгө):
+   > ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠤᠨ ᠬᠤᠪᠴᠠᠰᠤ ᠬᠤᠨᠠᠷ ᠨᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ **ᠬᠥᠬᠡ** ᠥᠩᠭᠡ ᠶ᠋ᠢ ᠬᠡᠷᠡᠭᠯᠡᠳᠡᠭ ᠃
+   *(Монголчуудын хувцас хунар нь ерөнхийдөө хөх өнгийг хэрэглэдэг.)*
+
+*(Хэрэв сурах бичиг, шалгалтын асуулт бол ихэвчлэн **ᠲᠣᠳᠣ** (тод) эсвэл **ᠲᠣᠳᠣ ᠭᠡᠭᠡᠯᠢᠭ** гэж нөхдөг.)*",200,,,gen-1791170034-6r6u7PCdlYYIYZ8MLkKz,,
+p3-Q19-mn,3,Q19,mn,google/gemini-3.8-flash,ok,8.682805448770523,6.02312022075057,2.374704448506236,unknown,0,211,1186,stop,0,0,166,2026-10-05T03:14:09.044240+00:00,ᠤᠯᠠᠮᠵᠢᠯᠠᠯᠲᠤ ᠨᠠᠭᠠᠳᠤᠮ ᠤᠨ ᠬᠤᠷᠠᠯ ᠳᠡᠭᠡᠷ᠎ᠡ ᠵᠥᠪᠬᠡᠨ ______ ᠂ ᠮᠣᠷᠢ ᠤᠷᠤᠯᠳᠤᠬᠤ ᠪᠠ ᠪᠥᠬᠡ ᠪᠠᠷᠢᠯᠳᠤᠬᠤ ᠤᠷᠤᠯᠳᠤᠭᠠᠨ ᠶᠠᠪᠤᠭᠳᠠᠭᠤᠯᠤᠨ᠎ᠠ ᠃,"ᠴᠡᠭ ᠦᠨ ᠣᠷᠣᠨ ᠳᠤ **ᠰᠤᠮᠤ ᠬᠠᠷᠪᠤᠬᠤ** (ᠪᠤᠶᠤ **ᠰᠤᠷ ᠬᠠᠷᠪᠤᠬᠤ**) ᠭᠡᠵᠦ ᠨᠥᠬᠥᠪᠡᠯ ᠵᠣᠬᠢᠨ᠎ᠠ᠃
+
+ᠪᠦᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠨᠢ᠄
+> ᠤᠯᠠᠮᠵᠢᠯᠠᠯᠲᠤ ᠨᠠᠭᠠᠳᠤᠮ ᠤᠨ ᠬᠤᠷᠠᠯ ᠳᠡᠭᠡᠷ᠎ᠡ ᠵᠥᠪᠬᠡᠨ **ᠰᠤᠮᠤ ᠬᠠᠷᠪᠤᠬᠤ** ᠂ ᠮᠣᠷᠢ ᠤᠷᠤᠯᠳᠤᠬᠤ ᠪᠠ ᠪᠥᠬᠡ ᠪᠠᠷᠢᠯᠳᠤᠬᠤ ᠤᠷᠤᠯᠳᠤᠭᠠᠨ ᠶᠠᠪᠤᠭᠳᠠᠭᠤᠯᠤᠨ᠎ᠠ ᠃",200,,,gen-1791170049-A5pN1tLAC76WFhTX0ahu,,
+p3-Q04-en,3,Q04,en,google/gemini-3.8-flash,ok,5.477773203514516,3.9617531346157193,2.0838020853698254,unknown,0,22,532,stop,749,0,0,2026-10-05T03:14:19.914337+00:00,The spread of Tibetan Buddhism among the Mongolian ethnic group had to absorb and integrate many forms and contents of ____.,"The most accurate answer to fill in the blank is **Shamanism** (or **Mongolian Shamanism** / **Tengrism**).
+
+---
+
+### Context:
+When Tibetan Buddhism spread widely among the Mongols (particularly during the Yuan dynasty and later during its resurgence in the 16th century under Altan Khan), it successfully established itself by incorporating indigenous Mongolian religious elements, such as:
+
+* **Deities and spirits:** Pre-Buddhist figures, such as the *White Old Man* (*Tsagaan Övgön*) and various nature spirits, were integrated into the Buddhist pantheon as protector deities (*dharmapalas*).
+* **Rituals:** Shamanic rituals—most notably the veneration of cairns (*ovoo* worship) and fire ceremonies—were adapted with Buddhist prayers, mantras, and incense offerings rather than animal sacrifices.
+* **Astrology and folk medicine:** Traditional nomadic divination and healing practices were aligned with Tibetan astrological and medical traditions.",200,,,gen-1791170060-FyhzOk7k7YnvcWYVZDlZ,,
+p3-Q05-en,3,Q05,en,google/gemini-3.8-flash,ok,8.794381096959114,7.961511970497668,2.130429876036942,unknown,0,9,1163,stop,348,0,0,2026-10-05T03:14:27.596201+00:00,The earliest horsehead fiddle was called ____.,"The earliest horsehead fiddle is most commonly referred to as the **igil** (or **ikili**). 
+
+Other historical names and direct predecessors include:
+* **Shanagan khuur** (literally ""spoon fiddle""), an early spoon-shaped Mongolian fiddle that existed before the horse head carving became standardized.
+* **Chor** (or **Chaoer** / **Tsoor**), a two-stringed bowed instrument considered by music historians to be the primary ancestor of the modern *morin khuur*.",200,,,gen-1791170067-RTNM4RZ9TbSyyJicPiZm,,
+p3-Q07-mn,3,Q07,mn,google/gemini-3.8-flash,ok,10.58265307545662,8.17322903778404,1.5458676302805543,unknown,0,181,1661,stop,0,0,161,2026-10-05T03:14:38.563076+00:00,ᠮᠣᠩᠭᠣᠯ ᠪᠥᠬᠡᠴᠦᠳ ︽ ᠪᠦᠷᠭᠦᠳ ᠦᠨ ᠳᠡᠪᠢᠯᠲᠡ ︾ ᠶ᠋ᠢ ᠦᠰᠦᠷᠴᠦ ᠪᠠᠷᠠᠭᠰᠠᠨ ᠤ ᠳᠠᠷᠠᠭ᠎ᠠ ᠂ ᠲᠡᠳᠡ ᠳᠠᠷᠤᠢ ______ ᠡᠬᠢᠯᠡᠨ᠎ᠡ ᠃,"ᠲᠣᠬᠢᠷᠠᠬᠤ ᠦᠭᠡ ᠨᠢ ᠄ **ᠪᠠᠷᠢᠯᠳᠤᠵᠤ** ( ᠪᠤᠶᠤ **ᠪᠠᠷᠢᠯᠳᠤᠭᠠᠨ ᠢᠶᠠᠨ** ) ᠪᠣᠯᠣᠨ᠎ᠠ ᠃
+
+ᠪᠦᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠄
+ᠮᠣᠩᠭᠣᠯ ᠪᠥᠬᠡᠴᠦᠳ ︽ ᠪᠦᠷᠭᠦᠳ ᠦᠨ ᠳᠡᠪᠢᠯᠲᠡ ︾ ᠶ᠋ᠢ ᠦᠰᠦᠷᠴᠦ ᠪᠠᠷᠠᠭᠰᠠᠨ ᠤ ᠳᠠᠷᠠᠭ᠎ᠠ ᠂ ᠲᠡᠳᠡ ᠳᠠᠷᠤᠢ **ᠪᠠᠷᠢᠯᠳᠤᠵᠤ** ᠡᠬᠢᠯᠡᠨ᠎ᠡ ᠃ 
+*(ᠪᠠᠰᠠ ᠄ **ᠪᠠᠷᠢᠯᠳᠤᠭᠠᠨ ᠢᠶᠠᠨ** ᠡᠬᠢᠯᠡᠨ᠎ᠡ ᠃)*",200,,,gen-1791170078-SsotKU6axg0CURB1w5Le,,
+p3-Q06-mn,3,Q06,mn,google/gemini-3.8-flash,ok,11.59889352414757,9.29191650915891,2.246714601293206,unknown,0,105,1568,stop,0,69,128,2026-10-05T03:14:51.313881+00:00,ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠬᠠᠷᠢᠯᠴᠠᠨ ᠳᠠᠭᠤᠯᠠᠬᠤ ᠳᠠᠭᠤᠤ ᠶ᠋ᠢ ______ ᠭᠡᠳᠡᠭ ᠃,"ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠬᠠᠷᠢᠯᠴᠠᠨ ᠳᠠᠭᠤᠯᠠᠬᠤ ᠳᠠᠭᠤᠤ ᠶ᠋ᠢ **«ᠬᠠᠷᠢᠯᠴᠠᠭ᠎ᠠ ᠳᠠᠭᠤᠤ»** (ᠪᠠᠰᠠ ᠵᠠᠷᠢᠮ ᠨᠤᠲᠤᠭ ᠲᠤ **«ᠳᠠᠶᠠᠯᠭ᠎ᠠ ᠳᠠᠭᠤᠤ»** ᠪᠤᠶᠤ **«ᠬᠠᠷᠰᠢᠯᠳᠤᠭᠠᠨ ᠳᠠᠭᠤᠤ»**) ᠭᠡᠳᠡᠭ ᠃
+
+---
+
+*ᠲᠠᠢᠯᠪᠤᠷᠢ (ᠺᠢᠷᠢᠯ ᠪᠢᠴᠢᠭ ᠢᠶᠡᠷ):* 
+Монгол үндэстний харилцан дуулах дууг **«Харилцаа дуу»** (зарим нутагт **«Даялга дуу»**) гэдэг.",200,,,gen-1791170091-8kcFBPpuv0NwJtZLOW3D,,
+p3-Q14-en,3,Q14,en,google/gemini-3.8-flash,ok,5.1088670855388045,4.267365925014019,2.882351973094046,unknown,0,13,425,stop,317,0,0,2026-10-05T03:15:05.075378+00:00,Todo Bichig is used to accurately convey the _____ phonetics.,"**Oirat** (or **spoken Oirat / Oirat Mongolian**)
+
+**Context:** 
+Todo Bichig (meaning ""Clear Script"") was created in 1648 by the Oirat Buddhist monk Zaya Pandita. It was developed to eliminate ambiguities found in the traditional Mongolian vertical script and to reflect the phonetics of the spoken **Oirat language** more faithfully, as well as to make transcribing Sanskrit and Tibetan Buddhist terms easier.",200,,,gen-1791170105-uoRECzmQfPXRtdFDBBRp,,
+p3-Q05-mn,3,Q05,mn,google/gemini-3.8-flash,ok,15.93949445988983,9.856716894544661,2.290669805370271,unknown,0,74,2232,stop,0,113,140,2026-10-05T03:33:15.972454+00:00,ᠬᠠᠮᠤᠭ ᠡᠷᠲᠡᠨ ᠦ ᠮᠣᠷᠢᠨ ᠬᠤᠭᠤᠷ ᠢ ______ ᠭᠡᠳᠡᠭ ᠃,"ᠬᠠᠮᠤᠭ ᠡᠷᠲᠡᠨ ᠦ ᠮᠣᠷᠢᠨ ᠬᠤᠭᠤᠷ ᠢ **ᠰᠢᠨᠠᠭᠠᠨ ᠬᠤᠭᠤᠷ** ᠭᠡᠳᠡᠭ ᠃
+
+---
+
+* **ᠪᠦᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ (Бүрэн өгүүлбэр):** 
+  ᠬᠠᠮᠤᠭ ᠡᠷᠲᠡᠨ ᠦ ᠮᠣᠷᠢᠨ ᠬᠤᠭᠤᠷ ᠢ **ᠰᠢᠨᠠᠭᠠᠨ ᠬᠤᠭᠤᠷ** ᠭᠡᠳᠡᠭ ᠃
+  *(Хамгийн эртний морин хуурыг **шанаган хуур** гэдэг.)*ᠬᠠᠮᠤᠭ ᠡᠷᠲᠡᠨ ᠦ ᠮᠣᠷᠢᠨ ᠬᠤᠭᠤᠷ ᠢ **ᠰᠢᠨᠠᠭᠠᠨ ᠬᠤᠭᠤᠷ** (ᠪᠤᠶᠤ **ᠢᠭᠡᠯᠢ**) ᠭᠡᠳᠡᠭ ᠃
+
+---
+* **Кирилл монгол:** Хамгийн эртний морин хуурыг **шанаган хуур** (буюу **икэл**) гэдэг.",200,,,gen-1791171196-jHowg8jxJjCd2Ja9jcwf,,
+p3-Q12-mn,3,Q12,mn,google/gemini-3.8-flash,ok,18.731863547116518,27.62549108080566,2.473536013625562,unknown,0,113,2764,stop,88,16,206,2026-10-05T03:33:34.122310+00:00,ᠶᠡᠬᠡ ᠵᠣᠣ ᠠᠶᠢᠮᠠᠭ ᠲᠤ ᠰᠢᠷᠣᠢ ᠮᠣᠳᠣᠨ ᠪᠦᠲᠦᠴᠡ ᠲᠡᠶ ᠮᠣᠩᠭᠣᠯ ᠭᠡᠷ ᠢ ______ ᠭᠡᠳᠡᠭ ᠃,""" or ""ᠪᠥᠮᠪᠥᠭᠡᠷ ᠭᠡᠷ""?
+                    Wait, is there another term?
+                    What about ""ᠰᠣᠪᠤᠷᠭᠠᠨ ᠭᠡᠷ""? No.
+                    What about ""ᠣᠷᠳᠣᠰ ᠭᠡᠷ""? No.
+                    What about ""ᠪᠥᠮᠪᠥᠭᠡᠷ"" (Бөмбөгөр)?
+                    Yes, ""бөмбөгөр"" (Bömbögör) literally means round/domᠶᠡᠬᠡ ᠵᠣᠣ ᠠᠶᠢᠮᠠᠭ ᠲᠤ ᠰᠢᠷᠣᠢ ᠮᠣᠳᠣᠨ ᠪᠦᠲᠦᠴᠡ ᠲᠡᠶ ᠮᠣᠩᠭᠣᠯ ᠭᠡᠷ ᠢ **「ᠳᠥᠭᠡᠷᠢᠭ ᠪᠠᠶᠢᠰᠢᠩ」** (ᠪᠠᠰᠠ *ᠳᠤᠭᠤᠢ ᠪᠠᠶᠢᠰᠢᠩ* ᠭᠡᠵᠦ ᠪᠢᠴᠢᠳᠡᠭ) ᠭᠡᠳᠡᠭ ᠃
+
+---
+
+**ᠪᠦ᠋ᠷᠢᠨ ᠥᠬᠢᠢᠯᠡᠪᠦᠷᠢ ᠄**
+> ᠶᠡᠬᠡ ᠵᠣᠣ ᠠᠶᠢᠮᠠᠭ ᠲᠤ ᠰᠢᠷᠣᠢ ᠮᠣᠳᠣᠨ ᠪᠦᠲᠦᠴᠡ ᠲᠡᠶ ᠮᠣᠩᠭᠣᠯ ᠭᠡᠷ ᠢ **ᠳᠥᠭᠡᠷᠢᠭ ᠪᠠᠶᠢᠰᠢᠩ** ᠭᠡᠳᠡᠭ ᠃",200,,,gen-1791171214-kwVqy348Us7y9544GfDq,,
+p3-Q09-en,3,Q09,en,google/gemini-3.8-flash,ok,3.2285707341507077,3.02013704739511,2.1077906731516123,unknown,0,12,266,stop,153,0,0,2026-10-05T03:15:47.954616+00:00,One of the important festivals of the Mongolian ethnicity is ____.,"One of the important festivals of the Mongolian ethnicity is **Naadam** (or the **Naadam Festival**). 
+
+*(Another major traditional festival is **Tsagaan Sar**, the Mongolian Lunar New Year / White Month).*",200,,,gen-1791170148-eYmDY1BZ1wmnDm6LsCGy,,
+p3-Q15-en,3,Q15,en,google/gemini-3.8-flash,ok,3.154487084597349,2.7862550234422088,2.441746530123055,unknown,0,9,181,stop,84,0,0,2026-10-05T03:15:53.346334+00:00,The inventor of Todo bichig is _____.,"The inventor of Todo bichig is **Zaya Pandita** (also known as Namkhaijamts). He created the ""Clear Script"" in 1648.",200,,,gen-1791170153-QEZarpm8Uh4sowQ6DxLa,,
+p3-Q11-en,3,Q11,en,google/gemini-3.8-flash,ok,9.431755534373224,8.85126592963934,1.601061630062759,unknown,0,27,1178,stop,159,13,14,2026-10-05T03:15:58.662309+00:00,"The Eastern Mongolian people refer to recruiting a son-in-law as '____', which means a hired son-in-law.","The Eastern Mongolian people refer to recruiting a son-in-law as **khölösnii khürgen** (Mongolian Cyrillic: **хөлсний хүргэн**; Traditional Mongolian: ᠬᠥᠯᠥᠰᠦᠨ ᠦ ᠬᠦᠷᠭᠡᠨ, *kölesün-ü kürgen*), which literally translates to ""hired son-in-law.""",200,,,gen-1791170158-tnp3aou4FTMQSCZFszCZ,,
+p3-Q16-mn,3,Q16,mn,google/gemini-3.8-flash,ok,12.649337971583009,11.086986710317433,2.2639351738616824,unknown,0,255,2013,stop,0,0,175,2026-10-05T03:16:10.241086+00:00,ᠮᠤᠨᠢ ᠠᠭᠤᠯᠠ ᠶ᠋ᠢᠨ ᠡᠮᠦᠨ᠎ᠡ ᠬᠣᠷᠮᠣᠢ ᠶ᠋ᠢᠨ ᠪᠣᠷᠣᠳᠣᠬᠣᠢ ᠶ᠋ᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠪᠠ ______ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠪᠣᠯ ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠣᠷᠣᠨ ᠤ ᠴᠢᠬᠤᠯᠠ ᠲᠠᠷᠢᠶᠠᠯᠠᠩ ᠤᠨ ᠦᠢᠯᠡᠳᠪᠦᠷᠢᠯᠡᠯ ᠦᠨ ᠣᠷᠣᠨ ᠪᠣᠯᠣᠨ᠎ᠠ ᠃,"ᠲᠤᠰ ᠨᠥᠬᠦᠪᠦᠷᠢ ᠳᠦ ᠵᠣᠬᠢᠬᠤ ᠦᠭᠡ ᠪᠣᠯ ᠄
+
+**ᠲᠦᠮᠡᠳ ᠦᠨ** (ᠲᠦᠮᠡᠳ)
+
+ᠪᠦᠳᠦᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠄
+ᠮᠤᠨᠢ ᠠᠭᠤᠯᠠ ᠶ᠋ᠢᠨ ᠡᠮᠦᠨ᠎ᠡ ᠬᠣᠷᠮᠣᠢ ᠶ᠋ᠢᠨ ᠪᠣᠷᠣᠳᠣᠬᠣᠢ ᠶ᠋ᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠪᠠ **ᠲᠦᠮᠡᠳ ᠦᠨ** ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠪᠣᠯ ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠣᠷᠣᠨ ᠤ ᠴᠢᠬᠤᠯᠠ ᠲᠠᠷᠢᠶᠠᠯᠠᠩ ᠤᠨ ᠦᠢᠯᠡᠳᠪᠦᠷᠢᠯᠡᠯ ᠦᠨ ᠣᠷᠣᠨ ᠪᠣᠯᠣᠨ᠎ᠠ ᠃",200,,,gen-1791170170-QWyzLqZPiaOm4DJepMOi,,
+p3-Q12-en,3,Q12,en,google/gemini-3.8-flash,truncated,33.27715776488185,25.41283223964274,1.7615004098042846,unknown,0,21,4092,length,746,0,0,2026-10-05T03:33:55.062785+00:00,"In the Yeke-juu League area, some Mongolian yurts with wooden structures are called ____.","In the Yeke-juu League (now Ordos City) area, Mongolian yurts with wooden structures or palace-style frames are traditionally called **Ordo** (or **斡尔朵** / **Orda**). 
+
+*(Note: The name ""Ordos"" itself is the plural of ""Ordo,"" meaning ""palaces"" or ""palace tents,"" which historically referred to the grand wooden-framed shrine yurts, most notably the Eight White Yurts / Naiman Chagan Ger of Genghis Khan).*In the Yeke-juu League (now Ordos) area, traditional wooden-framed or fixed wooden-structured Mongolian yurts/dwellings are often referred to as **ordo** (or **斡耳朵 / 斡尔朵**, meaning ""palace tent"" or ""horde,"" from which the name *Ordos* originates) or, in the case of settled wooden/semi-permanent yurt-style houses, as a **baishing** (板升 / 拜兴). 
+
+Depending on the specific context of the historical or architectural text:
+* **Ordo** (斡耳朵 / 斡尔朵) — refers specifically to the grand, timber-framed palace yurts characteristic of the Ordos region (such as those associated with the cult and mausoleum of Genghis",200,,,gen-1791171235-jKDZK1Jt3RdiK1moqj6z,,
+p3-Q17-mn,3,Q17,mn,google/gemini-3.8-flash,truncated,25.650954574346542,17.39986678864807,2.4396806294098496,unknown,0,313,4091,length,0,0,472,2026-10-05T03:34:30.499366+00:00,ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠣᠷᠣᠨ ᠤ ᠶᠡᠬᠡ ᠬᠢᠩᠭᠠᠨ ᠳᠠᠪᠠᠭ᠎ᠠ ᠡᠴᠠ ᠵᠡᠭᠦᠨᠰᠢᠬᠢ ᠭᠠᠵᠠᠷ ᠲᠤ ᠯᠢᠶᠣᠤ ᠾᠧ ᠭᠣᠣᠯ ᠪᠠ ᠰᠤᠩᠭᠠᠷᠢ ᠮᠥᠷᠡᠨ ᠨᠤᠨ ᠮᠥᠷᠡᠨ ᠦ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠤᠨ ᠪᠠᠭ᠎ᠠ ᠬᠡᠰᠡᠭ ᠲᠠᠷᠬᠠᠯᠲᠠ ᠪᠣᠢ ᠃ ᠡᠨᠡ ᠨᠢ  ︵︽     ︾ ︶ ᠭᠡᠵᠦ ᠠᠯᠳᠠᠷᠰᠢᠪᠠ ᠃,"ᠲᠤᠰ ᠠᠰᠠᠭᠤᠯᠲᠠ ᠶᠢᠨ ᠨᠥᠬᠦᠬᠦ ᠦᠭᠡ ᠨᠢ᠄
+
+**ᠰᠤᠩᠯᠢᠶᠣᠤ ᠶᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ** （ᠪᠤᠶᠤ **ᠵᠡᠭᠦᠨ ᠬᠣᠶᠢᠲᠤ ᠶᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ** / 松辽平原 · 东北平原） ᠪᠣᠯᠣᠨ᠎ᠠ᠃
+
+ᠪᠦᠳᠦᠨ ᠥᠬᠢᠭᠦᠯᠪᠦᠷᠢ ᠪᠡᠷ ᠪᠢᠴᠢᠪᠡᠯ᠄
+> ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠣᠷᠣᠨ ᠤ ᠶᠡᠬᠡ ᠬᠢᠩᠭᠠᠨ ᠳᠠᠪᠠᠭ᠎ᠠ ᠡᠴᠠ ᠵᠡᠭᠦᠨᠰᠢᠬᠢ ᠭᠠᠵᠠᠷ ᠲᠤ ᠯᠢᠶᠣᠤ ᠾᠧ ᠭᠣᠣᠯ ᠪᠠ ᠰᠤᠩᠭᠠᠷᠢ ᠮᠥᠷᠡᠨ ᠨᠤᠨ ᠮᠥᠷᠡᠨ ᠦ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠤᠨ ᠪᠠᠭ᠎ᠠ ᠬᠡᠰᠡᠭ ᠲᠠᠷᠬᠠᠯᠲᠠ ᠪᠣᠢ ᠃ ᠡᠨᠡ ᠨᠢ ︵︽ **ᠰᠤᠩᠯᠢᠶᠣᠤ ᠶᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ** ︾ ︶ ᠭᠡᠵᠦ ᠠᠯᠳᠠᠷᠰᠢᠪᠠ ᠃ᠲᠣᠬᠢᠷᠠᠬᠤ ᠬᠠᠷᠢᠭᠤ ᠨᠢ ᠄
+
+︽ **ᠰᠤᠩᠯᠢᠶᠣᠤ ᠶᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ** ︾ （ᠬᠢᠲᠠᠳ ᠢᠶᠠᠷ᠄ 松辽平原） ᠪᠣᠯᠣᠨ᠎ᠠ᠃ 
+*(ᠥᠷᡤᠡᠨ ᠬᠦᠷᠢᠶᠡᠨ ᠳᠦ ᠪᠠᠰᠠ ︽ **ᠵᠡᠭᠦᠨ ᠬᠣᠶᠢᠲᠤ ᠶᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ** ︾ ᠪᠤᠶᠤ ︽ **ᠳ᠋ᠦᠩᠪᠧᠢ ᠶᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ** ︾ 〔东北平原〕 ᠤ ᠪᠦᠷᠢᠯᠳᠦᠬᠦᠨ ᠬᠡᠰᠡᠭ ᠪᠣᠯᠣᠨ᠎ᠠ᠃)*
+
+---
+
+**ᠪᠦᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠄**
+
+> ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠣᠷᠣᠨ ᠤ ᠶᠡᠬᠡ ᠬᠢᠩᠭᠠᠨ ᠳᠠᠪᠠᠭ᠎ᠠ ᠡᠴᠠ ᠵᠡᠭᠦᠨᠰᠢᠬᠢ ᠭᠠᠵᠠᠷ ᠲᠤ ᠯᠢᠶᠣᠤ ᠾᠧ ᠭᠣᠣᠯ ᠪᠠ ᠰᠤᠩ",200,,,gen-1791171270-VnmK2onCQJnht1NVwoA4,,
+p3-Q18-mn,3,Q18,mn,google/gemini-3.8-flash,ok,11.238556796684861,9.091027011163533,2.8155599227175117,unknown,0,181,1415,stop,0,82,136,2026-10-05T03:16:59.919238+00:00,ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠥᠪᠡᠷᠲᠡᠭᠡᠨ ᠵᠠᠰᠠᠬᠤ ᠣᠷᠣᠨ ᠤ ᠪᠠᠷᠠᠭᠤᠨ ᠬᠡᠰᠡᠭ ᠲᠦ ᠪᠠᠳᠠᠢ ᠶ᠋ᠢᠨ ᠵᠢᠷᠠᠨ ᠪᠠ ______  ᠡᠯᠡᠰᠦᠨ ᠴᠥᠯ ᠪᠠᠶᠢᠨ᠎ᠠ ᠃,"ᠴᠡᠭ ᠦᠨ ᠣᠷᠣᠨ ᠳᠤ ᠨᠥᠬᠥᠬᠦ ᠦᠭᠡ ᠨᠢ: **ᠲᠩᠷᠢ** (ᠡᠰᠡᠪᠡᠯ **ᠲᠡᠩᠭᠡᠷᠢ**) ᠪᠣᠯᠣᠨ᠎ᠠ᠃
+
+ᠪᠦᠷᠢᠨ ᠥᠬᠢᠯᠡᠯ:
+> ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠥᠪᠡᠷᠲᠡᠭᠡᠨ ᠵᠠᠰᠠᠬᠤ ᠣᠷᠣᠨ ᠤ ᠪᠠᠷᠠᠭᠤᠨ ᠬᠡᠰᠡᠭ ᠲᠦ ᠪᠠᠳᠠᠢ ᠶ᠋ᠢᠨ ᠵᠢᠷᠠᠨ ᠪᠠ **ᠲᠩᠷᠢ** ᠡᠯᠡᠰᠦᠨ ᠴᠥᠯ ᠪᠠᠶᠢᠨ᠎ᠠ ᠃
+
+*(Кирилл галиг: Өвөр Монголын Өөртөө Засах Орны баруун хэсэгт Бадайн Жаран ба **Тэнгэр** элсэн цөл байна.)*",200,,,gen-1791170220-B0FREQhyqECbjhqio3IG,,
+p3-Q03-en,3,Q03,en,google/gemini-3.8-flash,ok,8.880328754894435,6.5374516705051064,1.583155719563365,unknown,0,40,923,stop,704,0,0,2026-10-05T03:17:13.337759+00:00,"In the daily life of the Mongolian people, activities such as moving camps, marriage, birth, aging, sickness, and death are all prognosticated for fortune and misfortune, and transcendence by ____.","The blank is most accurately filled by **Lamas** (Tibetan Buddhist monks), or more broadly **shamans and Lamas**. 
+
+In the context of traditional Mongolian culture and historical texts (often translating the Chinese concept of 請喇嘛占卜吉凶、超度亡靈), the full sentence typically refers to:
+
+> **...by Lamas** (or **Buddhist monks**).
+
+### Cultural Context:
+* **Lamas (Buddhist monks):** Following the widespread adoption of Tibetan Buddhism in Mongolia, Lamas took over the primary role of calculating astrological charts (*zurkhai*), determining auspicious dates for nomad migrations (*nüüdlikh*), weddings, and births, as well as conducting healing rituals and prayer ceremonies for the deceased (*transcendence* or salvation of the soul / *chaodu*).
+* **Shamans (*Böö* / *Udgan*):** Prior to (and alongside) the spread of Buddhism, traditional shamans served this role through divination, bone-reading (*scapulimancy*), and spirit mediation.",200,,,gen-1791170233-wMItgjL28kbj9cEFROcQ,,
+p3-Q06-en,3,Q06,en,google/gemini-3.8-flash,ok,9.726398647762835,9.093954822048545,2.1568522108718753,unknown,0,8,1335,stop,557,11,0,2026-10-05T03:17:24.401174+00:00,The Mongolian counterpart singing is called ____.,"Depending on the context, this most likely refers to:
+
+1. **Khoomei** (or **Höömii** / **throat singing**): Often described as *biphonic* or *overtone singing*, where a single vocalist produces a fundamental drone along with a flute-like harmonic overtone (a melodic ""counterpart"") simultaneously. 
+
+2. **Antiphonal / Dialogue singing** (sometimes translated literally as ""counterpart singing"" from traditions like Chinese *duìgē*): In Mongolian folk tradition, responsive singing between two people or groups is known as **Khariltsaa Duu** (Харилцаа дуу - ""relationship/dialogue songs"").
+
+If this is a standard world music or trivia question, the expected answer is almost certainly **Khoomei** (also spelled **Khöömii** or **throat singing**).",200,,,gen-1791170244-pqaJi6lVgeftvLNdevx5,,
+p3-Q01-en,3,Q01,en,google/gemini-3.8-flash,ok,8.815353598445654,8.535756753757596,2.6184321008622646,unknown,0,20,811,stop,203,0,0,2026-10-05T03:17:36.346529+00:00,The two religions that are still believed by a minority among the Mongolian ethnic group are Christianity and ____.,"**Islam** (Muslim)
+
+While Tibetan Buddhism (Lamaism) and traditional Shamanism (Tengrism) have historically been the dominant belief systems among the Mongolian people, **Islam** and **Christianity** are the two primary minority religions practiced today.",200,,,gen-1791170256-xt90G5jfoKuYpOUi7r8V,,
+p3-Q10-mn,3,Q10,mn,google/gemini-3.8-flash,ok,15.677964331582189,27.301243503578007,1.6539082853123546,unknown,0,132,2015,stop,0,98,238,2026-10-05T03:34:58.360034+00:00,ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠲᠠᠮᠠᠬᠢ ᠶ᠋ᠢᠨ ᠲᠣᠭᠣᠭ᠎ᠠ ᠶ᠋ᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ ______  ᠪᠠᠷ ᠬᠢᠳᠡᠭ ᠃,"ᠲᠣᠬᠢᠷᠠᠬᠤ ᠦᠭᠡ ᠨᠢ ᠄ **ᠭᠤᠤᠯᠢ** ᠪᠣᠯᠪᠠᠴᠤ ᠂ ᠪᠠᠰᠠ ᠵᠡᠰ ᠂ ᠮᠥᠩᠭᠥ ᠪᠡᠷ ᠬᠢᠬᠦ ᠨᠢ ᠴᠤ ᠪᠤᠢ ᠃
+
+ᠭᠦᠢᠴᠡᠭᠡᠭᠰᠡᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠄
+> ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠲᠠᠮᠠᠬᠢ ᠶ᠋ᠢᠨ ᠲᠣᠭᠣᠭ᠎ᠠ ᠶ᠋ᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ **ᠭᠤᠤᠯᠢ** ᠪᠠᠷ ᠬᠢᠳᠡᠭ ᠃
+
+*(ᠺᠢᠷᠢᠯ ᠪᠢᠴᠢᠭ ᠢᠶ᠋ᠡᠷ ᠄ Монгол үндэстний тамхины тогоог ер нь **гуулиар** хийдэг.)*
+
+---
+**ᠲᠠᠶᠢᠯᠪᠤᠷᠢ ᠄**
+ᠮᠣᠩᠭᠣᠯ ᠤᠯᠠᠮᠵᠢᠯᠠᠯᠲᠤ ᠭᠠᠭᠠᠨᠰᠤ ᠶ᠋ᠢ ᠶᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠲᠠᠮᠠᠬᠢ ᠶ᠋ᠢᠨ ᠲᠣᠭᠣᠭ᠎ᠠ ᠶ᠋ᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ **ᠵᠡᠰ** (ᠪᠣᠶᠣ **ᠭᠣᠤᠯᠢ**) ᠪᠠᠷ ᠬᠢᠳᠡᠭ ᠃
+
+*(Монгол үндэстний тамхины тогоог ер нь **зэс** (буюу **гууль**)-аар хийдэг.)*",200,,,gen-1791171298-pku07qfeCCFMKYiFI5lU,,
+p3-Q15-mn,3,Q15,mn,google/gemini-3.8-flash,ok,5.765018500387669,4.953247080557048,2.561530071310699,unknown,0,53,640,stop,0,60,60,2026-10-05T03:18:07.974778+00:00,ᠲᠣᠳᠣ ᠪᠢᠴᠢᠭ ᠦᠨ ᠡᠭᠦᠳᠦᠭᠴᠢ ᠨᠢ  ______ ᠃,"ᠲᠣᠳᠣ ᠪᠢᠴᠢᠭ ᠦᠨ ᠡᠭᠦᠳᠦᠭᠴᠢ ᠨᠢ **ᠵᠠᠶᠠ ᠫᠠᠨ᠋ᠳᠢᠲᠠ ᠨᠠᠮᠬᠠᠢᠵᠠᠮᠴᠣ** (ᠵᠠᠶᠠ ᠫᠠᠨ᠋ᠳᠢᠲᠠ) ᠪᠣᠯᠣᠨ᠎ᠠ᠃
+
+---
+*(Монгол кирилл бичгээр: Тод бичгийн үүсгэгч нь **Зая бандида Намхайжамц** юм.)*",200,,,gen-1791170288-vCFckNzqNzCaqjDG5LY3,,
+p3-Q10-en,3,Q10,en,google/gemini-3.8-flash,ok,7.148953665979207,6.394077046774328,2.151730939745903,unknown,0,13,693,stop,302,0,0,2026-10-05T03:18:15.894769+00:00,The Mongolian tobacco pipe's stem is usually made of ____.,"The stem of a traditional Mongolian tobacco pipe (*gans*) is usually made of **wood** (often precious hardwoods, tamarisk, or birch), or occasionally carved from **bone** or **horn**. 
+
+In traditional craftsmanship, a pipe typically combines three materials:
+* **Bowl:** Metal (silver, copper, or brass) or stone
+* **Stem:** **Wood** or **bone**
+* **Mouthpiece:** Precious stone (such as jade, agate, or serpentine) or bone",200,,,gen-1791170295-fnYo9n2ZGP5jJNMYnMCq,,
+p3-Q20-mn,3,Q20,mn,google/gemini-3.8-flash,ok,28.148510822094977,19.71063544973731,1.9623062666505575,unknown,0,109,3976,stop,0,94,801,2026-10-05T03:35:16.264188+00:00,ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠮᠠᠭᠲᠠᠭᠠᠯ ᠦᠭᠡ ᠨᠢ ______ ᠭᠡᠵᠦ ᠨᠡᠷᠡᠯᠡᠭᠳᠡᠵᠡᠢ ᠃,"ᠲᠤᠬᠠᠢ ᠶᠢᠨ ᠠᠰᠠᠭᠤᠯᠲᠠ ᠶᠢᠨ ᠬᠠᠮᠰᠠᠭᠠᠳᠠᠬᠤ ᠠᠭᠤᠯᠭ᠎ᠠ (ᠰᠤᠷᠠᠬᠤ ᠪᠢᠴᠢᠭ᠂ ᠤᠷᠠᠨ ᠵᠣᠬᠢᠶᠠᠯ ᠪᠤᠶᠤ ᠲᠡᠦᠬᠡ) ᠠᠴᠠ ᠬᠠᠮᠢᠶᠠᠷᠴᠤ ᠳᠠᠷᠠᠭᠠᠬᠢ ᠬᠠᠷᠢᠭᠤᠯᠲᠠ ᠨᠤᠭᠤᠳ ᠪᠠᠶᠢᠵᠤ ᠪᠣᠯᠤᠨ᠎ᠠ᠄
+
+1. **ᠠᠮᠠᠨ ᠵᠣᠬᠢᠶᠠᠯ ᠤᠨ ᠲᠥᠷᠥᠯ ᠵᠦᠢᠯ ᠦᠨ ᠡᠭᠦᠳᠡᠨ ᠡᠴᠡ᠄**
+   ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠮᠠᠭᠲᠠᠭᠠᠯ ᠦᠭᠡ ᠨᠢ **《ᠮᠠᠭᠲᠠᠲᠣᠬᠢᠷᠠᠬᠭᠠᠯ》** (ᠪᠤᠶᠤ *ᠶᠡᠷᠦᠭᠡᠯ ᠮᠠᠭᠲᠠᠭᠠᠯ*)ᠤ ᠬᠠᠷᠢᠭᠤ ᠨᠢ ᠄
+
+**«ᠮᠠᠭᠲᠠᠭᠠᠯ»** (ᠪᠤᠶ ᠭᠡᠵᠦ ᠨᠡᠷᠡᠯᠡᠭᠳᠡᠳᠡᠭ᠃
+
+2. **ᠲᠡᠦᠬᠡᠨ ᠲᠥᠷᠥ ᠶᠢᠨ ᠰᠦᠯᠳᠡ ᠳᠠᠭᠤᠤ / ᠳᠠᠭᠤᠯᠠᠯ ᠤᠨ ᠡᠭᠦᠳᠡᠨ ᠡᠴᠡ᠄**
+   ᠮᠣᠩᠭᠣᠯ ᠦᠨᠤ **«ᠶᠡᠷᠦᠭᠡᠯ ᠮᠠᠭᠲᠠᠭᠠᠯ»**) ᠪᠣᠯᠣᠨ᠎ᠠ ᠃
+
+ᠪᠦᠷᠢᠨ ᠥᠬᠢᠦᠯᠪᠦᠷᠢ ᠄
+> ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠮᠠᠭᠲᠠᠭᠠᠯ ᠦᠭᠡ ᠨᠢ **«ᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠡᠷᠲᠡᠨ ᠦ ᠲᠥᠷᠥ ᠶᠢᠨ ᠮᠠᠭᠲᠠᠭᠠᠯ ᠳᠠᠭᠤᠤ ᠨᠢ **《ᠡᠷᠲᠡᠨ ᠦ ᠰᠠᠶᠢᠬᠠᠨ》** ᠪᠤᠶᠤ ᠣᠷᠴᠢᠨᠮᠠᠭᠲᠠᠭᠠᠯ»** ᠭᠡᠵᠦ ᠨᠡᠷᠡᠯᠡᠭᠳᠡᠵᠡᠢ ᠃
+
+*(ᠲᠠᠢᠯᠪᠤᠷᠢ ᠄ ᠮᠣᠩᠭᠣᠯ ᠠᠷᠠ ᠦᠶ᠎ᠡ ᠶᠢᠨ ᠤᠯᠤᠰ ᠤᠨ ᠴᠢᠨᠠᠷᠲᠠᠢ ᠪᠣᠳ ᠤᠨ ᠠᠮᠠᠨ ᠵᠣᠬᠢᠶᠠᠯ ᠳᠤ ᠶᠡᠷᠦᠭᠡᠯ ᠪᠠ ᠮᠠᠭᠲᠠᠭᠠᠯ ᠨᠢ ᠰᠠᠯᠠᠯ **《ᠲᠥᠷᠥ ᠶᠢᠨ ᠳᠠᠭᠤᠯᠠᠯ》** ᠭᠡᠵᠦ ᠨᠰᠢ ᠦᠭᠡᠢ ᠬᠣᠣᠰᠯᠠᠨ ᠬᠡᠷᠡᠭᠯᠡᠭᠳᠡᠳᠡᠭ ᠤᠴᠢᠷᠠᠠᠴᠠ ᠠᠡᠷᠡᠯᠡᠭᠳᠡᠳᠡᠭ᠃
+
+3. **ᠠᠯᠳᠠᠷᠲᠤ ᠵᠣᠬᠢᠶᠠᠯ ᠤᠨ ᠡᠭᠦᠳᠡᠨ ᠡᠴᠡ᠄**
+   ᠮᠭᠤᠯᠭ᠎ᠠ ᠠᠴᠠ ᠨᠢ ᠬᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠡᠬᠡ ᠣᠷᠣᠨ᠂ ᠭᠠᠠᠮᠢᠶᠠᠷᠴᠤ **«ᠶᠡᠷᠦᠭᠡᠯ ᠮᠠᠭᠲᠠᠭᠠᠯ»** ᠭᠡᠵᠦ ᠨᠡᠷᠡᠯᠡᠬᠵᠠᠷ ᠰᠢᠷᠣᠢ ᠶᠢᠨ ᠮᠠᠭᠲᠠᠭᠠᠯ ᠳᠠᠭᠤᠯᠠᠯ ᠢ ᠶᠦ ᠨᠢ ᠴᠤ ᠪᠤᠢ ᠃)*ᠡᠬᠡᠨᠬᠢ ᠲᠣᠬᠢᠶᠠᠯᠳᠤᠯ ᠳᠤ ᠶᠡᠬᠡ ᠵᠣᠬᠢᠶᠠᠯᠴᠢ ᠳᠠᠱᠳᠣᠷᠵᠢ ᠶᠢᠨ ᠨᠠᠷᠠᠨᠴᠣᠭᠲᠤ (ᠳ᠋ ∙ ᠨᠠᠴᠤᠭᠳᠣᠷᠵᠢ) ᠶᠢᠨ **《ᠮᠢᠨᠦ ᠨᠤᠲᠤᠭ》** ᠭᠡᠵᠦ ᠦᠵᠡᠳᠡᠭ᠃
+
+---
+*(Хэрэв сурах бичгийн шалгалтын тодорхой асуулт бол ихэвчлэн **《Магтаал》** эсвэл **《Эртний сайхан》** гэсэн хариулт тохирно.)*",200,,,gen-1791171308-f0Bq2zwZEdtwa6vmiD4E,,
+p3-Q14-mn,3,Q14,mn,google/gemini-3.8-flash,ok,12.384014236740768,7.898359512910247,2.238593652844429,unknown,0,74,1789,stop,0,154,350,2026-10-05T03:18:45.131853+00:00,ᠲᠣᠳᠣ ᠪᠢᠴᠢᠭ ᠵᠢᠡᠷ ______ ᠶ᠋ᠢ ᠣᠨᠣᠪᠴᠢᠲᠠᠢ ᠢᠯᠡᠳᠬᠡᠳᠡᠭ ᠃,"ᠲᠤᠰ ᠴᠡᠭ ᠦᠨ ᠣᠷᠣᠨ ᠳᠤ ᠠᠭᠤᠯᠭ᠎ᠠ ᠠᠴᠠ ᠨᠢ ᠬᠠᠮᠢᠶᠠᠷᠴᠤ ᠳᠠᠷᠠᠭᠠᠬᠢ ᠦᠭᠡᠰ ᠦᠨ ᠠᠯᠢ ᠨᠢᠭᠡᠨ ᠢ ᠨᠥᠬᠦᠵᠦ ᠪᠢᠴᠢᠬᠦ ᠪᠣᠯᠤᠮᠵᠢᠲᠠᠢ:
+
+1. **ᠣᠶᠢᠷᠠᠳ ᠠᠮᠠᠨ ᠠᠶᠠᠯᠭᠤ** (Ойрад аман аялгуу)
+> ᠲᠣᠳᠣ ᠪᠢᠴᠢᠭ ᠵᠢᠡᠷ **ᠣᠶᠢᠷᠠᠳ ᠠᠮᠠᠨ ᠠᠶᠠᠯᠭᠤ** ᠶ᠋ᠢ ᠣᠨᠣᠪᠴᠢᠲᠠᠢ ᠢᠯᠡᠳᠬᠡᠳᠡᠭ ᠃
+*(Тод бичгээр ойрад аман аялгууг оновчтой илтгэдэг.)*
+
+2. **ᠡᠭᠡᠰᠢᠭ ᠠᠪᠢᠶ᠎ᠠ** (Эгшиг авиа)
+> ᠲᠣᠳᠣ ᠪᠢᠴᠢᠭ ᠵᠢᠡᠷ **ᠡᠭᠡᠰᠢᠭ ᠠᠪᠢᠶ᠎ᠠ** ᠶ᠋ᠢ ᠣᠨᠣᠪᠴᠢᠲᠠᠢ ᠢᠯᠡᠳᠬᠡᠳᠡᠭ ᠃
+*(Тод бичгээр эгшиг авиаг оновчтой илтгэдэг. Ялангуяа «о, у, ө, ү» болон урт, хос эгшгийг ялгадаг.)*
+
+3. **ᠠᠮᠠᠨ ᠶᠠᠷᠢᠶ᠎ᠠ** / **ᠠᠪᠢᠶ᠎ᠠ ᠵᠦᠢ** (Аман яриа / Авиа зүй)
+> ᠲᠣᠳᠣ ᠪᠢᠴᠢᠭ ᠵᠢᠡᠷ **ᠠᠮᠠᠨ ᠶᠠᠷᠢᠶᠠᠨ ᠤ ᠠᠪᠢᠶ᠎ᠠ** ᠶ᠋ᠢ ᠣᠨᠣᠪᠴᠢᠲᠠᠢ ᠢᠯᠡᠳᠬᠡᠳᠡᠭ ᠃
+
+---
+*ᠬᠢᠴᠢᠶᠡᠯ ᠦᠨ ᠬᠥᠲᠦᠯᠪᠦᠷᠢ ᠳᠦ ᠢᠬᠡᠪᠴᠢᠯᠡᠨ **«ᠣᠶᠢᠷᠠᠳ ᠠᠮᠠᠨ ᠠᠶᠠᠯᠭᠤ»** ᠪᠤᠶᠤ **«ᠡᠭᠡᠰᠢᠭ ᠠᠪᠢᠶ᠎ᠠ»** ᠭᠡᠰᠡᠨ ᠬᠠᠷᠢᠭᠤᠯᠲᠠ ᠲᠣᠬᠢᠷᠠᠳᠠᠭ.*",200,,,gen-1791170325-CaEvWMwRcpHXcSBul6Wv,,
+p3-Q02-mn,3,Q02,mn,google/gemini-3.8-flash,ok,7.14319472014904,5.029372583143413,1.7447011359035969,unknown,0,185,1370,stop,0,102,159,2026-10-05T03:18:59.723061+00:00,ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠲᠡᠦᠬᠡᠨ ᠳ᠋ᠦ ᠰᠢᠲᠦᠵᠦ ᠥᠩᠭᠡᠷᠡᠭᠰᠡᠨ ᠱᠠᠰᠢᠨ ᠰᠤᠷᠲᠠᠬᠤᠨ ᠳ᠋ᠤ ᠪᠥᠬᠡ ᠶ᠋ᠢᠨ ᠱᠠᠰᠢᠨ ᠪᠠ ______ ᠪᠠᠭᠲᠠᠨ᠎ᠠ ᠃,"ᠲᠣᠬᠢᠷᠠᠬᠤ ᠦᠭᠡ ᠨᠢ: **ᠪᠤᠷᠬᠠᠨ ᠤ ᠱᠠᠰᠢᠨ** (ᠪᠤᠳ᠋ᠳ᠋ᠠ ᠶᠢᠨ ᠱᠠᠰᠢᠨ) ᠪᠣᠯᠣᠨ᠎ᠠ᠃
+
+ᠪᠦᠷᠢᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ:
+ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠲᠡᠦᠬᠡᠨ ᠳ᠋ᠦ ᠰᠢᠲᠦᠵᠦ ᠥᠩᠭᠡᠷᠡᠭᠰᠡᠨ ᠱᠠᠰᠢᠨ ᠰᠤᠷᠲᠠᠬᠤᠨ ᠳ᠋ᠤ ᠪᠥᠬᠡ ᠶ᠋ᠢᠨ ᠱᠠᠰᠢᠨ ᠪᠠ **ᠪᠤᠷᠬᠠᠨ ᠤ ᠱᠠᠰᠢᠨ** (ᠪᠤᠳ᠋ᠳ᠋ᠠ ᠶᠢᠨ ᠱᠠᠰᠢᠨ) ᠪᠠᠭᠲᠠᠨ᠎ᠠ ᠃
+
+*(Кириллээр: Монгол үндэстний түүхэнд шүтэж өнгөрсөн шашин суртахуунд бөөгийн шашин ба **бурхны шашин** (буддын шашин) багтана.)*",200,,,gen-1791170339-BylL6JguBJtPd5Ff7A8c,,
+p3-Q17-en,3,Q17,en,google/gemini-3.8-flash,ok,9.215788612142205,8.638422382064164,2.145292396657169,unknown,0,34,1166,stop,272,0,0,2026-10-05T03:19:09.060776+00:00,"To the east of the Greater Khingan Range in Inner Mongolia, there are small parts distributed of the Liao River and the Songnen Plain, known as '____'.","The blank is most accurately filled by the **'Songliao Plain'** (松辽平原) or more broadly, the **'Northeast Plain'** (东北平原). 
+
+In Chinese regional geography, the Songnen Plain and the Liao River Plain together form the **Songliao Plain**, which constitutes the main western and central body of the vast Northeast China Plain extending into eastern Inner Mongolia.",200,,,gen-1791170349-St9xVWwEY7lcebBgdlWx,,

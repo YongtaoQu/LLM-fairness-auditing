@@ -1,0 +1,25 @@
+# secrets / local env
+.openrouter_env
+.env
+*.pem
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# logs and scratch
+logs/
+*.log
+.tmp/
+tmp/
+
+# large raw API streams (keep summary results only)
+**/raw/
+
+# editor / OS
+.DS_Store
+.idea/
+.vscode/

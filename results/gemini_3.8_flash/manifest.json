@@ -1,0 +1,873 @@
+{
+  "created_at_utc": "2026-10-05T02:56:15.817329+00:00",
+  "protocol": {
+    "runner_version": "2.1",
+    "provider": "openrouter",
+    "model": "google/gemini-3.8-flash",
+    "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+    "passes": 3,
+    "order_seed": 20261004,
+    "interval_s": 2.0,
+    "timeout_s": 600.0,
+    "request": {
+      "model": "google/gemini-3.8-flash",
+      "messages": [
+        {
+          "role": "user",
+          "content": "[QUESTION]"
+        }
+      ],
+      "stream": true,
+      "temperature": 0.2,
+      "max_tokens": 4096
+    },
+    "search_engine": "none",
+    "search_tool": null,
+    "questions_sha256": "475885000c2bbbd8c0ce4955de04796f5e83adda0b7c8937065305324f850072",
+    "prompt_policy": "original question only; one new conversation per request",
+    "model_seed": "provider default (not explicitly set)"
+  },
+  "python_version": "3.9.25 (main, Aug  6 2026, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-14)]",
+  "schedule": [
+    {
+      "trial_id": "p1-Q05-mn",
+      "pass": 1,
+      "question_id": "Q05",
+      "language": "mn",
+      "question": "ᠬᠠᠮᠤᠭ ᠡᠷᠲᠡᠨ ᠦ ᠮᠣᠷᠢᠨ ᠬᠤᠭᠤᠷ ᠢ ______ ᠭᠡᠳᠡᠭ ᠃"
+    },
+    {
+      "trial_id": "p1-Q09-en",
+      "pass": 1,
+      "question_id": "Q09",
+      "language": "en",
+      "question": "One of the important festivals of the Mongolian ethnicity is ____."
+    },
+    {
+      "trial_id": "p1-Q01-mn",
+      "pass": 1,
+      "question_id": "Q01",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠳᠣᠲᠣᠷ᠎ᠠ ᠴᠥᠭᠡᠨ ᠲᠣᠭᠠᠨ ᠤ ᠬᠥᠮᠥᠰ ᠦᠨ ᠰᠢᠲᠦᠳᠡᠭ ᠬᠣᠶᠠᠷ ᠵᠦᠢᠯ ᠦᠨ ᠱᠠᠰᠢᠨ ᠪᠣᠯ ᠾᠷᠢᠰᠲ᠋ᠣᠰ ᠤᠨ ᠱᠠᠰᠢᠨ ᠪᠠ ______ ᠪᠣᠯᠣᠨ᠎ᠠ ᠃"
+    },
+    {
+      "trial_id": "p1-Q08-en",
+      "pass": 1,
+      "question_id": "Q08",
+      "language": "en",
+      "question": "Some Mongolian wrestlers wear colorful ornaments around their necks called ____."
+    },
+    {
+      "trial_id": "p1-Q15-en",
+      "pass": 1,
+      "question_id": "Q15",
+      "language": "en",
+      "question": "The inventor of Todo bichig is _____."
+    },
+    {
+      "trial_id": "p1-Q06-en",
+      "pass": 1,
+      "question_id": "Q06",
+      "language": "en",
+      "question": "The Mongolian counterpart singing is called ____."
+    },
+    {
+      "trial_id": "p1-Q11-en",
+      "pass": 1,
+      "question_id": "Q11",
+      "language": "en",
+      "question": "The Eastern Mongolian people refer to recruiting a son-in-law as '____', which means a hired son-in-law."
+    },
+    {
+      "trial_id": "p1-Q18-mn",
+      "pass": 1,
+      "question_id": "Q18",
+      "language": "mn",
+      "question": "ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠥᠪᠡᠷᠲᠡᠭᠡᠨ ᠵᠠᠰᠠᠬᠤ ᠣᠷᠣᠨ ᠤ ᠪᠠᠷᠠᠭᠤᠨ ᠬᠡᠰᠡᠭ ᠲᠦ ᠪᠠᠳᠠᠢ ᠶ᠋ᠢᠨ ᠵᠢᠷᠠᠨ ᠪᠠ ______  ᠡᠯᠡᠰᠦᠨ ᠴᠥᠯ ᠪᠠᠶᠢᠨ᠎ᠠ ᠃"
+    },
+    {
+      "trial_id": "p1-Q14-mn",
+      "pass": 1,
+      "question_id": "Q14",
+      "language": "mn",
+      "question": "ᠲᠣᠳᠣ ᠪᠢᠴᠢᠭ ᠵᠢᠡᠷ ______ ᠶ᠋ᠢ ᠣᠨᠣᠪᠴᠢᠲᠠᠢ ᠢᠯᠡᠳᠬᠡᠳᠡᠭ ᠃"
+    },
+    {
+      "trial_id": "p1-Q01-en",
+      "pass": 1,
+      "question_id": "Q01",
+      "language": "en",
+      "question": "The two religions that are still believed by a minority among the Mongolian ethnic group are Christianity and ____."
+    },
+    {
+      "trial_id": "p1-Q12-en",
+      "pass": 1,
+      "question_id": "Q12",
+      "language": "en",
+      "question": "In the Yeke-juu League area, some Mongolian yurts with wooden structures are called ____."
+    },
+    {
+      "trial_id": "p1-Q13-en",
+      "pass": 1,
+      "question_id": "Q13",
+      "language": "en",
+      "question": "The Mongolian ethnic group's clothing usually prefers ____ color."
+    },
+    {
+      "trial_id": "p1-Q07-mn",
+      "pass": 1,
+      "question_id": "Q07",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠪᠥᠬᠡᠴᠦᠳ ︽ ᠪᠦᠷᠭᠦᠳ ᠦᠨ ᠳᠡᠪᠢᠯᠲᠡ ︾ ᠶ᠋ᠢ ᠦᠰᠦᠷᠴᠦ ᠪᠠᠷᠠᠭᠰᠠᠨ ᠤ ᠳᠠᠷᠠᠭ᠎ᠠ ᠂ ᠲᠡᠳᠡ ᠳᠠᠷᠤᠢ ______ ᠡᠬᠢᠯᠡᠨ᠎ᠡ ᠃"
+    },
+    {
+      "trial_id": "p1-Q10-en",
+      "pass": 1,
+      "question_id": "Q10",
+      "language": "en",
+      "question": "The Mongolian tobacco pipe's stem is usually made of ____."
+    },
+    {
+      "trial_id": "p1-Q08-mn",
+      "pass": 1,
+      "question_id": "Q08",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠪᠥᠬᠡᠴᠦᠳ ᠦᠨ ᠵᠠᠷᠢᠮ ᠨᠢ ᠬᠦᠵᠦᠭᠦᠨ ᠳ᠋ᠡᠭᠡᠨ ᠡᠯᠳᠡᠪ ᠵᠦᠢᠯ ᠦᠨ ᠴᠢᠮᠡᠭ ᠲᠡᠶ ______ ᠵᠡᠭᠦᠳᠡᠭ ᠃"
+    },
+    {
+      "trial_id": "p1-Q02-en",
+      "pass": 1,
+      "question_id": "Q02",
+      "language": "en",
+      "question": "The religions that the Mongolian ethnic group has historically believed in include Shamanism and ____."
+    },
+    {
+      "trial_id": "p1-Q12-mn",
+      "pass": 1,
+      "question_id": "Q12",
+      "language": "mn",
+      "question": "ᠶᠡᠬᠡ ᠵᠣᠣ ᠠᠶᠢᠮᠠᠭ ᠲᠤ ᠰᠢᠷᠣᠢ ᠮᠣᠳᠣᠨ ᠪᠦᠲᠦᠴᠡ ᠲᠡᠶ ᠮᠣᠩᠭᠣᠯ ᠭᠡᠷ ᠢ ______ ᠭᠡᠳᠡᠭ ᠃"
+    },
+    {
+      "trial_id": "p1-Q16-mn",
+      "pass": 1,
+      "question_id": "Q16",
+      "language": "mn",
+      "question": "ᠮᠤᠨᠢ ᠠᠭᠤᠯᠠ ᠶ᠋ᠢᠨ ᠡᠮᠦᠨ᠎ᠡ ᠬᠣᠷᠮᠣᠢ ᠶ᠋ᠢᠨ ᠪᠣᠷᠣᠳᠣᠬᠣᠢ ᠶ᠋ᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠪᠠ ______ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠪᠣᠯ ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠣᠷᠣᠨ ᠤ ᠴᠢᠬᠤᠯᠠ ᠲᠠᠷᠢᠶᠠᠯᠠᠩ ᠤᠨ ᠦᠢᠯᠡᠳᠪᠦᠷᠢᠯᠡᠯ ᠦᠨ ᠣᠷᠣᠨ ᠪᠣᠯᠣᠨ᠎ᠠ ᠃"
+    },
+    {
+      "trial_id": "p1-Q19-en",
+      "pass": 1,
+      "question_id": "Q19",
+      "language": "en",
+      "question": "At the traditional Naadam Festival, only competitions of ____, horse racing, and wrestling are held."
+    },
+    {
+      "trial_id": "p1-Q11-mn",
+      "pass": 1,
+      "question_id": "Q11",
+      "language": "mn",
+      "question": "ᠵᠡᠭᠦᠨ ᠣᠷᠣᠨ ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠬᠦᠷᠭᠡᠨ ᠠᠪᠬᠤ ᠶ᠋ᠢ ______ ᠭᠡᠳᠡᠭ ᠃ ᠂ ᠲᠤᠬᠠᠶᠢᠯᠠᠪᠠᠯ ᠬᠥᠯᠥᠰᠦᠯᠡᠭᠰᠡᠨ ᠬᠦᠷᠭᠡᠨ ᠃"
+    },
+    {
+      "trial_id": "p1-Q15-mn",
+      "pass": 1,
+      "question_id": "Q15",
+      "language": "mn",
+      "question": "ᠲᠣᠳᠣ ᠪᠢᠴᠢᠭ ᠦᠨ ᠡᠭᠦᠳᠦᠭᠴᠢ ᠨᠢ  ______ ᠃"
+    },
+    {
+      "trial_id": "p1-Q17-en",
+      "pass": 1,
+      "question_id": "Q17",
+      "language": "en",
+      "question": "To the east of the Greater Khingan Range in Inner Mongolia, there are small parts distributed of the Liao River and the Songnen Plain, known as '____'."
+    },
+    {
+      "trial_id": "p1-Q03-mn",
+      "pass": 1,
+      "question_id": "Q03",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠬᠥᠮᠥᠨ ᠦ ᠡᠳᠦᠷ ᠲᠣᠳᠣᠮ ᠤᠨ ᠠᠮᠢᠳᠤᠷᠠᠯ ᠂ ᠵᠢᠱᠢᠶᠡᠯᠡᠪᠡᠯ ᠨᠡᠭᠦᠵᠦ ᠪᠠᠭᠤᠬᠤ ᠂ ᠪᠣᠭᠲᠣᠯᠠᠬᠤ ᠂ ᠲᠦᠷᠦᠭᠦ ᠥᠲᠡᠯᠬᠦ ᠂ ᠡᠪᠡᠳᠴᠢᠯᠡᠵᠦ ᠦᠬᠦᠬᠦ ᠵᠡᠷᠭᠡ ᠶ᠋ᠢ ______ ᠡᠴᠠ ᠠᠰᠠᠭᠤᠵᠤ ᠠᠷᠭ᠎ᠠ ᠠᠪᠴᠢᠯ ᠠᠪᠳᠠᠭ ᠃"
+    },
+    {
+      "trial_id": "p1-Q04-mn",
+      "pass": 1,
+      "question_id": "Q04",
+      "language": "mn",
+      "question": "ᠲᠥᠪᠡᠳ ᠡᠴᠡ ᠤᠯᠠᠮᠵᠢᠯᠠᠭᠰᠠᠨ ᠪᠤᠳ᠋ᠳ᠋ᠾᠠ ᠶ᠋ᠢᠨ ᠱᠠᠰᠢᠨ ᠢ ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠳᠤᠮᠳᠠ ᠤᠯᠠᠮᠵᠢᠯᠠᠨ ᠳᠡᠯᠭᠡᠷᠡᠭᠦᠯᠬᠦ ᠳ᠋ᠦ ᠮᠠᠰᠢ ᠣᠯᠠᠨ ______ ᠤ ᠬᠡᠯᠪᠡᠷᠢ ᠪᠠ ᠠᠭᠤᠯᠭ᠎ᠠ ᠶ᠋ᠢ ᠰᠢᠩᠭᠡᠬᠡᠨ ᠠᠪᠬᠤ ᠪᠠ ᠠᠭᠤᠰᠤᠯᠴᠠᠭᠤᠯᠬᠤ ᠦᠭᠡᠢ ᠪᠠᠶᠢᠬᠤ ᠶ᠋ᠢᠨ ᠠᠷᠭ᠎ᠠ ᠦᠭᠡᠢ ᠃"
+    },
+    {
+      "trial_id": "p1-Q20-en",
+      "pass": 1,
+      "question_id": "Q20",
+      "language": "en",
+      "question": "The praise words of the Mongolian ethnic group are called ____."
+    },
+    {
+      "trial_id": "p1-Q14-en",
+      "pass": 1,
+      "question_id": "Q14",
+      "language": "en",
+      "question": "Todo Bichig is used to accurately convey the _____ phonetics."
+    },
+    {
+      "trial_id": "p1-Q04-en",
+      "pass": 1,
+      "question_id": "Q04",
+      "language": "en",
+      "question": "The spread of Tibetan Buddhism among the Mongolian ethnic group had to absorb and integrate many forms and contents of ____."
+    },
+    {
+      "trial_id": "p1-Q20-mn",
+      "pass": 1,
+      "question_id": "Q20",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠮᠠᠭᠲᠠᠭᠠᠯ ᠦᠭᠡ ᠨᠢ ______ ᠭᠡᠵᠦ ᠨᠡᠷᠡᠯᠡᠭᠳᠡᠵᠡᠢ ᠃"
+    },
+    {
+      "trial_id": "p1-Q19-mn",
+      "pass": 1,
+      "question_id": "Q19",
+      "language": "mn",
+      "question": "ᠤᠯᠠᠮᠵᠢᠯᠠᠯᠲᠤ ᠨᠠᠭᠠᠳᠤᠮ ᠤᠨ ᠬᠤᠷᠠᠯ ᠳᠡᠭᠡᠷ᠎ᠡ ᠵᠥᠪᠬᠡᠨ ______ ᠂ ᠮᠣᠷᠢ ᠤᠷᠤᠯᠳᠤᠬᠤ ᠪᠠ ᠪᠥᠬᠡ ᠪᠠᠷᠢᠯᠳᠤᠬᠤ ᠤᠷᠤᠯᠳᠤᠭᠠᠨ ᠶᠠᠪᠤᠭᠳᠠᠭᠤᠯᠤᠨ᠎ᠠ ᠃"
+    },
+    {
+      "trial_id": "p1-Q18-en",
+      "pass": 1,
+      "question_id": "Q18",
+      "language": "en",
+      "question": "In the western part of Inner Mongolia Autonomous Region, there are Badain Jaran and ____ deserts."
+    },
+    {
+      "trial_id": "p1-Q03-en",
+      "pass": 1,
+      "question_id": "Q03",
+      "language": "en",
+      "question": "In the daily life of the Mongolian people, activities such as moving camps, marriage, birth, aging, sickness, and death are all prognosticated for fortune and misfortune, and transcendence by ____."
+    },
+    {
+      "trial_id": "p1-Q16-en",
+      "pass": 1,
+      "question_id": "Q16",
+      "language": "en",
+      "question": "The Hetao Plain in the southern foothills of the Yin Mountains and the ____ Plain are important agricultural production areas in the Inner Mongolia region."
+    },
+    {
+      "trial_id": "p1-Q05-en",
+      "pass": 1,
+      "question_id": "Q05",
+      "language": "en",
+      "question": "The earliest horsehead fiddle was called ____."
+    },
+    {
+      "trial_id": "p1-Q07-en",
+      "pass": 1,
+      "question_id": "Q07",
+      "language": "en",
+      "question": "In Mongolian wrestling competitions, after the wrestlers perform the 'eagle dance', they immediately begin their ____."
+    },
+    {
+      "trial_id": "p1-Q17-mn",
+      "pass": 1,
+      "question_id": "Q17",
+      "language": "mn",
+      "question": "ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠣᠷᠣᠨ ᠤ ᠶᠡᠬᠡ ᠬᠢᠩᠭᠠᠨ ᠳᠠᠪᠠᠭ᠎ᠠ ᠡᠴᠠ ᠵᠡᠭᠦᠨᠰᠢᠬᠢ ᠭᠠᠵᠠᠷ ᠲᠤ ᠯᠢᠶᠣᠤ ᠾᠧ ᠭᠣᠣᠯ ᠪᠠ ᠰᠤᠩᠭᠠᠷᠢ ᠮᠥᠷᠡᠨ ᠨᠤᠨ ᠮᠥᠷᠡᠨ ᠦ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠤᠨ ᠪᠠᠭ᠎ᠠ ᠬᠡᠰᠡᠭ ᠲᠠᠷᠬᠠᠯᠲᠠ ᠪᠣᠢ ᠃ ᠡᠨᠡ ᠨᠢ  ︵︽     ︾ ︶ ᠭᠡᠵᠦ ᠠᠯᠳᠠᠷᠰᠢᠪᠠ ᠃"
+    },
+    {
+      "trial_id": "p1-Q09-mn",
+      "pass": 1,
+      "question_id": "Q09",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠴᠢᠬᠤᠯᠠ ᠪᠠᠶᠠᠷ ᠤᠨ ᠡᠳᠦᠷ ᠦᠨ ᠨᠢᠭᠡ ᠪᠣᠯ ______ ᠃"
+    },
+    {
+      "trial_id": "p1-Q13-mn",
+      "pass": 1,
+      "question_id": "Q13",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠤᠨ ᠬᠤᠪᠴᠠᠰᠤ ᠬᠤᠨᠠᠷ ᠨᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ ______ ᠥᠩᠭᠡ ᠶ᠋ᠢ ᠬᠡᠷᠡᠭᠯᠡᠳᠡᠭ ᠃"
+    },
+    {
+      "trial_id": "p1-Q10-mn",
+      "pass": 1,
+      "question_id": "Q10",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠲᠠᠮᠠᠬᠢ ᠶ᠋ᠢᠨ ᠲᠣᠭᠣᠭ᠎ᠠ ᠶ᠋ᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ ______  ᠪᠠᠷ ᠬᠢᠳᠡᠭ ᠃"
+    },
+    {
+      "trial_id": "p1-Q02-mn",
+      "pass": 1,
+      "question_id": "Q02",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠲᠡᠦᠬᠡᠨ ᠳ᠋ᠦ ᠰᠢᠲᠦᠵᠦ ᠥᠩᠭᠡᠷᠡᠭᠰᠡᠨ ᠱᠠᠰᠢᠨ ᠰᠤᠷᠲᠠᠬᠤᠨ ᠳ᠋ᠤ ᠪᠥᠬᠡ ᠶ᠋ᠢᠨ ᠱᠠᠰᠢᠨ ᠪᠠ ______ ᠪᠠᠭᠲᠠᠨ᠎ᠠ ᠃"
+    },
+    {
+      "trial_id": "p1-Q06-mn",
+      "pass": 1,
+      "question_id": "Q06",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠬᠠᠷᠢᠯᠴᠠᠨ ᠳᠠᠭᠤᠯᠠᠬᠤ ᠳᠠᠭᠤᠤ ᠶ᠋ᠢ ______ ᠭᠡᠳᠡᠭ ᠃"
+    },
+    {
+      "trial_id": "p2-Q12-mn",
+      "pass": 2,
+      "question_id": "Q12",
+      "language": "mn",
+      "question": "ᠶᠡᠬᠡ ᠵᠣᠣ ᠠᠶᠢᠮᠠᠭ ᠲᠤ ᠰᠢᠷᠣᠢ ᠮᠣᠳᠣᠨ ᠪᠦᠲᠦᠴᠡ ᠲᠡᠶ ᠮᠣᠩᠭᠣᠯ ᠭᠡᠷ ᠢ ______ ᠭᠡᠳᠡᠭ ᠃"
+    },
+    {
+      "trial_id": "p2-Q14-en",
+      "pass": 2,
+      "question_id": "Q14",
+      "language": "en",
+      "question": "Todo Bichig is used to accurately convey the _____ phonetics."
+    },
+    {
+      "trial_id": "p2-Q13-en",
+      "pass": 2,
+      "question_id": "Q13",
+      "language": "en",
+      "question": "The Mongolian ethnic group's clothing usually prefers ____ color."
+    },
+    {
+      "trial_id": "p2-Q02-en",
+      "pass": 2,
+      "question_id": "Q02",
+      "language": "en",
+      "question": "The religions that the Mongolian ethnic group has historically believed in include Shamanism and ____."
+    },
+    {
+      "trial_id": "p2-Q17-en",
+      "pass": 2,
+      "question_id": "Q17",
+      "language": "en",
+      "question": "To the east of the Greater Khingan Range in Inner Mongolia, there are small parts distributed of the Liao River and the Songnen Plain, known as '____'."
+    },
+    {
+      "trial_id": "p2-Q16-en",
+      "pass": 2,
+      "question_id": "Q16",
+      "language": "en",
+      "question": "The Hetao Plain in the southern foothills of the Yin Mountains and the ____ Plain are important agricultural production areas in the Inner Mongolia region."
+    },
+    {
+      "trial_id": "p2-Q07-en",
+      "pass": 2,
+      "question_id": "Q07",
+      "language": "en",
+      "question": "In Mongolian wrestling competitions, after the wrestlers perform the 'eagle dance', they immediately begin their ____."
+    },
+    {
+      "trial_id": "p2-Q15-en",
+      "pass": 2,
+      "question_id": "Q15",
+      "language": "en",
+      "question": "The inventor of Todo bichig is _____."
+    },
+    {
+      "trial_id": "p2-Q18-mn",
+      "pass": 2,
+      "question_id": "Q18",
+      "language": "mn",
+      "question": "ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠥᠪᠡᠷᠲᠡᠭᠡᠨ ᠵᠠᠰᠠᠬᠤ ᠣᠷᠣᠨ ᠤ ᠪᠠᠷᠠᠭᠤᠨ ᠬᠡᠰᠡᠭ ᠲᠦ ᠪᠠᠳᠠᠢ ᠶ᠋ᠢᠨ ᠵᠢᠷᠠᠨ ᠪᠠ ______  ᠡᠯᠡᠰᠦᠨ ᠴᠥᠯ ᠪᠠᠶᠢᠨ᠎ᠠ ᠃"
+    },
+    {
+      "trial_id": "p2-Q04-mn",
+      "pass": 2,
+      "question_id": "Q04",
+      "language": "mn",
+      "question": "ᠲᠥᠪᠡᠳ ᠡᠴᠡ ᠤᠯᠠᠮᠵᠢᠯᠠᠭᠰᠠᠨ ᠪᠤᠳ᠋ᠳ᠋ᠾᠠ ᠶ᠋ᠢᠨ ᠱᠠᠰᠢᠨ ᠢ ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠳᠤᠮᠳᠠ ᠤᠯᠠᠮᠵᠢᠯᠠᠨ ᠳᠡᠯᠭᠡᠷᠡᠭᠦᠯᠬᠦ ᠳ᠋ᠦ ᠮᠠᠰᠢ ᠣᠯᠠᠨ ______ ᠤ ᠬᠡᠯᠪᠡᠷᠢ ᠪᠠ ᠠᠭᠤᠯᠭ᠎ᠠ ᠶ᠋ᠢ ᠰᠢᠩᠭᠡᠬᠡᠨ ᠠᠪᠬᠤ ᠪᠠ ᠠᠭᠤᠰᠤᠯᠴᠠᠭᠤᠯᠬᠤ ᠦᠭᠡᠢ ᠪᠠᠶᠢᠬᠤ ᠶ᠋ᠢᠨ ᠠᠷᠭ᠎ᠠ ᠦᠭᠡᠢ ᠃"
+    },
+    {
+      "trial_id": "p2-Q10-mn",
+      "pass": 2,
+      "question_id": "Q10",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠲᠠᠮᠠᠬᠢ ᠶ᠋ᠢᠨ ᠲᠣᠭᠣᠭ᠎ᠠ ᠶ᠋ᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ ______  ᠪᠠᠷ ᠬᠢᠳᠡᠭ ᠃"
+    },
+    {
+      "trial_id": "p2-Q08-mn",
+      "pass": 2,
+      "question_id": "Q08",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠪᠥᠬᠡᠴᠦᠳ ᠦᠨ ᠵᠠᠷᠢᠮ ᠨᠢ ᠬᠦᠵᠦᠭᠦᠨ ᠳ᠋ᠡᠭᠡᠨ ᠡᠯᠳᠡᠪ ᠵᠦᠢᠯ ᠦᠨ ᠴᠢᠮᠡᠭ ᠲᠡᠶ ______ ᠵᠡᠭᠦᠳᠡᠭ ᠃"
+    },
+    {
+      "trial_id": "p2-Q03-mn",
+      "pass": 2,
+      "question_id": "Q03",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠬᠥᠮᠥᠨ ᠦ ᠡᠳᠦᠷ ᠲᠣᠳᠣᠮ ᠤᠨ ᠠᠮᠢᠳᠤᠷᠠᠯ ᠂ ᠵᠢᠱᠢᠶᠡᠯᠡᠪᠡᠯ ᠨᠡᠭᠦᠵᠦ ᠪᠠᠭᠤᠬᠤ ᠂ ᠪᠣᠭᠲᠣᠯᠠᠬᠤ ᠂ ᠲᠦᠷᠦᠭᠦ ᠥᠲᠡᠯᠬᠦ ᠂ ᠡᠪᠡᠳᠴᠢᠯᠡᠵᠦ ᠦᠬᠦᠬᠦ ᠵᠡᠷᠭᠡ ᠶ᠋ᠢ ______ ᠡᠴᠠ ᠠᠰᠠᠭᠤᠵᠤ ᠠᠷᠭ᠎ᠠ ᠠᠪᠴᠢᠯ ᠠᠪᠳᠠᠭ ᠃"
+    },
+    {
+      "trial_id": "p2-Q07-mn",
+      "pass": 2,
+      "question_id": "Q07",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠪᠥᠬᠡᠴᠦᠳ ︽ ᠪᠦᠷᠭᠦᠳ ᠦᠨ ᠳᠡᠪᠢᠯᠲᠡ ︾ ᠶ᠋ᠢ ᠦᠰᠦᠷᠴᠦ ᠪᠠᠷᠠᠭᠰᠠᠨ ᠤ ᠳᠠᠷᠠᠭ᠎ᠠ ᠂ ᠲᠡᠳᠡ ᠳᠠᠷᠤᠢ ______ ᠡᠬᠢᠯᠡᠨ᠎ᠡ ᠃"
+    },
+    {
+      "trial_id": "p2-Q17-mn",
+      "pass": 2,
+      "question_id": "Q17",
+      "language": "mn",
+      "question": "ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠣᠷᠣᠨ ᠤ ᠶᠡᠬᠡ ᠬᠢᠩᠭᠠᠨ ᠳᠠᠪᠠᠭ᠎ᠠ ᠡᠴᠠ ᠵᠡᠭᠦᠨᠰᠢᠬᠢ ᠭᠠᠵᠠᠷ ᠲᠤ ᠯᠢᠶᠣᠤ ᠾᠧ ᠭᠣᠣᠯ ᠪᠠ ᠰᠤᠩᠭᠠᠷᠢ ᠮᠥᠷᠡᠨ ᠨᠤᠨ ᠮᠥᠷᠡᠨ ᠦ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠤᠨ ᠪᠠᠭ᠎ᠠ ᠬᠡᠰᠡᠭ ᠲᠠᠷᠬᠠᠯᠲᠠ ᠪᠣᠢ ᠃ ᠡᠨᠡ ᠨᠢ  ︵︽     ︾ ︶ ᠭᠡᠵᠦ ᠠᠯᠳᠠᠷᠰᠢᠪᠠ ᠃"
+    },
+    {
+      "trial_id": "p2-Q13-mn",
+      "pass": 2,
+      "question_id": "Q13",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠤᠨ ᠬᠤᠪᠴᠠᠰᠤ ᠬᠤᠨᠠᠷ ᠨᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ ______ ᠥᠩᠭᠡ ᠶ᠋ᠢ ᠬᠡᠷᠡᠭᠯᠡᠳᠡᠭ ᠃"
+    },
+    {
+      "trial_id": "p2-Q09-en",
+      "pass": 2,
+      "question_id": "Q09",
+      "language": "en",
+      "question": "One of the important festivals of the Mongolian ethnicity is ____."
+    },
+    {
+      "trial_id": "p2-Q06-en",
+      "pass": 2,
+      "question_id": "Q06",
+      "language": "en",
+      "question": "The Mongolian counterpart singing is called ____."
+    },
+    {
+      "trial_id": "p2-Q19-en",
+      "pass": 2,
+      "question_id": "Q19",
+      "language": "en",
+      "question": "At the traditional Naadam Festival, only competitions of ____, horse racing, and wrestling are held."
+    },
+    {
+      "trial_id": "p2-Q15-mn",
+      "pass": 2,
+      "question_id": "Q15",
+      "language": "mn",
+      "question": "ᠲᠣᠳᠣ ᠪᠢᠴᠢᠭ ᠦᠨ ᠡᠭᠦᠳᠦᠭᠴᠢ ᠨᠢ  ______ ᠃"
+    },
+    {
+      "trial_id": "p2-Q01-en",
+      "pass": 2,
+      "question_id": "Q01",
+      "language": "en",
+      "question": "The two religions that are still believed by a minority among the Mongolian ethnic group are Christianity and ____."
+    },
+    {
+      "trial_id": "p2-Q16-mn",
+      "pass": 2,
+      "question_id": "Q16",
+      "language": "mn",
+      "question": "ᠮᠤᠨᠢ ᠠᠭᠤᠯᠠ ᠶ᠋ᠢᠨ ᠡᠮᠦᠨ᠎ᠡ ᠬᠣᠷᠮᠣᠢ ᠶ᠋ᠢᠨ ᠪᠣᠷᠣᠳᠣᠬᠣᠢ ᠶ᠋ᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠪᠠ ______ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠪᠣᠯ ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠣᠷᠣᠨ ᠤ ᠴᠢᠬᠤᠯᠠ ᠲᠠᠷᠢᠶᠠᠯᠠᠩ ᠤᠨ ᠦᠢᠯᠡᠳᠪᠦᠷᠢᠯᠡᠯ ᠦᠨ ᠣᠷᠣᠨ ᠪᠣᠯᠣᠨ᠎ᠠ ᠃"
+    },
+    {
+      "trial_id": "p2-Q09-mn",
+      "pass": 2,
+      "question_id": "Q09",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠴᠢᠬᠤᠯᠠ ᠪᠠᠶᠠᠷ ᠤᠨ ᠡᠳᠦᠷ ᠦᠨ ᠨᠢᠭᠡ ᠪᠣᠯ ______ ᠃"
+    },
+    {
+      "trial_id": "p2-Q12-en",
+      "pass": 2,
+      "question_id": "Q12",
+      "language": "en",
+      "question": "In the Yeke-juu League area, some Mongolian yurts with wooden structures are called ____."
+    },
+    {
+      "trial_id": "p2-Q08-en",
+      "pass": 2,
+      "question_id": "Q08",
+      "language": "en",
+      "question": "Some Mongolian wrestlers wear colorful ornaments around their necks called ____."
+    },
+    {
+      "trial_id": "p2-Q05-mn",
+      "pass": 2,
+      "question_id": "Q05",
+      "language": "mn",
+      "question": "ᠬᠠᠮᠤᠭ ᠡᠷᠲᠡᠨ ᠦ ᠮᠣᠷᠢᠨ ᠬᠤᠭᠤᠷ ᠢ ______ ᠭᠡᠳᠡᠭ ᠃"
+    },
+    {
+      "trial_id": "p2-Q20-mn",
+      "pass": 2,
+      "question_id": "Q20",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠮᠠᠭᠲᠠᠭᠠᠯ ᠦᠭᠡ ᠨᠢ ______ ᠭᠡᠵᠦ ᠨᠡᠷᠡᠯᠡᠭᠳᠡᠵᠡᠢ ᠃"
+    },
+    {
+      "trial_id": "p2-Q18-en",
+      "pass": 2,
+      "question_id": "Q18",
+      "language": "en",
+      "question": "In the western part of Inner Mongolia Autonomous Region, there are Badain Jaran and ____ deserts."
+    },
+    {
+      "trial_id": "p2-Q03-en",
+      "pass": 2,
+      "question_id": "Q03",
+      "language": "en",
+      "question": "In the daily life of the Mongolian people, activities such as moving camps, marriage, birth, aging, sickness, and death are all prognosticated for fortune and misfortune, and transcendence by ____."
+    },
+    {
+      "trial_id": "p2-Q04-en",
+      "pass": 2,
+      "question_id": "Q04",
+      "language": "en",
+      "question": "The spread of Tibetan Buddhism among the Mongolian ethnic group had to absorb and integrate many forms and contents of ____."
+    },
+    {
+      "trial_id": "p2-Q02-mn",
+      "pass": 2,
+      "question_id": "Q02",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠲᠡᠦᠬᠡᠨ ᠳ᠋ᠦ ᠰᠢᠲᠦᠵᠦ ᠥᠩᠭᠡᠷᠡᠭᠰᠡᠨ ᠱᠠᠰᠢᠨ ᠰᠤᠷᠲᠠᠬᠤᠨ ᠳ᠋ᠤ ᠪᠥᠬᠡ ᠶ᠋ᠢᠨ ᠱᠠᠰᠢᠨ ᠪᠠ ______ ᠪᠠᠭᠲᠠᠨ᠎ᠠ ᠃"
+    },
+    {
+      "trial_id": "p2-Q14-mn",
+      "pass": 2,
+      "question_id": "Q14",
+      "language": "mn",
+      "question": "ᠲᠣᠳᠣ ᠪᠢᠴᠢᠭ ᠵᠢᠡᠷ ______ ᠶ᠋ᠢ ᠣᠨᠣᠪᠴᠢᠲᠠᠢ ᠢᠯᠡᠳᠬᠡᠳᠡᠭ ᠃"
+    },
+    {
+      "trial_id": "p2-Q10-en",
+      "pass": 2,
+      "question_id": "Q10",
+      "language": "en",
+      "question": "The Mongolian tobacco pipe's stem is usually made of ____."
+    },
+    {
+      "trial_id": "p2-Q05-en",
+      "pass": 2,
+      "question_id": "Q05",
+      "language": "en",
+      "question": "The earliest horsehead fiddle was called ____."
+    },
+    {
+      "trial_id": "p2-Q06-mn",
+      "pass": 2,
+      "question_id": "Q06",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠬᠠᠷᠢᠯᠴᠠᠨ ᠳᠠᠭᠤᠯᠠᠬᠤ ᠳᠠᠭᠤᠤ ᠶ᠋ᠢ ______ ᠭᠡᠳᠡᠭ ᠃"
+    },
+    {
+      "trial_id": "p2-Q11-mn",
+      "pass": 2,
+      "question_id": "Q11",
+      "language": "mn",
+      "question": "ᠵᠡᠭᠦᠨ ᠣᠷᠣᠨ ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠬᠦᠷᠭᠡᠨ ᠠᠪᠬᠤ ᠶ᠋ᠢ ______ ᠭᠡᠳᠡᠭ ᠃ ᠂ ᠲᠤᠬᠠᠶᠢᠯᠠᠪᠠᠯ ᠬᠥᠯᠥᠰᠦᠯᠡᠭᠰᠡᠨ ᠬᠦᠷᠭᠡᠨ ᠃"
+    },
+    {
+      "trial_id": "p2-Q19-mn",
+      "pass": 2,
+      "question_id": "Q19",
+      "language": "mn",
+      "question": "ᠤᠯᠠᠮᠵᠢᠯᠠᠯᠲᠤ ᠨᠠᠭᠠᠳᠤᠮ ᠤᠨ ᠬᠤᠷᠠᠯ ᠳᠡᠭᠡᠷ᠎ᠡ ᠵᠥᠪᠬᠡᠨ ______ ᠂ ᠮᠣᠷᠢ ᠤᠷᠤᠯᠳᠤᠬᠤ ᠪᠠ ᠪᠥᠬᠡ ᠪᠠᠷᠢᠯᠳᠤᠬᠤ ᠤᠷᠤᠯᠳᠤᠭᠠᠨ ᠶᠠᠪᠤᠭᠳᠠᠭᠤᠯᠤᠨ᠎ᠠ ᠃"
+    },
+    {
+      "trial_id": "p2-Q01-mn",
+      "pass": 2,
+      "question_id": "Q01",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠳᠣᠲᠣᠷ᠎ᠠ ᠴᠥᠭᠡᠨ ᠲᠣᠭᠠᠨ ᠤ ᠬᠥᠮᠥᠰ ᠦᠨ ᠰᠢᠲᠦᠳᠡᠭ ᠬᠣᠶᠠᠷ ᠵᠦᠢᠯ ᠦᠨ ᠱᠠᠰᠢᠨ ᠪᠣᠯ ᠾᠷᠢᠰᠲ᠋ᠣᠰ ᠤᠨ ᠱᠠᠰᠢᠨ ᠪᠠ ______ ᠪᠣᠯᠣᠨ᠎ᠠ ᠃"
+    },
+    {
+      "trial_id": "p2-Q11-en",
+      "pass": 2,
+      "question_id": "Q11",
+      "language": "en",
+      "question": "The Eastern Mongolian people refer to recruiting a son-in-law as '____', which means a hired son-in-law."
+    },
+    {
+      "trial_id": "p2-Q20-en",
+      "pass": 2,
+      "question_id": "Q20",
+      "language": "en",
+      "question": "The praise words of the Mongolian ethnic group are called ____."
+    },
+    {
+      "trial_id": "p3-Q18-en",
+      "pass": 3,
+      "question_id": "Q18",
+      "language": "en",
+      "question": "In the western part of Inner Mongolia Autonomous Region, there are Badain Jaran and ____ deserts."
+    },
+    {
+      "trial_id": "p3-Q09-mn",
+      "pass": 3,
+      "question_id": "Q09",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠴᠢᠬᠤᠯᠠ ᠪᠠᠶᠠᠷ ᠤᠨ ᠡᠳᠦᠷ ᠦᠨ ᠨᠢᠭᠡ ᠪᠣᠯ ______ ᠃"
+    },
+    {
+      "trial_id": "p3-Q07-en",
+      "pass": 3,
+      "question_id": "Q07",
+      "language": "en",
+      "question": "In Mongolian wrestling competitions, after the wrestlers perform the 'eagle dance', they immediately begin their ____."
+    },
+    {
+      "trial_id": "p3-Q01-mn",
+      "pass": 3,
+      "question_id": "Q01",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠳᠣᠲᠣᠷ᠎ᠠ ᠴᠥᠭᠡᠨ ᠲᠣᠭᠠᠨ ᠤ ᠬᠥᠮᠥᠰ ᠦᠨ ᠰᠢᠲᠦᠳᠡᠭ ᠬᠣᠶᠠᠷ ᠵᠦᠢᠯ ᠦᠨ ᠱᠠᠰᠢᠨ ᠪᠣᠯ ᠾᠷᠢᠰᠲ᠋ᠣᠰ ᠤᠨ ᠱᠠᠰᠢᠨ ᠪᠠ ______ ᠪᠣᠯᠣᠨ᠎ᠠ ᠃"
+    },
+    {
+      "trial_id": "p3-Q11-mn",
+      "pass": 3,
+      "question_id": "Q11",
+      "language": "mn",
+      "question": "ᠵᠡᠭᠦᠨ ᠣᠷᠣᠨ ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠬᠦᠷᠭᠡᠨ ᠠᠪᠬᠤ ᠶ᠋ᠢ ______ ᠭᠡᠳᠡᠭ ᠃ ᠂ ᠲᠤᠬᠠᠶᠢᠯᠠᠪᠠᠯ ᠬᠥᠯᠥᠰᠦᠯᠡᠭᠰᠡᠨ ᠬᠦᠷᠭᠡᠨ ᠃"
+    },
+    {
+      "trial_id": "p3-Q03-mn",
+      "pass": 3,
+      "question_id": "Q03",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠬᠥᠮᠥᠨ ᠦ ᠡᠳᠦᠷ ᠲᠣᠳᠣᠮ ᠤᠨ ᠠᠮᠢᠳᠤᠷᠠᠯ ᠂ ᠵᠢᠱᠢᠶᠡᠯᠡᠪᠡᠯ ᠨᠡᠭᠦᠵᠦ ᠪᠠᠭᠤᠬᠤ ᠂ ᠪᠣᠭᠲᠣᠯᠠᠬᠤ ᠂ ᠲᠦᠷᠦᠭᠦ ᠥᠲᠡᠯᠬᠦ ᠂ ᠡᠪᠡᠳᠴᠢᠯᠡᠵᠦ ᠦᠬᠦᠬᠦ ᠵᠡᠷᠭᠡ ᠶ᠋ᠢ ______ ᠡᠴᠠ ᠠᠰᠠᠭᠤᠵᠤ ᠠᠷᠭ᠎ᠠ ᠠᠪᠴᠢᠯ ᠠᠪᠳᠠᠭ ᠃"
+    },
+    {
+      "trial_id": "p3-Q19-en",
+      "pass": 3,
+      "question_id": "Q19",
+      "language": "en",
+      "question": "At the traditional Naadam Festival, only competitions of ____, horse racing, and wrestling are held."
+    },
+    {
+      "trial_id": "p3-Q20-en",
+      "pass": 3,
+      "question_id": "Q20",
+      "language": "en",
+      "question": "The praise words of the Mongolian ethnic group are called ____."
+    },
+    {
+      "trial_id": "p3-Q02-en",
+      "pass": 3,
+      "question_id": "Q02",
+      "language": "en",
+      "question": "The religions that the Mongolian ethnic group has historically believed in include Shamanism and ____."
+    },
+    {
+      "trial_id": "p3-Q13-en",
+      "pass": 3,
+      "question_id": "Q13",
+      "language": "en",
+      "question": "The Mongolian ethnic group's clothing usually prefers ____ color."
+    },
+    {
+      "trial_id": "p3-Q08-mn",
+      "pass": 3,
+      "question_id": "Q08",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠪᠥᠬᠡᠴᠦᠳ ᠦᠨ ᠵᠠᠷᠢᠮ ᠨᠢ ᠬᠦᠵᠦᠭᠦᠨ ᠳ᠋ᠡᠭᠡᠨ ᠡᠯᠳᠡᠪ ᠵᠦᠢᠯ ᠦᠨ ᠴᠢᠮᠡᠭ ᠲᠡᠶ ______ ᠵᠡᠭᠦᠳᠡᠭ ᠃"
+    },
+    {
+      "trial_id": "p3-Q04-mn",
+      "pass": 3,
+      "question_id": "Q04",
+      "language": "mn",
+      "question": "ᠲᠥᠪᠡᠳ ᠡᠴᠡ ᠤᠯᠠᠮᠵᠢᠯᠠᠭᠰᠠᠨ ᠪᠤᠳ᠋ᠳ᠋ᠾᠠ ᠶ᠋ᠢᠨ ᠱᠠᠰᠢᠨ ᠢ ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠳᠤᠮᠳᠠ ᠤᠯᠠᠮᠵᠢᠯᠠᠨ ᠳᠡᠯᠭᠡᠷᠡᠭᠦᠯᠬᠦ ᠳ᠋ᠦ ᠮᠠᠰᠢ ᠣᠯᠠᠨ ______ ᠤ ᠬᠡᠯᠪᠡᠷᠢ ᠪᠠ ᠠᠭᠤᠯᠭ᠎ᠠ ᠶ᠋ᠢ ᠰᠢᠩᠭᠡᠬᠡᠨ ᠠᠪᠬᠤ ᠪᠠ ᠠᠭᠤᠰᠤᠯᠴᠠᠭᠤᠯᠬᠤ ᠦᠭᠡᠢ ᠪᠠᠶᠢᠬᠤ ᠶ᠋ᠢᠨ ᠠᠷᠭ᠎ᠠ ᠦᠭᠡᠢ ᠃"
+    },
+    {
+      "trial_id": "p3-Q08-en",
+      "pass": 3,
+      "question_id": "Q08",
+      "language": "en",
+      "question": "Some Mongolian wrestlers wear colorful ornaments around their necks called ____."
+    },
+    {
+      "trial_id": "p3-Q16-en",
+      "pass": 3,
+      "question_id": "Q16",
+      "language": "en",
+      "question": "The Hetao Plain in the southern foothills of the Yin Mountains and the ____ Plain are important agricultural production areas in the Inner Mongolia region."
+    },
+    {
+      "trial_id": "p3-Q13-mn",
+      "pass": 3,
+      "question_id": "Q13",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯᠴᠤᠳ ᠤᠨ ᠬᠤᠪᠴᠠᠰᠤ ᠬᠤᠨᠠᠷ ᠨᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ ______ ᠥᠩᠭᠡ ᠶ᠋ᠢ ᠬᠡᠷᠡᠭᠯᠡᠳᠡᠭ ᠃"
+    },
+    {
+      "trial_id": "p3-Q19-mn",
+      "pass": 3,
+      "question_id": "Q19",
+      "language": "mn",
+      "question": "ᠤᠯᠠᠮᠵᠢᠯᠠᠯᠲᠤ ᠨᠠᠭᠠᠳᠤᠮ ᠤᠨ ᠬᠤᠷᠠᠯ ᠳᠡᠭᠡᠷ᠎ᠡ ᠵᠥᠪᠬᠡᠨ ______ ᠂ ᠮᠣᠷᠢ ᠤᠷᠤᠯᠳᠤᠬᠤ ᠪᠠ ᠪᠥᠬᠡ ᠪᠠᠷᠢᠯᠳᠤᠬᠤ ᠤᠷᠤᠯᠳᠤᠭᠠᠨ ᠶᠠᠪᠤᠭᠳᠠᠭᠤᠯᠤᠨ᠎ᠠ ᠃"
+    },
+    {
+      "trial_id": "p3-Q04-en",
+      "pass": 3,
+      "question_id": "Q04",
+      "language": "en",
+      "question": "The spread of Tibetan Buddhism among the Mongolian ethnic group had to absorb and integrate many forms and contents of ____."
+    },
+    {
+      "trial_id": "p3-Q05-en",
+      "pass": 3,
+      "question_id": "Q05",
+      "language": "en",
+      "question": "The earliest horsehead fiddle was called ____."
+    },
+    {
+      "trial_id": "p3-Q07-mn",
+      "pass": 3,
+      "question_id": "Q07",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠪᠥᠬᠡᠴᠦᠳ ︽ ᠪᠦᠷᠭᠦᠳ ᠦᠨ ᠳᠡᠪᠢᠯᠲᠡ ︾ ᠶ᠋ᠢ ᠦᠰᠦᠷᠴᠦ ᠪᠠᠷᠠᠭᠰᠠᠨ ᠤ ᠳᠠᠷᠠᠭ᠎ᠠ ᠂ ᠲᠡᠳᠡ ᠳᠠᠷᠤᠢ ______ ᠡᠬᠢᠯᠡᠨ᠎ᠡ ᠃"
+    },
+    {
+      "trial_id": "p3-Q06-mn",
+      "pass": 3,
+      "question_id": "Q06",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠬᠠᠷᠢᠯᠴᠠᠨ ᠳᠠᠭᠤᠯᠠᠬᠤ ᠳᠠᠭᠤᠤ ᠶ᠋ᠢ ______ ᠭᠡᠳᠡᠭ ᠃"
+    },
+    {
+      "trial_id": "p3-Q14-en",
+      "pass": 3,
+      "question_id": "Q14",
+      "language": "en",
+      "question": "Todo Bichig is used to accurately convey the _____ phonetics."
+    },
+    {
+      "trial_id": "p3-Q05-mn",
+      "pass": 3,
+      "question_id": "Q05",
+      "language": "mn",
+      "question": "ᠬᠠᠮᠤᠭ ᠡᠷᠲᠡᠨ ᠦ ᠮᠣᠷᠢᠨ ᠬᠤᠭᠤᠷ ᠢ ______ ᠭᠡᠳᠡᠭ ᠃"
+    },
+    {
+      "trial_id": "p3-Q12-mn",
+      "pass": 3,
+      "question_id": "Q12",
+      "language": "mn",
+      "question": "ᠶᠡᠬᠡ ᠵᠣᠣ ᠠᠶᠢᠮᠠᠭ ᠲᠤ ᠰᠢᠷᠣᠢ ᠮᠣᠳᠣᠨ ᠪᠦᠲᠦᠴᠡ ᠲᠡᠶ ᠮᠣᠩᠭᠣᠯ ᠭᠡᠷ ᠢ ______ ᠭᠡᠳᠡᠭ ᠃"
+    },
+    {
+      "trial_id": "p3-Q09-en",
+      "pass": 3,
+      "question_id": "Q09",
+      "language": "en",
+      "question": "One of the important festivals of the Mongolian ethnicity is ____."
+    },
+    {
+      "trial_id": "p3-Q15-en",
+      "pass": 3,
+      "question_id": "Q15",
+      "language": "en",
+      "question": "The inventor of Todo bichig is _____."
+    },
+    {
+      "trial_id": "p3-Q11-en",
+      "pass": 3,
+      "question_id": "Q11",
+      "language": "en",
+      "question": "The Eastern Mongolian people refer to recruiting a son-in-law as '____', which means a hired son-in-law."
+    },
+    {
+      "trial_id": "p3-Q16-mn",
+      "pass": 3,
+      "question_id": "Q16",
+      "language": "mn",
+      "question": "ᠮᠤᠨᠢ ᠠᠭᠤᠯᠠ ᠶ᠋ᠢᠨ ᠡᠮᠦᠨ᠎ᠡ ᠬᠣᠷᠮᠣᠢ ᠶ᠋ᠢᠨ ᠪᠣᠷᠣᠳᠣᠬᠣᠢ ᠶ᠋ᠢᠨ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠪᠠ ______ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠪᠣᠯ ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠣᠷᠣᠨ ᠤ ᠴᠢᠬᠤᠯᠠ ᠲᠠᠷᠢᠶᠠᠯᠠᠩ ᠤᠨ ᠦᠢᠯᠡᠳᠪᠦᠷᠢᠯᠡᠯ ᠦᠨ ᠣᠷᠣᠨ ᠪᠣᠯᠣᠨ᠎ᠠ ᠃"
+    },
+    {
+      "trial_id": "p3-Q12-en",
+      "pass": 3,
+      "question_id": "Q12",
+      "language": "en",
+      "question": "In the Yeke-juu League area, some Mongolian yurts with wooden structures are called ____."
+    },
+    {
+      "trial_id": "p3-Q17-mn",
+      "pass": 3,
+      "question_id": "Q17",
+      "language": "mn",
+      "question": "ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠣᠷᠣᠨ ᠤ ᠶᠡᠬᠡ ᠬᠢᠩᠭᠠᠨ ᠳᠠᠪᠠᠭ᠎ᠠ ᠡᠴᠠ ᠵᠡᠭᠦᠨᠰᠢᠬᠢ ᠭᠠᠵᠠᠷ ᠲᠤ ᠯᠢᠶᠣᠤ ᠾᠧ ᠭᠣᠣᠯ ᠪᠠ ᠰᠤᠩᠭᠠᠷᠢ ᠮᠥᠷᠡᠨ ᠨᠤᠨ ᠮᠥᠷᠡᠨ ᠦ ᠲᠠᠯ᠎ᠠ ᠭᠠᠵᠠᠷ ᠤᠨ ᠪᠠᠭ᠎ᠠ ᠬᠡᠰᠡᠭ ᠲᠠᠷᠬᠠᠯᠲᠠ ᠪᠣᠢ ᠃ ᠡᠨᠡ ᠨᠢ  ︵︽     ︾ ︶ ᠭᠡᠵᠦ ᠠᠯᠳᠠᠷᠰᠢᠪᠠ ᠃"
+    },
+    {
+      "trial_id": "p3-Q18-mn",
+      "pass": 3,
+      "question_id": "Q18",
+      "language": "mn",
+      "question": "ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠥᠪᠡᠷᠲᠡᠭᠡᠨ ᠵᠠᠰᠠᠬᠤ ᠣᠷᠣᠨ ᠤ ᠪᠠᠷᠠᠭᠤᠨ ᠬᠡᠰᠡᠭ ᠲᠦ ᠪᠠᠳᠠᠢ ᠶ᠋ᠢᠨ ᠵᠢᠷᠠᠨ ᠪᠠ ______  ᠡᠯᠡᠰᠦᠨ ᠴᠥᠯ ᠪᠠᠶᠢᠨ᠎ᠠ ᠃"
+    },
+    {
+      "trial_id": "p3-Q03-en",
+      "pass": 3,
+      "question_id": "Q03",
+      "language": "en",
+      "question": "In the daily life of the Mongolian people, activities such as moving camps, marriage, birth, aging, sickness, and death are all prognosticated for fortune and misfortune, and transcendence by ____."
+    },
+    {
+      "trial_id": "p3-Q06-en",
+      "pass": 3,
+      "question_id": "Q06",
+      "language": "en",
+      "question": "The Mongolian counterpart singing is called ____."
+    },
+    {
+      "trial_id": "p3-Q01-en",
+      "pass": 3,
+      "question_id": "Q01",
+      "language": "en",
+      "question": "The two religions that are still believed by a minority among the Mongolian ethnic group are Christianity and ____."
+    },
+    {
+      "trial_id": "p3-Q10-mn",
+      "pass": 3,
+      "question_id": "Q10",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠲᠠᠮᠠᠬᠢ ᠶ᠋ᠢᠨ ᠲᠣᠭᠣᠭ᠎ᠠ ᠶ᠋ᠢ ᠶᠡᠷᠦ ᠳ᠋ᠡᠭᠡᠨ ______  ᠪᠠᠷ ᠬᠢᠳᠡᠭ ᠃"
+    },
+    {
+      "trial_id": "p3-Q15-mn",
+      "pass": 3,
+      "question_id": "Q15",
+      "language": "mn",
+      "question": "ᠲᠣᠳᠣ ᠪᠢᠴᠢᠭ ᠦᠨ ᠡᠭᠦᠳᠦᠭᠴᠢ ᠨᠢ  ______ ᠃"
+    },
+    {
+      "trial_id": "p3-Q10-en",
+      "pass": 3,
+      "question_id": "Q10",
+      "language": "en",
+      "question": "The Mongolian tobacco pipe's stem is usually made of ____."
+    },
+    {
+      "trial_id": "p3-Q20-mn",
+      "pass": 3,
+      "question_id": "Q20",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠮᠠᠭᠲᠠᠭᠠᠯ ᠦᠭᠡ ᠨᠢ ______ ᠭᠡᠵᠦ ᠨᠡᠷᠡᠯᠡᠭᠳᠡᠵᠡᠢ ᠃"
+    },
+    {
+      "trial_id": "p3-Q14-mn",
+      "pass": 3,
+      "question_id": "Q14",
+      "language": "mn",
+      "question": "ᠲᠣᠳᠣ ᠪᠢᠴᠢᠭ ᠵᠢᠡᠷ ______ ᠶ᠋ᠢ ᠣᠨᠣᠪᠴᠢᠲᠠᠢ ᠢᠯᠡᠳᠬᠡᠳᠡᠭ ᠃"
+    },
+    {
+      "trial_id": "p3-Q02-mn",
+      "pass": 3,
+      "question_id": "Q02",
+      "language": "mn",
+      "question": "ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠲᠡᠦᠬᠡᠨ ᠳ᠋ᠦ ᠰᠢᠲᠦᠵᠦ ᠥᠩᠭᠡᠷᠡᠭᠰᠡᠨ ᠱᠠᠰᠢᠨ ᠰᠤᠷᠲᠠᠬᠤᠨ ᠳ᠋ᠤ ᠪᠥᠬᠡ ᠶ᠋ᠢᠨ ᠱᠠᠰᠢᠨ ᠪᠠ ______ ᠪᠠᠭᠲᠠᠨ᠎ᠠ ᠃"
+    },
+    {
+      "trial_id": "p3-Q17-en",
+      "pass": 3,
+      "question_id": "Q17",
+      "language": "en",
+      "question": "To the east of the Greater Khingan Range in Inner Mongolia, there are small parts distributed of the Liao River and the Songnen Plain, known as '____'."
+    }
+  ]
+}
