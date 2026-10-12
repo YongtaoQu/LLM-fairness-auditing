@@ -1,4 +1,4 @@
-# LLM Fairness Auditing (EN / Traditional Mongolian)
+# Linguistic Fairness in LLMs through a Mongolian Case Study
 
 Cloze-style bilingual evaluation of LLM accuracy and latency for English vs. traditional Mongolian prompts, using OpenRouter.
 
