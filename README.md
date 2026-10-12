@@ -2,6 +2,8 @@
 
 Cloze-style bilingual evaluation of LLM accuracy and latency for English vs. traditional Mongolian prompts, using OpenRouter.
 
+The dataset is adapted from [cross-lingual-culture](https://github.com/luciusssss/cross-lingual-culture/tree/main) (ACL'25).
+
 ## Contents
 
 | Path | Description |
